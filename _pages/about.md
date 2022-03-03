@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "Beginners"
 layout: page-sidebar
-permalink: "/about.html"
+permalink: "/beginners.html"
 image: "/assets/images/screenshot.jpg"
 comments: true
 ---
