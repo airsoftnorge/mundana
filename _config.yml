@@ -20,7 +20,7 @@ plugins:
   
 authors:
     sal:
-      name:           Poop eater!
+      name:           Test 01
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
@@ -28,13 +28,40 @@ authors:
       twitter:        https://twitter.com/wowthemesnet
 
     jane:
-      name:           Jane
+      name:           Test 02
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar2.jpg
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
  
+    ulfhednar:
+      name:           FM02 | Ulfhednar
+      site:           https://www.facebook.com/ulfhednarmilsim
+      avatar:         /assets/images/avatar_ulfhednar_grid.png
+      bio:            "Airsofter and collector since 2007. Incurable gearwhore, with a proclivity for helmets, NV mounts and Ranger Green."
+      #email:          fakemail@gmail.com
+      #twitter:        https://twitter.com/wowthemesnet
+      
+    adakar:
+      name:           FM05 | AdakaR
+      #site:           https://www.wowthemes.net
+      avatar:         /assets/images/avatar2.jpg
+      bio:            "Midget lardass. Afficionado of shit and pommes frites."
+      #email:          fakemail@gmail.com
+      #twitter:        https://twitter.com/wowthemesnet
+      
+    staff:
+      name:           ASN | Staff
+      site:           https://www.airsoftnorge.com
+      avatar:         /assets/images/avatar2.jpg
+      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      email:          staff.airsoftnorge@gmail.com
+      #twitter:        https://twitter.com/wowthemesnet
+      facebook:       https://www.facebook.com/AirsoftNorge
+      discord:        https://discord.gg/gMegmXMAPN
+      youtube:        https://www.youtube.com/channel/UC0jdeJCXXosXPuwOcTH1MAA
+
 # Defaults
 defaults:
 
