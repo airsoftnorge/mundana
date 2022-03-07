@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guide: How to program a radio with CHIRP"
-author: "staff"
+author: "adakar"
 categories: guides
 tags: [guide, programming, program, baofeng, puxxing, icom, Abbree, Pofung, puxing, Baojie, chipr, uv5r, uv-5r, uv82, uv-82, BTech, ]
 image: /assets/images/uv5rprogramming.png
