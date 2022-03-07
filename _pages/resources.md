@@ -1,8 +1,6 @@
 ---
-title: "Resources"
-layout: page
-permalink: "/resources.html"
+layout: category
+title: Resources
 category: resources
-image: "/assets/images/screenshot.jpg"
-comments: false
+permalink: /resources
 ---
