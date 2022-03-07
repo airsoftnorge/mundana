@@ -4,7 +4,7 @@ title: "Invisio v-series plug to 6pin"
 author: "<b>Staff @ ASN</b>"
 categories: resources
 tags: [resources, wiring, pinout,odu,amc, downlead, invisio, v60, v20, v10, v50 , u283, ap136, nato, ]
-image: Nato6pinInvisioV60.png
+image: /assets/images/Nato6pinInvisioV60.png
 ---
 
 This diagram shows the pinout for a Invisio downlead using a ODU AMC style plug, seen from the plug side, to be used with a 6pin nato connection, either a u283 or ap136. 

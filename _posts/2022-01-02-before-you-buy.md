@@ -4,7 +4,7 @@ title: "Before you buy - Common mistakes to avoid"
 author: "<b>Staff @ ASN</b>"
 categories: beginners
 tags: [beginners, basic, info, help, new]
-image: rookiemistakes.jpeg
+image: /assets/images/rookiemistakes.jpeg
 ---
 
 #### Self awareness

@@ -4,7 +4,7 @@ title: "VAT Calculator"
 author: "<b>Staff @ ASN</b>"
 categories: resources
 tags: [moms, toll, airsoft, fortolling, fortollning, vat, value added tax, tax]
-image: toll.png
+image: /assets/images/toll.png
 ---
 
 For everything you buy you will need to pay a 25% value added tax (VAT), this is usually baked into the price in Norway, making it invisible. For products outside the border the VAT is added as it goes through customs. There is also a handling fee, usually 130nok. 

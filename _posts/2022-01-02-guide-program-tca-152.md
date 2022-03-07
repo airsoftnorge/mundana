@@ -4,7 +4,7 @@ title: "Guide: Programming the TCA PRC 152"
 author: "<b>Staff @ ASN</b>"
 categories: guides
 tags: [guide, tca, 152, mbitr]
-image: tca152programming.png
+image: /assets/images/tca152programming.png
 ---
 
 #### This guide assumes you have both a functional programming cable and access to the TCA-148 software. 
