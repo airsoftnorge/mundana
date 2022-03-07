@@ -26,31 +26,25 @@ authors:
       avatar:         /assets/images/avatar_asn.png
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          staff.airsoftnorge@gmail.com
-      #twitter:        https://twitter.com/wowthemesnet
       facebook:       https://www.facebook.com/AirsoftNorge
       discord:        https://discord.gg/gMegmXMAPN
       youtube:        https://www.youtube.com/channel/UC0jdeJCXXosXPuwOcTH1MAA
       
     adakar:
       name:           FM05 | AdakaR
-      #site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
+      site:           https://www.airsoftnorge.com
+      avatar:         /assets/images/flode.png
       bio:            "Midget lardass. Afficionado of shit and pommes frites."
-      #email:          fakemail@gmail.com
-      #twitter:        https://twitter.com/wowthemesnet
+      facebook:       https://www.facebook.com/FlodeKomodeMedTyttebaerIHodet
       
     ulfhednar:
       name:           FM02 | Ulfhednar
       site:           https://www.facebook.com/ulfhednarmilsim
       avatar:         /assets/images/avatar_ulfhednar_grid.png
       bio:            "Airsofter and collector since 2007. Incurable gearwhore, with a proclivity for helmets, NV mounts and Ranger Green."
-      #email:          fakemail@gmail.com
-      #twitter:        https://twitter.com/wowthemesnet
-      
+   
 
  
-
-
 
 # Defaults
 defaults:
@@ -60,8 +54,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: staff
+      avatar: /assets/images/avatar_asn.png
       
   # all pages
   - scope:
