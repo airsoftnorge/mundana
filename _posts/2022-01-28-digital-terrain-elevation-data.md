@@ -3,7 +3,7 @@ layout: post
 title: "Digital Terrain Elevation Data and TAK"
 author: "staff"
 categories: resources
-tags: [resources,tak,height,heatmap,elevation,dted,srtm]
+tags: [resources,tak,height,heatmap,elevation,dted,srtm,featured]
 image: /assets/images/elevation.png
 ---
 
