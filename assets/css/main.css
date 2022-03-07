@@ -387,10 +387,6 @@ mark,
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem; }
 
-.initialism {
-  font-size: 90%;
-  text-transform: uppercase; }
-
 .blockquote {
   margin-bottom: 1rem;
   font-size: 1.25rem; }
