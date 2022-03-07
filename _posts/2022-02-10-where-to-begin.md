@@ -3,7 +3,7 @@ layout: post
 title: "Where to begin"
 author: "staff"
 categories: beginners
-tags: [beginners, basic, info, help, new,start]
+tags: [beginners, basic, info, help, new,start,featured]
 image: /assets/images/start.jpeg
 ---
 

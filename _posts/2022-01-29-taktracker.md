@@ -3,7 +3,7 @@ layout: post
 title: "Android TAK Tracker"
 author: "staff"
 categories: tak
-tags: [tak,atak,android]
+tags: [tak,atak,android,featured]
 image: /assets/images/taktracker.png
 ---
 
