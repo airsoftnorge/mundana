@@ -97,7 +97,7 @@ layout: default
 						{{ author.bio }}					
 					</div>
 				</div>				
-                
+                {% endif %}
             
             <!-- Comments 
             {% if page.comments != false %}
