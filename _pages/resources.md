@@ -1,8 +1,8 @@
 ---
-title: "ASN-TAK"
+title: "Resources"
 layout: page
-permalink: "/tak.html"
-category: tak
+permalink: "/resources.html"
+category: resources
 image: "/assets/images/screenshot.jpg"
 comments: false
 ---
