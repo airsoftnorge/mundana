@@ -22,7 +22,10 @@ permalink: "/authors.html"
             <div>
             <!--
 			<a target="_blank" href="{{ author[1].twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;-->
+			{% if author[1].discord %}
+				{{ author[1].discord }}
 			<a target="_blank" href="{{ author[1].discord }}"><i class="fab fa-discord text-muted" aria-hidden="true"></i></a> &nbsp;
+			{% endif %}
 			<a target="_blank" href="{{ author[1].facebook }}"><i class="fab fa-facebook text-muted" aria-hidden="true"></i></a> &nbsp;
             <a target="_blank" href="{{ author[1].site }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
             </div>
