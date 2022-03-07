@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Digital Terrain Elevation Data and TAK"
-author: "<b>Staff @ ASN</b>"
+author: "ASN | Staff"
 categories: resources
 tags: [resources,tak,height,heatmap,elevation,dted,srtm]
 image: /assets/images/elevation.png

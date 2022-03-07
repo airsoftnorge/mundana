@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guide: Modding a tailcap from clicky to momentary"
-author: "<b>Staff @ ASN</b>"
+author: "ASN | Staff"
 categories: guides
 tags: [replica, surefire, sf, m600, m300, m300v, m600v]
 image: /assets/images/m300v.png

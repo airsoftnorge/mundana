@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where to begin"
-author: "<b>Staff @ ASN</b>"
+author: "ASN | Staff"
 categories: beginners
 tags: [beginners, basic, info, help, new,start]
 image: /assets/images/start.jpeg

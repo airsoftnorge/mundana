@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kenwood plug to 6pin"
-author: "<b>Staff @ ASN</b>"
+author: "ASN | Staff"
 categories: resources
 tags: [resources, wiring, pinout, kenwood, baofeng, puxxing, u283, ap136, nato, icom]
 image: /assets/images/kenwood-6pin.png
