@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android TAK Tracker"
-author: "ASN | Staff"
+author: "staff"
 categories: tak
 tags: [tak,atak,android]
 image: /assets/images/taktracker.png

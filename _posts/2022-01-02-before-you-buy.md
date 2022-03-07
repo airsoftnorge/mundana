@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Before you buy - Common mistakes to avoid"
-author: "ASN | Staff"
+author: "staff"
 categories: beginners
 tags: [beginners, basic, info, help, new]
 image: /assets/images/rookiemistakes.jpeg

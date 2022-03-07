@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BB residual energy calculator"
-author: "ASN | Staff"
+author: "staff"
 categories: resources
 tags: [bb, velocity, energy, joule, residual]
 image: /assets/images/math.png

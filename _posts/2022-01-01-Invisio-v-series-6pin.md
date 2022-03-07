@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Invisio v-series plug to 6pin"
-author: "ASN | Staff"
+author: "staff"
 categories: resources
 tags: [resources, wiring, pinout,odu,amc, downlead, invisio, v60, v20, v10, v50 , u283, ap136, nato, ]
 image: /assets/images/Nato6pinInvisioV60.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VAT Calculator"
-author: "ASN | Staff"
+author: "staff"
 categories: resources
 tags: [moms, toll, airsoft, fortolling, fortollning, vat, value added tax, tax]
 image: /assets/images/toll.png

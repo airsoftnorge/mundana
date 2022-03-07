@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guide: Programming the TCA PRC 152"
-author: "ASN | Staff"
+author: "staff"
 categories: guides
 tags: [guide, tca, 152, mbitr]
 image: /assets/images/tca152programming.png
