@@ -1,8 +1,6 @@
 ---
-title: "Beginners"
-layout: page
-permalink: "/beginners.html"
+layout: category
+title: Beginner information
 category: beginners
-image: "/assets/images/screenshot.jpg"
-comments: false
+permalink: /beginners
 ---
