@@ -1,8 +1,8 @@
 ---
-title: "ASN-TAK"
-layout: page
-permalink: "/tak.html"
+layout: category
+title: Team Awareness Kit
 category: tak
-image: "/assets/images/screenshot.jpg"
-comments: false
+permalink: /tak
 ---
+
+Pew pew tak stuff pew pew

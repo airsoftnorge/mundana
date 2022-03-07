@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Resources
+title: Documentation and tutorials
 category: resources
 permalink: /resources
 ---
