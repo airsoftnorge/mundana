@@ -22,7 +22,7 @@ authors:
     staff:
       name:           Staff
       site:           https://www.airsoftnorge.com
-      avatar:         /assets/images/avatar_asn.png
+      avatar:         /assets/graphics/avatars/avatar_asn.png
       bio:            "Default account for generic content."
       email:          staff.airsoftnorge@gmail.com
       facebook:       https://www.facebook.com/AirsoftNorge
@@ -32,7 +32,7 @@ authors:
     adakar:
       name:           AdakaR
       site:           https://www.airsoftnorge.com
-      avatar:         /assets/images/flode.png
+      avatar:         /assets/graphics/avatars//flode.png
       bio:            "Might be a stuffed animal.."
       facebook:       https://www.facebook.com/FlodeKomodeMedTyttebaerIHodet
       
@@ -40,7 +40,7 @@ authors:
       name:           Ulfhednar
       site:           https://www.airsoftnorge.com
       facebook:       https://www.facebook.com/ulfhednarmilsim
-      avatar:         /assets/images/avatar_ulfhednar_grid.png
+      avatar:         /assets/graphics/avatars/avatar_ulfhednar_grid.png
       bio:            "Airsofter and collector since 2007. Incurable gearwhore, with a proclivity for helmets, NV mounts and Ranger Green."
    
 
