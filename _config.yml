@@ -3,7 +3,7 @@ name: 'ASN'
 description: 'AirsoftNorge.com is a site for the dissemination of information and media within the Norwegian airsoft community.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana'
+baseurl: 'https://airsoftnorge.github.io/mundana/'
 email: 'staff.airsoftnorge@gmail.com'
 
 
