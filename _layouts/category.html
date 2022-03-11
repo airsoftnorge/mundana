@@ -6,6 +6,9 @@ layout: default
     <div class="row justify-content-center">
 		{% for post in site.posts %}
 		  {% if post.categories contains page.category %}
+		      <main role="main" class="site-content">
+        {{ content }}
+    </main>
 			{% include featured-post.html %}
 		  {% endif %}
 		{% endfor %}
