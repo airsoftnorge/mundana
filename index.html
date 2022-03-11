@@ -165,31 +165,28 @@ description: "ASN"
 <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
     
 <div class="row mt-3">
-   
-    <div class="col-md-8 main-loop">
-        
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
-        
-
-        {% for post in paginator.posts %}
-        
-            {% include main-loop-card.html %}
-        
-
-        {% endfor %}
-
-		<!-- Custom pagination add -->
-		<div class="mt-5">
-		{% if paginator.total_pages > 1 %}
-			{% include pagination.html %} 
-		{% endif %}       
-		</div>		
-    </div>
-    
-    <div class="col-md-4">
-        {% include sidebar-featured.html %}    
-    </div>
-    
+   <div class="col-md-8 main-loop">
+      <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+      {% for post in paginator.posts %}
+      {% include main-loop-card.html %}
+      {% endfor %}
+      <div class="mt-5">
+         <!-- Pagination links -->
+         {% if paginator.next_page %}
+         <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+         {% else %}
+         <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+         {% endif %}
+         {% if paginator.previous_page %}
+         <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+         {% else %}
+         <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+         {% endif %}
+      </div>
+   </div>
+   <div class="col-md-4">
+      {% include sidebar-featured.html %}    
+   </div>
 </div>
 
 
