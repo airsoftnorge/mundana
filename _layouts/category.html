@@ -6,7 +6,7 @@ layout: default
 
 <!-- Takes the value of bread: in a top level category and inserts on top. -->
 		<div>
-			{{ page.bread }}
+			{% include {{ page.category }}.html %}    
 		</div>
 	<h4 class="font-weight-bold spanborder"><span></span></h4>
 
