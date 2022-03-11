@@ -4,7 +4,7 @@ title: "Digital Terrain Elevation Data and TAK"
 author: "staff"
 categories: resources
 tags: [atak,tak,height,heatmap,elevation,dted,srtm,resources]
-image: elevation.png
+image: assets/images/elevation.png
 ---
 
 TAK clients can utilize [DTED](https://en.wikipedia.org/wiki/DTED) to give the user a visual representation of how the terrain will be, heatmap or 3d in the client, provide viewshed finding to avoid being seen and pathing options. 
