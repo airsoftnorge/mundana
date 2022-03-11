@@ -4,7 +4,7 @@ title: "Guide: Programming the TCA PRC 148"
 author: "adakar"
 categories: guides
 tags: [guide, tca, 148, mbitr]
-image: /assets/images/tca148programming.png
+image: tca148programming.png
 ---
 
 #### This guide assumes you have both a functional programming cable and access to the TCA-148 software. 

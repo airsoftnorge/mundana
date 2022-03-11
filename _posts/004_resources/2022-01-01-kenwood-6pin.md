@@ -4,7 +4,7 @@ title: "Kenwood plug to 6pin"
 author: "staff"
 categories: resources
 tags: [resources, wiring, pinout, kenwood, baofeng, puxxing, u283, ap136, nato, icom]
-image: /assets/images/kenwood-6pin.png
+image: kenwood-6pin.png
 ---
 
 This diagram shows the pinout for a kenwood style plug to be used with a 6pin nato connection, either a u283 or ap136. 

@@ -2,8 +2,7 @@
 layout: default
 ---
 <div class="container">
-<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
-    <div class="row justify-content-center">
+	<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
 		{% for post in site.posts %}
 			<main role="main" class="site-content">
 				{% if post.categories contains page.category %}
@@ -11,11 +10,8 @@ layout: default
 			{% include featured-post.html %}
 		  {% endif %}
 		{% endfor %}
- </div>
-        
-            <div class="col-md-4">
-        {% include sidebar-featured.html %}    
-    </div>
-        
+		<div class="col-md-4">
+			{% include sidebar-featured.html %}    
+		</div>
     </div>
 </div>
