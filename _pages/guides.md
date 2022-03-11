@@ -3,7 +3,5 @@ layout: category
 title: Guides
 category: guides
 permalink: /guides
-bread: guide bread text test 
-### fisk
-```ikke fisk ```
+bread: <p> paragraph </p><br>Line change <br> another one!
 ---
