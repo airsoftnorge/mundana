@@ -6,12 +6,7 @@ layout: default
 <div class="row">
     <div class="col-md-8">
     {% if page.image %} 
-	<p>github</p>
-	<img class="card-img-top mb-5 shadow-lg" src="{{ site.github.url }}/assets/images/{{ page.image }}">
-	<p>base</p>
-<img class="card-img-top mb-5 shadow-lg" src="{{ site.base.url }}/assets/images/{{ page.image }}">
-<p>blank</p>
-<img class="card-img-top mb-5 shadow-lg" src="{{ site.url }}/assets/images/{{ page.image }}">
+    <img class="card-img-top mb-5 shadow-lg" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
     {% endif %} 
     <div class="page-content">
         {{ content }}
