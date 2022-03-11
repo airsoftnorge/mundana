@@ -4,7 +4,7 @@ title: "Where to begin"
 author: "staff"
 categories: beginners
 tags: [beginners, basic, info, help, new,start,featured]
-image: assets/images/start.jpeg
+image: assets/images/wheretobegin.jpeg
 ---
 
 The Norwegian airsoft community is dispersed through a series of facebook groups and discord servers, there are historic and geographical reasons for how they are distributed, resulting in a lot of overlap.
