@@ -3,12 +3,12 @@ layout: default
 ---
 <div class="container">
 	<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
-			<div>
+	<div>
 		<p>
 		TEST
-			{{category.bread}}
 		</p>
-		</div>
+	</div>
+	<div class="excerpt">{{ post.category[1].bread }}</div>
 	<div class="col-md-8 main-loop">
 		{% for post in site.posts %}
 		  {% if post.categories contains page.category %}
