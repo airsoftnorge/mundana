@@ -2,16 +2,18 @@
 layout: default
 ---
 <div class="container">
-	<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
-		{% for post in site.posts %}
-			<main role="main" class="site-content">
-				{% if post.categories contains page.category %}
-			</main>
-			{% include featured-post.html %}
-		  {% endif %}
-		{% endfor %}
-		<div class="col-md-4">
-			{% include sidebar-featured.html %}    
+	<div class="col-md-8 main-loop">
+		<!--<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>-->
+			{% for post in site.posts %}
+				<main role="main" class="site-content">
+					{% if post.categories contains page.category %}
+				</main>
+				{% include featured-post.html %}
+			  {% endif %}
+			{% endfor %}
+			<div class="col-md-4">
+				{% include sidebar-featured.html %}    
+			</div>
 		</div>
-    </div>
+	</div>
 </div>
