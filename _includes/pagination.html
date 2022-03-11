@@ -1,6 +1,6 @@
 <!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
+
+<div class="mt-5">
    {% if paginator.next_page %}
    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
    {% else %}
@@ -12,4 +12,3 @@
    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
    {% endif %}
 </div>
-{% endif %}

@@ -176,10 +176,10 @@ description: "ASN"
             {% include main-loop-card.html %}
         
         {% endfor %}
-        
-        <div class="mt-5">
-		{% include pagination.html %} 
-        </div>
+		<!-- Custom pagination add -->
+		{% if paginator.total_pages > 1 %}
+			{% include pagination.html %} 
+		{% endif %}
         
     </div>
     
