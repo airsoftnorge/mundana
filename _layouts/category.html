@@ -3,12 +3,14 @@ layout: default
 ---
 <div class="container">
 	<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
-	<div>
-		<p>
-		TEST2
-		</p>
-	</div>
-	<div class="excerpt">{{ page.bread }}</div>
+<!-- Hack to insert bread: content -->
+	{% for bread in page.bread %}
+		<div>
+			<p>{{ page.bread }}</p>
+		</div>
+	<h4 class="font-weight-bold spanborder"><span></span></h4>
+	{% endif %}
+	
 	<div class="col-md-8 main-loop">
 		{% for post in site.posts %}
 		  {% if post.categories contains page.category %}
