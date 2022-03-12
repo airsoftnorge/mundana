@@ -1227,19 +1227,7 @@ pre {
   background-color: #e9ecef;
   border-color: #dee2e6; }
 
-.table-dark {
-  color: #272522;
-  background-color: #212529; }
-  .table-dark th,
-  .table-dark td,
-  .table-dark thead th {
-    border-color: #32383e; }
-  .table-dark.table-bordered {
-    border: 0; }
-  .table-dark.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(255, 255, 255, 0.05); }
-  .table-dark.table-hover tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.075); }
+
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
@@ -1488,7 +1476,7 @@ textarea.form-control {
   background-color: #ef5d87; }
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem rgba(234, 47, 101, 0.25); }
+  box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem ; }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label {
   border-color: #ea2f65; }
@@ -1501,7 +1489,7 @@ textarea.form-control {
   display: block; }
 
 .was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label {
-  box-shadow: 0 0 0 0.2rem rgba(234, 47, 101, 0.25); }
+  box-shadow: 0 0 0 0.2rem ; }
 
 .form-inline {
   display: flex;
@@ -2176,7 +2164,7 @@ input[type="button"].btn-block {
   .custom-select:focus {
     border-color: #2ffbc5;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(47, 251, 197, 0.5); }
+    box-shadow: 0 0 0 0.2rem ; }
     .custom-select:focus::-ms-value {
       color: #495057;
       background-color: #272522; }
@@ -2653,13 +2641,6 @@ input[type="button"].btn-block {
   color: #272522; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
     color: #272522; }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.85); }
-  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: white; }
-  .navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, 0.25); }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
