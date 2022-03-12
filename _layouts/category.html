@@ -13,16 +13,12 @@ description: "ASN"
 			{% include {{ page.category }}.html %}    
 		<h4 class="font-weight-bold spanborder"><span></span></h4>
 		</div>
-		
-
 		<div class="col-md-10 main-loop">
 			{% for post in site.posts %}
 			  {% if post.categories contains page.category %}
 				{% include main-loop-card.html %}    
 			  {% endif %}
 			{% endfor %}
-
-			
 		</div>
 		<div class="mt-5">
          <!-- Pagination links -->
