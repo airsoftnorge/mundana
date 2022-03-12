@@ -7,8 +7,9 @@ layout: default
 		<div class="col-md-10 category-breadtext">
 		<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
 			{% include {{ page.category }}.html %}    
-		</div>
 		<h4 class="font-weight-bold spanborder"><span></span></h4>
+		</div>
+		
 
 		<div class="col-md-10 main-loop">
 			{% for post in site.posts %}
