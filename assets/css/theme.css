@@ -2,6 +2,35 @@
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
 
+/* ASN CUSTOM HACK START */
+input:hover,button:hover {
+  background-color: #575043;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea  {
+    background-color: #272522 !important;
+    color: #817055 !important;
+    border: 1px solid #575043 !important; 
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	outline: none;
+	}
+
+input::placeholder{
+  color: #575043 ;
+}
+	
+
+/* ASN CUSTOM HACK END */
+
+
+
+
 body {
 	overflow-x:hidden;
 	padding-top:69.75px;
@@ -23,24 +52,6 @@ img {
 	max-width:100%;
 }
 
-input,
-button,
-select,
-optgroup,
-textarea  {
-    background-color: #272522 !important;
-    color: #817055 !important;
-    border: 1px solid #575043 !important; 
-	padding-left: 3px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	outline: none;
-	}
-
-input::placeholder{
-  color: #575043 ;
-}
-	
 .tofront {
 	position:relative;
 	z-index:1;
@@ -278,6 +289,7 @@ a.text-dark:hover {
 }
 .navbar-light .navbar-toggler-icon {
 	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#AE9772' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	color: :#7B7261 ;
 }
 .navbar-light .navbar-text {
 	color:rgba(0,0,0,0.5);
