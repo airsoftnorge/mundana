@@ -1588,7 +1588,7 @@ fieldset:disabled a.btn {
     background-color: #028260;
     border-color: #027657; }
   .btn-primary:focus, .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.5); }
+    box-shadow: 0 0 0 0.2rem ; }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #272522;
     background-color: #575043;
@@ -1600,7 +1600,7 @@ fieldset:disabled a.btn {
     border-color: #02694e; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.5); }
+      box-shadow: 0 0 0 0.2rem ; }
 
 .btn-secondary {
   color: #272522;
@@ -1611,7 +1611,7 @@ fieldset:disabled a.btn {
     background-color: #272522 ;
     border-color: #575043 ; }
   .btn-secondary:focus, .btn-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
+    box-shadow: 0 0 0 0.2rem; }
   .btn-secondary.disabled, .btn-secondary:disabled {
     color: #272522;
     background-color: #272522;
@@ -1623,7 +1623,7 @@ fieldset:disabled a.btn {
     border-color: #575043; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
+      box-shadow: 0 0 0 0.2rem; }
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.65rem 2rem;
@@ -2141,10 +2141,10 @@ input[type="button"].btn-block {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E"); }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(3, 168, 124, 0.5); }
+  background-color: ; }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(3, 168, 124, 0.5); }
+  background-color: ; }
 
 .custom-radio .custom-control-label::before {
   border-radius: 50%; }
@@ -2156,7 +2156,7 @@ input[type="button"].btn-block {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E"); }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(3, 168, 124, 0.5); }
+  background-color: ; }
 
 .custom-select {
   display: inline-block;
