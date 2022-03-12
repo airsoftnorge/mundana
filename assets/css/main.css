@@ -1726,7 +1726,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #272522;
-  background-color: #7832e2;
+  background-color: #453F34;
   border-color: #575043; }
   .btn-secondary:hover {
     color: #272522;
@@ -1737,7 +1737,7 @@ fieldset:disabled a.btn {
   .btn-secondary.disabled, .btn-secondary:disabled {
     color: #272522;
     background-color: #272522;
-    border-color: #7832e2; }
+    border-color: #453F34; }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-secondary.dropdown-toggle {
     color: #272522;
@@ -2093,24 +2093,24 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.5); }
 
 .btn-outline-secondary {
-  color: #7832e2;
+  color: #453F34;
   background-color: transparent;
   background-image: none;
-  border-color: #7832e2; }
+  border-color: #453F34; }
   .btn-outline-secondary:hover {
     color: #272522;
-    background-color: #7832e2;
-    border-color: #7832e2; }
+    background-color: #453F34;
+    border-color: #453F34; }
   .btn-outline-secondary:focus, .btn-outline-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-    color: #7832e2;
+    color: #453F34;
     background-color: transparent; }
   .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-secondary.dropdown-toggle {
     color: #272522;
-    background-color: #7832e2;
-    border-color: #7832e2; }
+    background-color: #453F34;
+    border-color: #453F34; }
     .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-secondary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
@@ -3835,7 +3835,7 @@ input[type="button"].btn-block {
 
 .badge-secondary {
   color: #272522;
-  background-color: #7832e2; }
+  background-color: #453F34; }
   .badge-secondary[href]:hover, .badge-secondary[href]:focus {
     color: #272522;
     text-decoration: none;
@@ -3999,11 +3999,11 @@ input[type="button"].btn-block {
     color: #027657; }
 
 .alert-secondary {
-  color: #7832e2;
-  background-color: #7832e2;
-  border-color: #7832e2; }
+  color: #453F34;
+  background-color: #453F34;
+  border-color: #453F34; }
   .alert-secondary hr {
-    border-top-color: #6a1fdb; }
+    border-top-color: #453F34; }
   .alert-secondary .alert-link {
     color: #5f1cc5; }
 
