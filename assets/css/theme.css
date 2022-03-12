@@ -25,6 +25,14 @@ input::placeholder{
   color: #575043 ;
 }
 	
+a {
+  color: #AE9772;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+  a:hover {
+    color: #817055 ;
+    text-decoration: underline; }
 
 /* ASN CUSTOM HACK END */
 
@@ -67,12 +75,7 @@ a,a:hover {
 	color: #AE9772;
 	text-decoration:none;
 }
-a {
-	color:#817055;
-}
-a.text-dark:hover {
-	color:#7B7261 !important;
-}
+
 .c-pointer:hover {
 	cursor:pointer;
 }
