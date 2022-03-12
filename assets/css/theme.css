@@ -29,6 +29,10 @@ a {
   color: #AE9772;
   text-decoration: none !important;
      }
+nav-link {
+	text-decoration: bold;
+	
+}
 
 a:hover {
 	transition:all .2s;
