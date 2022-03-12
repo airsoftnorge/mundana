@@ -289,16 +289,16 @@ a.text-dark:hover {
 }
 .navbar-light .navbar-toggler-icon {
 	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#AE9772' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-	color: :#7B7261;
+	color: #7B7261;
 }
 .navbar-light .navbar-text {
-	color: :#7B7261;
+	color: #7B7261;
 }
 .navbar-light .navbar-text a {
-	color: :#7B7261;
+	color: #7B7261;
 }
 .navbar-light .navbar-text a:hover,.navbar-light .navbar-text a:focus {
-	color: :#7B7261;
+	color: #7B7261;
 }
 
 .mb-2rem {
