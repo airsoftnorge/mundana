@@ -27,6 +27,7 @@ input::placeholder{
 	
 a {
   color: #AE9772;
+  text-decoration: none !important;
      }
 
 a:hover {
