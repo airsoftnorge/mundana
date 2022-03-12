@@ -192,15 +192,15 @@ a.text-dark:hover {
 	font-weight:400;
 }
 .navbar .highlight .nav-link {
-	color:#03a87c !important;
-	border:1px solid #03a87c;
+	color:#453F34 !important;
+	border:1px solid #575043;
 	padding:0.3rem 1rem;
 	border-radius:3px;
 	font-size:.93rem;
 }
 .navbar .highlight .nav-link:hover {
-	background:#03a87c;
-	color:#272522 !important;
+	background:#272522;
+	color:#817055  !important;
 }
 .navbar-brand {
 	margin-right:2rem;
