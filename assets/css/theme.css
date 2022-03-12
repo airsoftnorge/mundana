@@ -31,7 +31,9 @@ textarea  {
     background-color: #272522 !important;
     color: #817055 !important;
     border: 1px solid #575043 !important; 
-	padding: 1px;
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	outline: none;
 	}
 
