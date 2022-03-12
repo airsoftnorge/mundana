@@ -183,16 +183,6 @@ button:focus {
   outline: 1px dotted;
   }
 
-input,
-button,
-select,
-optgroup,
-textarea  {
-    background-color: #272522 !important;
-    color: #817055 !important;
-    border: 1px solid #575043 !important; 
-	outline: none;
-	}
 
 button,
 input {

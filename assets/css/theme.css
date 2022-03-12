@@ -22,6 +22,18 @@ body {
 img {
 	max-width:100%;
 }
+
+input,
+button,
+select,
+optgroup,
+textarea  {
+    background-color: #272522 !important;
+    color: #817055 !important;
+    border: 1px solid #575043 !important; 
+	outline: none;
+	}
+	
 .tofront {
 	position:relative;
 	z-index:1;
