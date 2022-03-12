@@ -27,12 +27,12 @@ input::placeholder{
 	
 a {
   color: #817055;
-  text-decoration: underline;
+  text-decoration: none;
      }
 
 a,a:hover {
 	transition:all .2s;
-	color: #575043;
+	color: #AE9772;
 }
 
 /* ASN CUSTOM HACK END */
@@ -233,6 +233,7 @@ img {
 	padding:0.3rem 1rem;
 	border-radius:3px;
 	font-size:.93rem;
+	text-decoration: none !important;
 }
 .navbar .highlight .nav-link:hover {
 	background:#272522;
