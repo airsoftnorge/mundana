@@ -26,13 +26,14 @@ input::placeholder{
 }
 	
 a {
-  color: #AE9772;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
-  a:hover {
-    color: #817055 ;
-    text-decoration: underline; }
+  color: #817055;
+  text-decoration: underline;
+     }
+
+a,a:hover {
+	transition:all .2s;
+	color: #575043;
+}
 
 /* ASN CUSTOM HACK END */
 
@@ -69,11 +70,6 @@ img {
 	position:relative;
 	margin-left:-50vw;
 	left:50%;
-}
-a,a:hover {
-	transition:all .2s;
-	color: #AE9772;
-	text-decoration:none;
 }
 
 .c-pointer:hover {
