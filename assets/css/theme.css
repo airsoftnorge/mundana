@@ -144,7 +144,7 @@ a.text-dark:hover {
 	border-color:transparent;
 }
 .btn-link.btn-white {
-	color:#fff;
+	color:#272522;
 	border-color:transparent;
 }
 .btn-link.btn-purple {
@@ -176,7 +176,7 @@ a.text-dark:hover {
 	border-color:transparent;
 }
 .btn-white {
-	background-color:#fff;
+	background-color:#272522;
 }
 .input-round {
 	border-radius:30px !important;
@@ -200,7 +200,7 @@ a.text-dark:hover {
 }
 .navbar .highlight .nav-link:hover {
 	background:#03a87c;
-	color:#fff !important;
+	color:#272522 !important;
 }
 .navbar-brand {
 	margin-right:2rem;
@@ -221,8 +221,8 @@ a.text-dark:hover {
 		top:-8px;
 		position:absolute;
 		left:50px;
-		border-top:16px solid #fff;
-		border-left:16px solid #fff;
+		border-top:16px solid #272522;
+		border-left:16px solid #272522;
 		-webkit-transform:rotate(45deg);
 		transform:rotate(45deg);
 	}
@@ -358,7 +358,7 @@ a.text-dark:hover {
 	fill:#212529 !important;
 }
 .bg-white {
-	fill:#fff !important;
+	fill:#272522 !important;
 }
 .bg-purple {
 	fill:#ad6edd !important;
@@ -391,7 +391,7 @@ a.text-dark:hover {
 	height:55px;
 	padding:12.5px 0;
 	border-radius:100%;
-	color:#FFFFFF;
+	color:#272522FFF;
 	font-weight:700;
 	text-align:center;
 	-webkti-box-sizing:border-box;
@@ -436,7 +436,7 @@ a.text-dark:hover {
 	font-size:2.2rem;
 }
 .alert-primary {
-	color:#fff;
+	color:#272522;
 	background-color:#03a87c;
 	border-color:#03a87c;
 }
@@ -447,7 +447,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-secondary {
-	color:#fff;
+	color:#272522;
 	background-color:#7832e2;
 	border-color:#7832e2;
 }
@@ -458,7 +458,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-success {
-	color:#fff;
+	color:#272522;
 	background-color:#03a87c;
 	border-color:#03a87c;
 }
@@ -469,7 +469,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-info {
-	color:#fff;
+	color:#272522;
 	background-color:#09ebaf;
 	border-color:#09ebaf;
 }
@@ -480,7 +480,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-warning {
-	color:#fff;
+	color:#272522;
 	background-color:#ffde03;
 	border-color:#ffde03;
 }
@@ -491,7 +491,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-danger {
-	color:#fff;
+	color:#272522;
 	background-color:#ea2f65;
 	border-color:#ea2f65;
 }
@@ -502,7 +502,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-light {
-	color:#fff;
+	color:#272522;
 	background-color:#f8f9fa;
 	border-color:#f8f9fa;
 }
@@ -513,7 +513,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-dark {
-	color:#fff;
+	color:#272522;
 	background-color:#212529;
 	border-color:#212529;
 }
@@ -524,7 +524,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-white {
-	color:#fff;
+	color:#272522;
 	background-color:white;
 	border-color:white;
 }
@@ -535,7 +535,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-purple {
-	color:#fff;
+	color:#272522;
 	background-color:#ad6edd;
 	border-color:#ad6edd;
 }
@@ -546,7 +546,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-salmon {
-	color:#fff;
+	color:#272522;
 	background-color:#ff977a;
 	border-color:#ff977a;
 }
@@ -557,7 +557,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-cyan {
-	color:#fff;
+	color:#272522;
 	background-color:#35bdff;
 	border-color:#35bdff;
 }
@@ -568,7 +568,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-gray {
-	color:#fff;
+	color:#272522;
 	background-color:#ced4da;
 	border-color:#ced4da;
 }
@@ -579,7 +579,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-indigo {
-	color:#fff;
+	color:#272522;
 	background-color:#502c6c;
 	border-color:#502c6c;
 }
@@ -590,7 +590,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-orange {
-	color:#fff;
+	color:#272522;
 	background-color:#fbb500;
 	border-color:#fbb500;
 }
@@ -601,7 +601,7 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-lightblue {
-	color:#fff;
+	color:#272522;
 	background-color:#e8f3ec;
 	border-color:#e8f3ec;
 }
@@ -693,7 +693,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 	position:fixed;
 	bottom:0;
 	left:0;
-	background-color:#fff;
+	background-color:#272522;
 	width:100%;
 	padding:20px 0;
 	z-index:1021;
@@ -766,7 +766,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 		height:100%;
 		padding:0 .5rem .5rem 1.5rem;
 		border-right:1px solid #e9ecef;
-		background-color:#fff;
+		background-color:#272522;
 		padding-bottom:50px;
 	}
 	.content-withfixedsidebar {
