@@ -1321,7 +1321,7 @@ pre {
   padding: 0.45rem 1.2rem;
   font-size: 1rem;
   line-height: 1.6;
-  color: #495057;
+  color: #453F34;
   background-color: #272522;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -1334,7 +1334,7 @@ pre {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-    color: #495057;
+    color: #453F34;
     background-color: #272522;
     border-color: #2ffbc5;
     outline: 0;
