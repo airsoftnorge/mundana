@@ -3,6 +3,12 @@
  */
 
 /* ASN CUSTOM HACK START */
+
+th {
+	border: 1px solid #817055 !important; 
+}
+
+
 input:hover,button:hover {
   background-color: #575043;
 }
