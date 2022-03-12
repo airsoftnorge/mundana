@@ -37,22 +37,14 @@ a:hover {
 }
 
 
-.navbar .highlight {
+.navbar .highlight .nav-link {
 	color:#453F34 !important;
 	border:1px solid #575043;
 	padding:0.3rem 1rem;
 	border-radius:3px;
-	font-size:1rem;
+	font-size:1.2rem;
 } 
-.nav-link {
-	align-items: right;
-	color:#453F34 !important;
-	border:1px solid #575043;
-	padding:0.3rem 1rem;
-	border-radius:3px;
-	font-size:1rem;
-	text-decoration: bold !important;
-} 
+
 
 /* ASN CUSTOM HACK END */
 
