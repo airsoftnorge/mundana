@@ -26,8 +26,7 @@ input::placeholder{
 }
 	
 a {
-  color: #817055;
-  text-decoration: underline;
+  color: #AE9772;
      }
 
 a:hover {
@@ -35,9 +34,7 @@ a:hover {
 	color: #575043	;
 }
 
-nav-link {
-	text-decoration: none !important;
-}
+
 
 /* ASN CUSTOM HACK END */
 
