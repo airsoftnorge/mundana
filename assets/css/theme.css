@@ -31,8 +31,8 @@ a {
      }
 
 
-a,
-fa,
+a:hover,
+fa:hover,
 fab:hover {
 	transition:all .2s;
 	color: #575043	;
