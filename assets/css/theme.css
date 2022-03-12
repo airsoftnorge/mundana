@@ -32,8 +32,13 @@ textarea  {
     color: #817055 !important;
     border: 1px solid #575043 !important; 
 	box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease
+	padding: 1px;
 	outline: none;
 	}
+
+input::placeholder{
+  color: #575043 ;
+}
 	
 .tofront {
 	position:relative;
