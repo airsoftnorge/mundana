@@ -269,12 +269,7 @@ a.text-dark:hover {
 .navbar-light .navbar-text a:hover,.navbar-light .navbar-text a:focus {
 	color:rgba(0,0,0,0.9);
 }
-.bd-search .form-control {
-	font-size:.85rem;
-	border-radius:30px;
-	height:35px;
-	border:1px solid #575043 ;
-}
+
 .mb-2rem {
 	margin-bottom:2rem;
 }
