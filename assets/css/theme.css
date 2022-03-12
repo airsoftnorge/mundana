@@ -119,7 +119,7 @@ a.text-dark:hover {
 	box-shadow:none;
 }
 .btn-link.btn-primary {
-	color:#03a87c;
+	color:#575043;
 	border-color:transparent;
 }
 .btn-link.btn-secondary {
@@ -127,7 +127,7 @@ a.text-dark:hover {
 	border-color:transparent;
 }
 .btn-link.btn-success {
-	color:#03a87c;
+	color:#575043;
 	border-color:transparent;
 }
 .btn-link.btn-info {
@@ -320,18 +320,6 @@ a.text-dark:hover {
 	position:absolute;
 	width:100%;
 }
-.overlay-black:before {
-	background-color:rgba(0,0,0,0.5);
-}
-.overlay-blue:before {
-	background-color:rgba(23,29,90,0.5);
-}
-.overlay-red:before {
-	background:linear-gradient(0deg,rgba(44,44,44,0.2),rgba(224,23,3,0.6));
-}
-.overlay-blue:before {
-	background-color:rgba(23,29,90,0.5);
-}
 
 .card .date {
 	position:absolute;
@@ -359,7 +347,7 @@ a.text-dark:hover {
 }
 .card a:hover {
 	text-decoration:none;
-	color:#03a87c;
+	color:#575043;
 }
 .card-pricing .card ul li {
 	margin-bottom:1.5rem;
@@ -389,8 +377,8 @@ a.text-dark:hover {
 }
 .alert-primary {
 	color:#272522;
-	background-color:#03a87c;
-	border-color:#03a87c;
+	background-color:#575043;
+	border-color:#575043;
 }
 .alert-primary hr {
 	border-top-color:#038f6a;
@@ -411,8 +399,8 @@ a.text-dark:hover {
 }
 .alert-success {
 	color:#272522;
-	background-color:#03a87c;
-	border-color:#03a87c;
+	background-color:#575043;
+	border-color:#575043;
 }
 .alert-success hr {
 	border-top-color:#038f6a;
