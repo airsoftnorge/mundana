@@ -30,21 +30,12 @@ a {
   text-decoration: none;
      }
 
-a,a:hover {
+a:hover {
 	transition:all .2s;
 	color: #575043	;
 }
 
 
-fa {
-  color: #817055;
-  text-decoration: none;
-     }
-
-fa:hover {
-	transition:all .2s;
-	color: #575043	;
-}
 
 fab {
   color: #817055;
