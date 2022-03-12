@@ -338,54 +338,7 @@ a.text-dark:hover {
 .overlay-blue:before {
 	background-color:rgba(23,29,90,0.5);
 }
-.bg-primary {
-	fill:#03a87c !important;
-}
-.bg-secondary {
-	fill:#7832e2 !important;
-}
-.bg-success {
-	fill:#03a87c !important;
-}
-.bg-info {
-	fill:#09ebaf !important;
-}
-.bg-warning {
-	fill:#ffde03 !important;
-}
-.bg-danger {
-	fill:#ea2f65 !important;
-}
-.bg-light {
-	fill:#f8f9fa !important;
-}
-.bg-dark {
-	fill:#212529 !important;
-}
-.bg-white {
-	fill:#272522 !important;
-}
-.bg-purple {
-	fill:#ad6edd !important;
-}
-.bg-salmon {
-	fill:#ff977a !important;
-}
-.bg-cyan {
-	fill:#35bdff !important;
-}
-.bg-gray {
-	fill:#ced4da !important;
-}
-.bg-indigo {
-	fill:#502c6c !important;
-}
-.bg-orange {
-	fill:#fbb500 !important;
-}
-.bg-lightblue {
-	fill:#e8f3ec !important;
-}
+
 .card .date {
 	position:absolute;
 	top:20px;
