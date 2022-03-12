@@ -207,24 +207,6 @@ html [type="button"],
 [type="submit"] {
   -webkit-appearance: button; }
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  padding: 0;
-  border-style: none; }
-
-input[type="radio"],
-input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0; }
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox; }
-
 textarea {
   overflow: auto;
   resize: vertical; }
@@ -1414,62 +1396,7 @@ textarea.form-control {
   display: block;
   margin-top: 0.25rem; }
 
-.form-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -5px;
-  margin-left: -5px; }
-  .form-row > .col,
-  .form-row > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
 
-.form-check {
-  position: relative;
-  display: block;
-  padding-left: 1.25rem; }
-
-.form-check-input {
-  position: absolute;
-  margin-top: 0.3rem;
-  margin-left: -1.25rem; }
-  .form-check-input:disabled ~ .form-check-label {
-    color: #6c757d; }
-
-.form-check-label {
-  margin-bottom: 0; }
-
-.form-check-inline {
-  display: inline-flex;
-  align-items: center;
-  padding-left: 0;
-  margin-right: 0.75rem; }
-  .form-check-inline .form-check-input {
-    position: static;
-    margin-top: 0;
-    margin-right: 0.3125rem;
-    margin-left: 0; }
-
-.valid-feedback {
-  display: none;
-  width: 100%;
-  margin-top: 0.25rem;
-  font-size: 85%;
-  color: #575043; }
-
-.valid-tooltip {
-  position: absolute;
-  top: 100%;
-  z-index: 5;
-  display: none;
-  max-width: 100%;
-  padding: 0.25rem 0.5rem;
-  margin-top: .1rem;
-  font-size: 0.875rem;
-  line-height: 1.6;
-  color: #272522;
-  background-color: rgba(3, 168, 124, 0.9);
-  border-radius: 0.25rem; }
 
 .was-validated .form-control:valid, .form-control.is-valid, .was-validated
 .custom-select:valid,
@@ -1517,7 +1444,7 @@ textarea.form-control {
   background-color: #04daa1; }
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+  box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem ; }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
   border-color: #575043; }
@@ -1530,47 +1457,9 @@ textarea.form-control {
   display: block; }
 
 .was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.is-valid:focus ~ .custom-file-label {
-  box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+  box-shadow: 0 0 0 0.2rem ; }
 
-.invalid-feedback {
-  display: none;
-  width: 100%;
-  margin-top: 0.25rem;
-  font-size: 85%;
-  color: #ea2f65; }
 
-.invalid-tooltip {
-  position: absolute;
-  top: 100%;
-  z-index: 5;
-  display: none;
-  max-width: 100%;
-  padding: 0.25rem 0.5rem;
-  margin-top: .1rem;
-  font-size: 0.875rem;
-  line-height: 1.6;
-  color: #272522;
-  background-color: rgba(234, 47, 101, 0.9);
-  border-radius: 0.25rem; }
-
-.was-validated .form-control:invalid, .form-control.is-invalid, .was-validated
-.custom-select:invalid,
-.custom-select.is-invalid {
-  border-color: #ea2f65; }
-  .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus, .was-validated
-  .custom-select:invalid:focus,
-  .custom-select.is-invalid:focus {
-    border-color: #ea2f65;
-    box-shadow: 0 0 0 0.2rem rgba(234, 47, 101, 0.25); }
-  .was-validated .form-control:invalid ~ .invalid-feedback,
-  .was-validated .form-control:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback,
-  .form-control.is-invalid ~ .invalid-tooltip, .was-validated
-  .custom-select:invalid ~ .invalid-feedback,
-  .was-validated
-  .custom-select:invalid ~ .invalid-tooltip,
-  .custom-select.is-invalid ~ .invalid-feedback,
-  .custom-select.is-invalid ~ .invalid-tooltip {
-    display: block; }
 
 .was-validated .form-control-file:invalid ~ .invalid-feedback,
 .was-validated .form-control-file:invalid ~ .invalid-tooltip, .form-control-file.is-invalid ~ .invalid-feedback,
@@ -1680,7 +1569,7 @@ textarea.form-control {
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+    box-shadow: 0 0 0 0.2rem ; }
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
   .btn:not(:disabled):not(.disabled) {
@@ -2198,7 +2087,7 @@ input[type="button"].btn-block {
     color: #272522;
     background-color: #575043; }
   .custom-control-input:focus ~ .custom-control-label::before {
-    box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+    box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem ; }
   .custom-control-input:active ~ .custom-control-label::before {
     color: #272522;
     background-color: #61fcd3; }
@@ -2329,7 +2218,7 @@ input[type="button"].btn-block {
   opacity: 0; }
   .custom-file-input:focus ~ .custom-file-label {
     border-color: #2ffbc5;
-    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+    box-shadow: 0 0 0 0.2rem ; }
     .custom-file-input:focus ~ .custom-file-label::after {
       border-color: #2ffbc5; }
   .custom-file-input:disabled ~ .custom-file-label {
@@ -2376,11 +2265,11 @@ input[type="button"].btn-block {
   .custom-range:focus {
     outline: none; }
     .custom-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+      box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem ; }
     .custom-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+      box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem ; }
     .custom-range:focus::-ms-thumb {
-      box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+      box-shadow: 0 0 0 1px #272522, 0 0 0 0.2rem ; }
   .custom-range::-moz-focus-outer {
     border: 0; }
   .custom-range::-webkit-slider-thumb {
@@ -3033,7 +2922,7 @@ input[type="button"].btn-block {
   .page-link:focus {
     z-index: 2;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+    box-shadow: 0 0 0 0.2rem ; }
   .page-link:not(:disabled):not(.disabled) {
     cursor: pointer; }
 
