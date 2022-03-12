@@ -9,6 +9,7 @@ body {
 	Background for entire page
 	*/
     background: #272522;
+	color: #7B7261;
 
 }
 .site-content {
@@ -33,13 +34,14 @@ img {
 }
 a,a:hover {
 	transition:all .2s;
+	color: #AE9772;
 	text-decoration:none;
 }
 a {
-	color:#03a87c;
+	color:#817055;
 }
 a.text-dark:hover {
-	color:#03a87c !important;
+	color:#AE9772 !important;
 }
 .c-pointer:hover {
 	cursor:pointer;
