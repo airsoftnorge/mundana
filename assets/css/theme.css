@@ -29,16 +29,22 @@ a {
   color: #AE9772;
   text-decoration: none !important;
      }
-nav-link {
-	text-decoration: bold;
-	
-}
+
 
 a:hover {
 	transition:all .2s;
 	color: #575043	;
 }
 
+
+.navbar .highlight .nav-link {
+	color:#453F34 !important;
+	border:1px solid #575043;
+	padding:0.3rem 1rem;
+	border-radius:3px;
+	font-size:1rem;
+	text-decoration: bold !important;
+}
 
 
 /* ASN CUSTOM HACK END */
@@ -233,14 +239,7 @@ img {
 	transition:top 0.2s ease-in-out;
 	font-weight:400;
 }
-.navbar .highlight .nav-link {
-	color:#453F34 !important;
-	border:1px solid #575043;
-	padding:0.3rem 1rem;
-	border-radius:3px;
-	font-size:.93rem;
-	text-decoration: none !important;
-}
+
 .navbar .highlight .nav-link:hover {
 	background:#272522;
 	color:#817055  !important;
