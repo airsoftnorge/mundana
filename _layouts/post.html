@@ -48,7 +48,7 @@ layout: default
 			<!-- Tags -->
 			<div class="mb-4" style="pad-top:25px;">
 				<span class="taglist">
-				<h5 class="font-weight-bold spanborder"><span>Tags</span></h5> 
+				<p>Tags</p>
 				{% for tag in page.tags %}
 				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
 				{% endfor %}
