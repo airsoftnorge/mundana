@@ -2341,7 +2341,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.8rem 1rem; }
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+    text-decoration: none !important; }
   .nav-link.disabled {
     color: #6c757d; }
 
