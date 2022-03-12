@@ -5117,19 +5117,19 @@ button.bg-lightblue:focus {
   background-color: transparent !important; }
 
 .border {
-  border: 1px solid #e8f3ec !important; }
+  border: 1px solid #575043  !important; }
 
 .border-top {
-  border-top: 1px solid #e8f3ec !important; }
+  border-top: 1px solid #575043  !important; }
 
 .border-right {
-  border-right: 1px solid #e8f3ec !important; }
+  border-right: 1px solid #575043  !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #e8f3ec !important; }
+  border-bottom: 1px solid #575043  !important; }
 
 .border-left {
-  border-left: 1px solid #e8f3ec !important; }
+  border-left: 1px solid #575043  !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -5147,10 +5147,10 @@ button.bg-lightblue:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #03a87c !important; }
+  border-color: #575043  !important; }
 
 .border-secondary {
-  border-color: #7832e2 !important; }
+  border-color: #817055  !important; }
 
 .border-success {
   border-color: #03a87c !important; }
