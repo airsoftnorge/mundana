@@ -19,7 +19,7 @@
   transform: translate(-50%, -50%);
   font-size: 700%;
   color: #817055 ;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
 
@@ -35,7 +35,7 @@
   transform: translate(-50%, -50%);
   font-size: 700%;
   color: #817055 ;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
 
