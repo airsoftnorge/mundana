@@ -14,15 +14,17 @@ layout: default
                         {% endif %}
 						<small class="ml-3"> {{ author.name }}
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
-						</small>
-					</div>
-					<p class="text-uppercase">
-                        <span class="ml-3">
+						  <span class="ml-3">
 						{% for category in page.categories %}
-                          <a style="color:#453F34 !important;" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
+                          <a style="color:#575043 !important;" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
                         {% endfor %}
                         </span>
-					</p>
+						</small>
+						
+					</div>
+					
+                      
+					
 				</div>
                 {% if page.image %}
 				<div class="col-md-4 align-self-center" style="pad-right:0px !important;">
