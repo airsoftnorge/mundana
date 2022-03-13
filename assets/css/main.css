@@ -6305,7 +6305,6 @@ a.text-light:hover, a.text-light:focus {
 
 .text-dark {
   color: #817055 !important; 
-  overflow:hidden !important;}
 
 a.text-dark:hover, a.text-dark:focus {
   color: #575043 !important; }
