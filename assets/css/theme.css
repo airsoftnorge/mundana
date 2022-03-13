@@ -16,8 +16,20 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 500%;
-  color: #817055;
+  color: #575043;
+}
 
+.image-thumbnail {
+  position: relative;
+  text-align: center;
+}
+.image-thumbnail-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 500%;
+  color: #575043;
 }
 
 td,th {
