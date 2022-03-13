@@ -1,6 +1,6 @@
 Image link:
 
-[<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="250"/>]({{site.baseurl}}assets/images/PeltorWiring.png)
+[<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="640"/>]({{site.baseurl}}assets/images/PeltorWiring.png)
 
 
 Youtube link without thumbnail:
@@ -10,5 +10,5 @@ Youtube link without thumbnail:
 Youtube video with thumbnail:
 
 <a href=""> 
-[<img src="https://i.ytimg.com/vi/aowfiOAUJhY/hqdefault.jpg" width="250"/>](https://youtu.be/aowfiOAUJhY)
+[<img src="https://i.ytimg.com/vi/aowfiOAUJhY/sddefault.jpg" width="640"/>](https://youtu.be/aowfiOAUJhY)
 </a>
