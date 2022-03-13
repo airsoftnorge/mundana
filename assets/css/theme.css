@@ -19,8 +19,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 500%;
-  font-family: "Font Awesome 5";
-  content:'\f167';
   color: #575043;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -39,8 +37,6 @@
   transform: translate(-50%, -50%);
   font-size: 500%;
   color: #575043;
-  font-family: "Font Awesome 5";
-  content:'\f002';
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
