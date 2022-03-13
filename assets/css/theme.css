@@ -4,8 +4,12 @@
 
 /* ASN CUSTOM HACK START */
 
+img.magnify {
+	background: url(/assets/graphics/magnify.png);
+}
+
 img.video {
-	background: url(/assets/graphics/play.png);
+	background: url({{github.baseurl}}/assets/graphics/play.png);
 }
 
 td,th {
