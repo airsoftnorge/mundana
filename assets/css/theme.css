@@ -4,18 +4,10 @@
 
 /* ASN CUSTOM HACK START */
 
-img.magnify {
-	background: url(/assets/graphics/magnify.png);
-}
-
-.img.video::after {
-  content: "Play video";
-  color: #575043;
-  white-space: pre;
-  right: 15px;
-  font-weight: bold;
-  text-align: center;
-  align-self: center;
+a.lightbox-youtube.current {
+	background-image:url('https://airsoftnorge.github.io/mundana/assets/graphics/play.png');
+	background-size: cover;
+	height:630px;
 }
 
 td,th {
