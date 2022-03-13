@@ -4,20 +4,35 @@
 
 /* ASN CUSTOM HACK START */
 
+/* https://airsoftnorge.github.io/mundana/assets/graphics/play.png */
 
-.video-thumbnail:after {
-  background-image: url("https://airsoftnorge.github.io/mundana/assets/graphics/play.png"); /* The image used */
-  background-color: #575043; /* Used if the image is unavailable */
-  width: 649px; /
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  position: absolute;
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 30px;
+
+  &:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: "\f01d";
+    font-family: FontAwesome;
+    font-size: 100px;
+    color: #575043;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  &:hover:before {
+    color: #eee;
+  }
 }
-
 
 td,th {
 	border: 1px solid #575043 !important; 
+	padding: 2px;
 }
 
 
