@@ -13,6 +13,13 @@ input:hover,button:hover {
   background-color: #575043;
 }
 
+navbar-max-width {
+	max-width: 1140px;	
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
 input,
 button,
 select,
