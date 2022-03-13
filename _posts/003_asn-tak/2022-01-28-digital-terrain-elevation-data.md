@@ -22,12 +22,13 @@ Downloads:
 Instructions:
 
 <details>
-   <summary><b><u>DTED Installation in Android TAK</u></b></summary>
-   <p>
-   <p align="center">
-      <iframe width="100%" height="315" src="https://www.youtube.com/embed/UvDtNTvqK2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </p>
-   </p>
+	<summary><b><u>DTED Installation in Android TAK</u></b></summary>
+	<div class="video-thumbnail">
+	  <a href="https://youtu.be/UvDtNTvqK2E">
+		<img src="https://i.ytimg.com/vi/UvDtNTvqK2E/sddefault.jpg" width="640"/>
+		<div class="video-thumbnail-centered"><i class="fa-solid fa-play"></i></div>
+	  </a>
+	</div>
 </details>
 <p></p>
 <details>
