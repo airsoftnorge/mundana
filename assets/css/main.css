@@ -2438,7 +2438,9 @@ input[type="button"].btn-block {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center; }
+  align-items: center;
+  align-content: space-between ;
+  }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
