@@ -9,7 +9,7 @@
 .video-thumbnail {
   position: relative;
   text-align: center;
-  font-family:"fontawesome";
+  
 }
 .video-thumbnail-centered {
   position: absolute;
@@ -17,6 +17,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 500%;
+  font-family:"fontawesome";
+  content:"\f167";
   color: #575043;
 }
 
@@ -32,6 +34,8 @@
   transform: translate(-50%, -50%);
   font-size: 500%;
   color: #575043;
+  font-family:"fontawesome";
+  content:"\f002";
 }
 
 td,th {
