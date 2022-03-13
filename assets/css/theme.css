@@ -9,8 +9,8 @@
   display: inline-block;
   cursor: pointer;
   margin: 30px;
-
-  &:before {
+}
+.video-thumbnail::after {
     position:absolute;
     top: 50%;
     left: 50%;
@@ -19,14 +19,11 @@
     content: "\f01d";
     font-family: FontAwesome;
     font-size: 100px;
-    color: #fff;
+    color: #575043;
     opacity: .8;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-  }
-  &:hover:before {
-    color: #eee;
-  }
 }
+
 
 td,th {
 	border: 1px solid #575043 !important; 
