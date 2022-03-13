@@ -10,11 +10,13 @@
   position: relative;
   text-align: center;
 }
-video-thumbnail-centered {
+.video-thumbnail-centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #817055;
+  background-color: #817055;
 }
 
 td,th {
