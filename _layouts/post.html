@@ -14,9 +14,9 @@ layout: default
                         {% endif %}
 						<small class="ml-3"> {{ author.name }}
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
-							<span class="ml-3 text-uppercase text-muted d-block mt-1">
+							<span class="text-uppercase text-muted text-muted d-block mt-1">
 							{% for category in page.categories %}
-							  <a style="color:#575043 !important;" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
+							  <a style="color:#575043 !important;" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a>
 							{% endfor %}
 							</span>
 						</small>
