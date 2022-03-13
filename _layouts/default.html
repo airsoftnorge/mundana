@@ -35,9 +35,9 @@
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
-<div class="container row remove-site-content-margin col-md-8">
+
     <!-- Navbar -->
-    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top col-md-8">
     <div class="container">
 		<a href="{{ site.baseurl }}"><img style="max-height:40px;max-width:auto;" src="{{site.baseurl}}{{site.logo}}" alt="Airsoftnorge.com Home" ></img></a>
 		<!-- Removed to be replaced with image
@@ -56,7 +56,7 @@
         </div>
     </div>
     </nav>
-</div>
+
     <!-- Search Results -->
     <div id="lunrsearchresults">
         <ul class="mb-0"></ul>
