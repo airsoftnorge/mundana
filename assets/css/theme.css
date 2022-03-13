@@ -10,6 +10,7 @@ img.magnify {
 
 img.video {
 	background-image: url(https://airsoftnorge.github.io/mundana/assets/graphics/play.png);
+	position:absolute;
 }
 
 td,th {
