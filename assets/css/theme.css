@@ -26,6 +26,7 @@
   &:hover:before {
     color: #eee;
   }
+}
 
 td,th {
 	border: 1px solid #575043 !important; 
