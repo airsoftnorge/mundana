@@ -10,7 +10,6 @@
   position: relative;
   text-align: center;
   outline: 1px;
-  outline-color:#575043;
   
 }
 .video-thumbnail-centered {
@@ -19,7 +18,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 700%;
-  color: #575043;
+  color: #817055 ;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
@@ -28,7 +27,6 @@
   position: relative;
   text-align: center;
   outline: 1px;
-  outline-color:#575043;
 }
 .image-thumbnail-centered {
   position: absolute;
@@ -36,7 +34,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 700%;
-  color: #575043;
+  color: #817055 ;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
