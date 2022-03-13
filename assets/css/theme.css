@@ -6,16 +6,13 @@
 
 
 .video-thumbnail:after {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    content: "ladida";
-    font-family: FontAwesome;
-    font-size: 100px;
-    color: #575043;
-    opacity: .8;
+  background-image: url("https://airsoftnorge.github.io/mundana/assets/graphics/play.png"); /* The image used */
+  background-color: #575043; /* Used if the image is unavailable */
+  width: 649px; /
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: absolute;
 }
 
 
