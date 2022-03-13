@@ -17,9 +17,9 @@ layout: default
 						</small>
 					</div>
 					<p class="text-uppercase font-weight-bold">
-                        <span class="h4" style="color:#817055;">
+                        <span class="nav-item" style="color:#817055;">
 						{% for category in page.categories %}
-                          <a class="" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep">, </span>
+                          <a class="" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
                         {% endfor %}
                         </span>
 					</p>
