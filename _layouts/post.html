@@ -7,13 +7,6 @@ layout: default
 		<div class="h-100 tofront">
 			<div class="row">
 				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
-					<p class="text-uppercase font-weight-bold">
-                        <span class="catlist">
-						{% for category in page.categories %}
-                          <a class="" href="{{site.baseurl}}/{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
-                        {% endfor %}
-                        </span>
-					</p>
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<div class="d-flex align-items-center">
                         {% if author.avatar %}
@@ -23,6 +16,13 @@ layout: default
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
+					<p class="text-uppercase font-weight-bold">
+                        <span class="catlist" style="color:#817055;">
+						{% for category in page.categories %}
+                          <a class="" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>
+					</p>
 				</div>
                 {% if page.image %}
 				<div class="col-md-4 align-self-center" style="pad-right:0px !important;">
