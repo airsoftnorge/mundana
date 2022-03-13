@@ -16,11 +16,10 @@ layout: default
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						  <span class="ml-3">
 						{% for category in page.categories %}
-                          <a style="color:#575043 !important;" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
+                          <a href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
                         {% endfor %}
                         </span>
 						</small>
-						
 					</div>
 					
                       
