@@ -9,7 +9,7 @@ img.magnify {
 }
 
 img.video {
-	background: url({{github.baseurl}}/assets/graphics/play.png);
+	background: url(https://airsoftnorge.github.io/mundana/assets/graphics/play.png);
 }
 
 td,th {
