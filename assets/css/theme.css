@@ -4,6 +4,10 @@
 
 /* ASN CUSTOM HACK START */
 
+video {
+	background: /assets/graphics/play.png;
+}
+
 td,th {
 	border: 1px solid #575043 !important; 
 }
