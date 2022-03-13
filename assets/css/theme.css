@@ -4,7 +4,7 @@
 
 /* ASN CUSTOM HACK START */
 
-img.video {
+img.video::after {
 	background-image:url('https://airsoftnorge.github.io/mundana/assets/graphics/play.png');
 	background-size: cover;
 	background-color: #575043;
