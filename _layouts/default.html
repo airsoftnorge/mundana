@@ -38,7 +38,7 @@
 
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container">
+    <div class="container" style="width:100%;">
 		<a href="{{ site.baseurl }}"><img style="max-height:40px;max-width:auto;" src="{{site.baseurl}}{{site.logo}}" alt="Airsoftnorge.com Home" ></img></a>
 		<!-- Removed to be replaced with image
 		<a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong>{{site.name}}</strong></a>
@@ -47,7 +47,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarColor02">
-            <ul class="navbar-nav mr-auto d-flex align-items-center" style="align-content: flex-end !important;">
+            <ul class="navbar-nav mr-auto d-flex align-items-center" style="align-content: flex-end !important; ">
                {% include menu-header.html %}
 			   {% include search-lunr.html %}
             </ul>
