@@ -20,6 +20,8 @@
   font-family:"fontawesome";
   content:"\f167";
   color: #575043;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .image-thumbnail {
@@ -36,6 +38,8 @@
   color: #575043;
   font-family:"fontawesome";
   content:"\f002";
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 td,th {
