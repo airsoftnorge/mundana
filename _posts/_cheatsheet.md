@@ -9,6 +9,5 @@ Youtube link without thumbnail:
 
 Youtube video with thumbnail:
 
-<a href=""> 
+
 [<img src="https://i.ytimg.com/vi/aowfiOAUJhY/sddefault.jpg" width="640"/>](https://youtu.be/aowfiOAUJhY)
-</a>
