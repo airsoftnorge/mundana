@@ -7,7 +7,7 @@ tags: [resources,wiring,pinout,peltor,nato,j11,tp120, earpro, headset]
 image: assets/images/PeltorWiring.png
 ---
 
-[<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="650"/>]({{site.baseurl}}assets/images/PeltorWiring.png)
+[<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="640"/>]({{site.baseurl}}assets/images/PeltorWiring.png)
 
 
 
@@ -17,7 +17,7 @@ TEST CONTENT:
 
 Image link:
 
-[<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="650"/>]({{site.baseurl}}assets/images/PeltorWiring.png)
+[<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="640"/>]({{site.baseurl}}assets/images/PeltorWiring.png)
 
 
 Youtube link without thumbnail:
@@ -27,5 +27,5 @@ Youtube link without thumbnail:
 Youtube video with thumbnail:
 
 <a href=""> 
-[<img src="https://i.ytimg.com/vi/aowfiOAUJhY/maxresdefault.jpg" width="650"/>](https://youtu.be/aowfiOAUJhY)
+[<img src="https://i.ytimg.com/vi/aowfiOAUJhY/sddefault.jpg" width="640"/>](https://youtu.be/aowfiOAUJhY)
 </a>
