@@ -17,8 +17,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 500%;
-  font-family:"fontawesome";
-  content:"\f167";
+  font-family:'fontawesome';
+  content:'\f167';
   color: #575043;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -27,7 +27,7 @@
 .image-thumbnail {
   position: relative;
   text-align: center;
-  font-family:"fontawesome";
+  font-family:'fontawesome';
 }
 .image-thumbnail-centered {
   position: absolute;
@@ -37,7 +37,7 @@
   font-size: 500%;
   color: #575043;
   font-family:"fontawesome";
-  content:"\f002";
+  content:'\f002';
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
