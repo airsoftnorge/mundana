@@ -47,13 +47,6 @@ description: "ASN"
       <!-- second latest post -->
       {%- assign second_post = site.posts[1] -%}        
       <div class="mb-3 d-flex align-items-center">
-         {% if second_post.image %}
-         <div class="col-md-4">
-            <a href="{{site.baseurl}}{{second_post.url}}">
-            <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{site.baseurl}}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
-            </a>
-         </div>
-         {% endif %}                
          <div>
             <h2 class="mb-2 h6 font-weight-bold">
                <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
@@ -73,13 +66,6 @@ description: "ASN"
       <!-- third latest post -->
       {%- assign third_post = site.posts[2] -%}        
       <div class="mb-3 d-flex align-items-center">
-         {% if third_post.image %}
-         <div class="col-md-4">
-            <a href="{{site.baseurl}}{{third_post.url}}">
-            <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
-            </a>
-         </div>
-         {% endif %}                
          <div>
             <h2 class="mb-2 h6 font-weight-bold">
                <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
@@ -98,14 +84,7 @@ description: "ASN"
       </div>
       <!-- fourth latest post -->
       {%- assign fourth_post = site.posts[3] -%}        
-      <div class="mb-3 d-flex align-items-center">
-         {% if fourth_post.image %}
-         <div class="col-md-4">
-            <a href="{{site.baseurl}}{{fourth_post.url}}">
-            <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
-            </a>
-         </div>
-         {% endif %}                
+      <div class="mb-3 d-flex align-items-center">              
          <div>
             <h2 class="mb-2 h6 font-weight-bold">
                <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
