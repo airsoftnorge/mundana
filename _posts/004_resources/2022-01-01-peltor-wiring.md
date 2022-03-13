@@ -27,5 +27,5 @@ Youtube link without thumbnail:
 Youtube video with thumbnail:
 
 <a href=""> 
-[<img src="https://i.ytimg.com/vi/aowfiOAUJhY/hqdefault.jpg" width="650"/>](https://youtu.be/aowfiOAUJhY)
+[<img src="https://i.ytimg.com/vi/aowfiOAUJhY/maxresdefault.jpg" width="650"/>](https://youtu.be/aowfiOAUJhY)
 </a>
