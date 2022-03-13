@@ -764,6 +764,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 	}
 	.content-withfixedsidebar .navbar.fixed-top {
 		margin-left: 260px;
+		margin-right: 260px;
 	}
 }
 a.a2a_i, i.a2a_i, .a2a_menu a.a2a_i:visited, .a2a_menu a.a2a_more {
