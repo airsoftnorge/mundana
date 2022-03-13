@@ -16,7 +16,7 @@ layout: default
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
-					<p class="text-uppercase font-weight-bold">
+					<p class="text-uppercase">
                         <span class="nav-item" style="color:#817055 !important;">
 						{% for category in page.categories %}
                           <a class="" href="{{site.baseurl}}/{{ category | downcase }}">In category: {{ category | downcase }}</a><span class="sep"></span>
