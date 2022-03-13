@@ -5,7 +5,7 @@
 /* ASN CUSTOM HACK START */
 
 img.video {
-	background: /assets/graphics/play.png;
+	background: url(/assets/graphics/play.png);
 }
 
 td,th {
