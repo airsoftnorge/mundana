@@ -12,7 +12,7 @@
   cursor: pointer;
   margin: 30px;
 
-  &:before {
+  &:after {
     position:absolute;
     top: 50%;
     left: 50%;
@@ -24,9 +24,6 @@
     color: #575043;
     opacity: .8;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-  }
-  &:hover:before {
-    color: #eee;
   }
 }
 
