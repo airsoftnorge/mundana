@@ -23,12 +23,12 @@ Instructions:
 
 <details>
 	<summary><b><u>DTED Installation in Android TAK</u></b></summary>
-	<div class="video-thumbnail">
-	  <a href="https://youtu.be/UvDtNTvqK2E">
-		<img src="https://i.ytimg.com/vi/UvDtNTvqK2E/sddefault.jpg" width="640"/>
-		<div class="video-thumbnail-centered"><i class="fa-solid fa-play"></i></div>
-	  </a>
-	</div>
+		<div class="video-thumbnail">
+		  <a href="https://youtu.be/UvDtNTvqK2E">
+			<img src="https://i.ytimg.com/vi/UvDtNTvqK2E/sddefault.jpg" width="640"/>
+			<div class="video-thumbnail-centered"><i class="fa-solid fa-play"></i></div>
+		  </a>
+		</div>
 </details>
 <p></p>
 <details>
