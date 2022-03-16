@@ -12,6 +12,9 @@ You must also include shipping in your VAT calculations.
 
 Some items can be affected by tarifs, mostly textiles and food. A comprehensive list of what is covered by duty click [here](https://www.toll.no/no/bedrift/import/importguide/#varer_som_er_tollbelagt). This is rarely relevant for airsoft.
 
+You will often find that the total will end up being lower than the calcluator predicts, this is usually due to customs being lazy and not the calculator being wrong. 
+
+
 
 <script type="text/javascript">
 function calc() {
