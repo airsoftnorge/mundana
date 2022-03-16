@@ -9,7 +9,7 @@ image: assets/images/wheretobegin.jpeg
 
 The Norwegian airsoft community is dispersed through a series of facebook groups and discord servers, there are historic and geographical reasons for how they are distributed, resulting in a lot of overlap.
 
-It's advised that you find a local club and join for a few games before you buy anything, as misbuys sadly is a common occurance. See [this guide for more](before-you-buy).
+It's advised that you find a local club and join for a few games before you buy anything, as misbuys sadly is a common occurance. See [this guide for more](./before-you-buy).
 
 Use the links below to orient yourself as best as possible.
 
