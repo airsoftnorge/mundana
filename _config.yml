@@ -73,4 +73,4 @@ paginate: 12
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, _cheatsheet.md]
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, _cheatsheet.md, 2022-01-22-residual-energy-calculator.md]
