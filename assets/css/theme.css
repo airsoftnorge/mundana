@@ -8,8 +8,9 @@
 
 .video-thumbnail {
   position: relative;
-  text-align: center;
+  text-align: left;
   outline: 1px;
+  padding-left: 25px;
   
 }
 .video-thumbnail-centered {
@@ -25,8 +26,9 @@
 
 .image-thumbnail {
   position: relative;
-  text-align: center;
+  text-align: left;
   outline: 1px;
+  padding-left: 25px;
 }
 .image-thumbnail-centered {
   position: absolute;
