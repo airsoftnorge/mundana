@@ -113,20 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('lightbox').style.display = 'none';
         }
     });
-    //remove the clicked lightbox on escape
-	$(document).keyup(function(e){
-
-    if(e.which == 27 && popupStatus == 1){
-
-        document.getElementById('lightbox').addEventListener("click", function(event) {
-        if(event.target.id != 'next' && event.target.id != 'prev'){
-            this.innerHTML = '';
-            document.getElementById('lightbox').style.display = 'none';
-        }
-    });
-    }
-	});	
-	
+    
     //add the youtube lightbox on click
     var elements = document.querySelectorAll('a.lightbox-youtube');
     elements.forEach(element => {

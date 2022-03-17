@@ -12,6 +12,7 @@
   outline: 1px;
   padding-left: 50px;
   padding-right: 50px;
+  border-radius: 0.25rem !important;
   
 }
 .video-thumbnail-centered {
@@ -31,7 +32,9 @@
   outline: 1px;
   padding-left: 50px;
   padding-right: 50px;
+  border-radius: 0.25rem !important;
 }
+
 .image-thumbnail-centered {
   position: absolute;
   top: 50%;
