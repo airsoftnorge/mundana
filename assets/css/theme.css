@@ -9,7 +9,7 @@
 
 
 .video-thumbnail {
-  width: 670px;
+  max-width: 670px;
   position: relative;
   text-align: left;
   outline: 1px;
@@ -29,7 +29,7 @@
 }
 
 .image-thumbnail {
-  width: 670px;
+  max-width: 670px;
   position: relative;
   text-align: left;
   outline: 1px;
