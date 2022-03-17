@@ -3,8 +3,10 @@
  */
 
 /* ASN CUSTOM HACK START */
+/* ASN CUSTOM HACK START */
+/* ASN CUSTOM HACK START */
+/* ASN CUSTOM HACK START */
 
-/* https://airsoftnorge.github.io/mundana/assets/graphics/play.png */
 
 .video-thumbnail {
   position: relative;
@@ -19,7 +21,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 500%;
+  font-size: 300%;
   color: #AE9772 ;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
@@ -37,7 +39,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 500%;
+  font-size: 300%;
   color: #AE9772 ;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
@@ -58,6 +60,11 @@ navbar-max-width {
 	padding-left: 15px;
 	padding-right: 15px;
 	
+}
+
+img {
+	max-width:100%;
+	border-radius: 0.25rem;
 }
 
 input,
@@ -101,6 +108,9 @@ fab:hover {
 } 
 
 /* ASN CUSTOM HACK END */
+/* ASN CUSTOM HACK END */
+/* ASN CUSTOM HACK END */
+/* ASN CUSTOM HACK END */
 
 
 
@@ -121,10 +131,6 @@ body {
 }
 .remove-site-content-margin {
 	margin-top:-30px;
-}
-img {
-	max-width:100%;
-	border-radius: 0.25rem;
 }
 
 .tofront {
