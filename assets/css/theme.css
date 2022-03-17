@@ -16,9 +16,9 @@
   
 }
 .video-thumbnail-centered {
-  position: relative;
+  position: absolute;
   top: 50%;
-  left: 50%;
+  left: 300px;
   transform: translate(-50%, -50%);
   font-size: 300%;
   color: #AE9772 ;
@@ -34,9 +34,9 @@
 }
 
 .image-thumbnail-centered {
-  position: relative;
+  position: absolute;
   top: 50%;
-  left: 50%;
+  left: 300px;
   transform: translate(-50%, -50%);
   font-size: 300%;
   color: #AE9772 ;
