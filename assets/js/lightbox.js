@@ -105,7 +105,14 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
     });
+	//Remove the lightbox on escape
+	$(document).keyup(function(e){
 
+    if(e.which == 27 && popupStatus == 1){
+
+        disablePopup();
+    }
+	});
     //remove the clicked lightbox
     document.getElementById('lightbox').addEventListener("click", function(event) {
         if(event.target.id != 'next' && event.target.id != 'prev'){
