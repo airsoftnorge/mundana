@@ -12,4 +12,4 @@ image: assets/images/taktracker.png
 Servers must be configured manually for this application. See linked server info.
 
 Additional resources:
-* [TAK Server info]({{site.baseurl}}servers)
+* [TAK Server info](../servers)
