@@ -6,9 +6,11 @@ layout: default
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row">
-				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+				<div class="col-md-10 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
-					<div class="d-flex align-items-center">
+				</div>
+				<div>
+					<div class="d-flex align-items-end" style="padding-right:0px !important;">
                         {% if author.avatar %}
                         <img class="rounded" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
                         {% endif %}
@@ -21,7 +23,6 @@ layout: default
 							</span>
 						</small>
 					</div>
-
 				</div>
                 <!-- REMOVED PAGE IMAGE
 				{% if page.image %}
