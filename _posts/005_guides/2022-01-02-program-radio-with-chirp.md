@@ -8,6 +8,7 @@ image: assets/images/uv5rprogramming.png
 ---
 
 The guide assumes you have a functional programming cable for you radio. 
+
 Verify that your radio is on the [supported radios list](https://chirp.danplanet.com/projects/chirp/wiki/Home#Supported-Radio-Models).
 
 Always download the config first - as you cannot safely assume equal model names means equal firmware.
