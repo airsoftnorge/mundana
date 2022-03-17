@@ -11,9 +11,6 @@ layout: default
 				</div>
 				<div>
 					<div class="d-flex align-items-end" style="padding-right:0px !important;">
-                        {% if author.avatar %}
-                        <img class="rounded" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
-                        {% endif %}
 						<small class="ml-3"> {{ author.name }}
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 							<span class="text-uppercase text-muted text-muted d-block mt-1">
@@ -22,6 +19,9 @@ layout: default
 							{% endfor %}
 							</span>
 						</small>
+						{% if author.avatar %}
+                        <img class="rounded" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                        {% endif %}
 					</div>
 				</div>
                 <!-- REMOVED PAGE IMAGE
