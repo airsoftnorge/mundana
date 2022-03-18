@@ -29,6 +29,8 @@
        this.ref('id')
        this.field('title')
        this.field('body')
+	   this.field('tags')
+	   this.field('author')
    
        documents.forEach(function (doc) {
            this.add(doc)
