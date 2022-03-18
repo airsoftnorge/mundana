@@ -10,8 +10,11 @@ image: assets/images/math.png
 Small calculator to determin the residual energy of a BB at a certain distance. It's meant to help you pick the right bullet weight for your area and verify observations made ingame. 
 As a general rule, a heavier BB will be more accurate and reach longer, but it will be slower in the relatively close distances, meaning you must balance what you want vs the area you play, the skill of the oponents and your playstyle.
 
-### NOT COMPLETED YET
-
+Compromises in the calculator:
+* Zero meters above sea level assumption
+* Air density setup for maximized range, high moisture content will lower range.
+* Rounding down
+* This is accurate energy levels at range, it does not care if your BB would have hit the ground by now. 
 
 <script type = "text/javascript">
 function calc() {
