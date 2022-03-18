@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VAT Calculator"
-author: "staff"
+author: "adakar"
 categories: resources
 tags: [moms, toll, airsoft, fortolling, fortollning, vat, value added tax, tax]
 image: assets/images/toll.png
