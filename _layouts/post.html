@@ -3,53 +3,53 @@ layout: default
 ---
 {% assign author = site.authors[page.author] %}
 <div class="container">
-   <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
-      <div class="h-100 tofront">
-         <div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
-            <div class="col-md-8 pr-0 align-self-start">
-               <h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
-			   <!--<h1 class="display-4  barticle-headline">{{ page.title }}</h1>-->
-				<p class="text-uppercase font-weight-bold">
-                  <span class="catlist">
-                  {% for category in page.categories %}
-                  <a class="sscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
-                  {% endfor %}
-                  </span>
-               </p>
-               <div class="d-flex align-items-center">
-                  {% if author.avatar %}
-                  <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
-                  {% endif %}
-                  <small class="ml-3"> {{ author.name }} <span></span>
-                  <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
-                  </small>
-               </div>
-            </div>
-            <!--{% if page.image %}-->
-            <div class="col-md-4 pr-0 align-self-start">
-               <img class="rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
-            </div>
-            <!--{% endif %}-->
-         </div>
-      </div>
-   </div>
-   <div class="container-lg pt-4 pb-4">
-      <div class="row row col-md-12">
-         <!-- Article -->
-         <article >                
-            {{ content }}                
-         </article>
-      </div>
-      <!-- Tags -->
-      <div class="row col-md-12">
-         <div class="mb-4" style="padding-top:45px;">
-            <span class="taglist">
-               <div style="font-weight: bold;">Tags</div>
-               {% for tag in page.tags %}
-               <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
-               {% endfor %}
-            </span>
-         </div>
-      </div>
-   </div>
+	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
+				<div class="col-md-8 pr-0 align-self-start">
+					<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+					<!--<h1 class="display-4  barticle-headline">{{ page.title }}</h1>-->
+					<p class="text-uppercase font-weight-bold">
+						<span class="catlist">
+						{% for category in page.categories %}
+						<a class="sscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
+						{% endfor %}
+						</span>
+					</p>
+					<div class="d-flex align-items-center">
+						{% if author.avatar %}
+						<img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
+						{% endif %}
+						<small class="ml-3"> {{ author.name }} <span></span>
+						<span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
+						</small>
+					</div>
+				</div>
+				<!--{% if page.image %}-->
+				<div class="col-md-4 pr-0 align-self-start">
+					<img class="rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+				</div>
+				<!--{% endif %}-->
+			</div>
+		</div>
+	</div>
+	<div class="container-lg pt-4 pb-4">
+		<div class="row row col-md-12">
+			<!-- Article -->
+			<article >                
+				{{ content }}                
+			</article>
+		</div>
+		<!-- Tags -->
+		<div class="row col-md-12">
+			<div class="mb-4" style="padding-top:45px;">
+				<span class="taglist">
+					<div style="font-weight: bold;">Tags</div>
+					{% for tag in page.tags %}
+					<a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+					{% endfor %}
+				</span>
+			</div>
+		</div>
+	</div>
 </div>

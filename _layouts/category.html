@@ -7,17 +7,17 @@ description: "ASN"
 ---
 <div class="container">
 	<div class="row mt-3">
-	<!-- Takes the value of bread: in a top level category and inserts on top. -->
+		<!-- Takes the value of bread: in a top level category and inserts on top. -->
 		<div class="col-md-12 category-breadtext">
-		<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+			<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
 			{% include {{ page.category }}.html %}    
-		<h4 class="font-weight-bold spanborder"><span></span></h4>
+			<h4 class="font-weight-bold spanborder"><span></span></h4>
 		</div>
 		<div class="col-md-12 main-loop">
 			{% for post in site.posts %}
-			  {% if post.categories contains page.category %}
-				{% include main-loop-card.html %}    
-			  {% endif %}
+			{% if post.categories contains page.category %}
+			{% include main-loop-card.html %}    
+			{% endif %}
 			{% endfor %}
 		</div>
 	</div>
