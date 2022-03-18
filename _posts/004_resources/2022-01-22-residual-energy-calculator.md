@@ -7,8 +7,8 @@ tags: [bb, velocity, energy, joule, residual]
 image: assets/images/math.png
 ---
 
-Small calculator to determin the residual energy of a BB at a certain distance. It's meant to help you pick the right bullet weight for your area and verify observations made ingame. 
-As a general rule, a heavier BB will be more accurate and reach longer, but it will be slower in the relatively close distances, meaning you must balance what you want vs the area you play, the skill of the oponents and your playstyle.
+A small calculator to determine the residual energy of a BB at a certain distance. It's meant to help you pick the right bullet weight for your area and verify observations made ingame. 
+As a general rule, a heavier BB will be more accurate and reach longer, but it will be slower in the relatively close distances, meaning you must balance what you want vs. the area you play, the skill of the opponents and your playstyle.
 
 Compromises in the calculator:
 * Zero meters above sea level assumption
