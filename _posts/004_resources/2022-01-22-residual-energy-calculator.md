@@ -31,10 +31,10 @@ function calc() {
     var airdensity_kgm3 = 1.225
 	var radius_m = 0.003
     var crossection_m2 = 0.0000282743
-    speed_ms = math.sqrt(energy.value / (0.5 * weight_kg))
-    drag_ish = airdensity_kgm3 * crossection_m2 * dragcoefficient
-    speed_at_distance = speed_ms * math.exp(-(drag_ish / (weight_kg * 2) * distance_m))
-    energy_at_distance = 0.5 * weight_kg * speed_at_distance ** 2
+    var speed_ms = math.sqrt(energy.value / (0.5 * weight_kg))
+    var drag_ish = airdensity_kgm3 * crossection_m2 * dragcoefficient
+    var speed_at_distance = speed_ms * math.exp(-(drag_ish / (weight_kg * 2) * distance_m))
+    var energy_at_distance = 0.5 * weight_kg * speed_at_distance ** 2
 	
 	document.getElementById("total").value = energy_at_distance.toString();
 }
