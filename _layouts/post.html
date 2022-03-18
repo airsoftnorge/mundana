@@ -6,9 +6,9 @@ layout: default
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row">
-				<div class="col-md-12 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+				<div class="col-md-8 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
-					<div class="d-flex align-items-center">
+					<div class="d-flex">
                         {% if author.avatar %}
                         <img class="rounded" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
                         {% endif %}
@@ -21,15 +21,15 @@ layout: default
 							</span>
 						</small>
 					</div>
-
-				</div>
-                <!--
 				{% if page.image %}
-				<div class="col-md-6 align-self-center" style="padding-right:0px !important; ">
-					<img class="rounded" style="max-width:100%;" src="{{ site.github.url }}/{{ page.image }}">
+				<div class="col-md-4 " style="padding-right:0px !important; ">
+					<img class="rounded" style="text-align:right;max-width:100%;" src="{{ site.github.url }}/{{ page.image }}">
 				</div>
                 {% endif %}
-				-->
+				</div>
+                
+			
+				
 			</div>
 		</div>
 	</div>
