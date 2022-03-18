@@ -46,13 +46,13 @@ function calc() {
    <b> Variables </b> <br>
    <input type = "text"
       placeholder = "0.2"
-      id = "weight"> Weight in grams <br>
+      id = "weight"> Weight (Grams)<br>
    <input type = "text"
       placeholder = "0.9"
-      id = "energy"> Muzzle energy <br>
+      id = "energy"> Muzzle energy (Joule)<br>
    <input type = "text"
       placeholder = "30"
-      id = "distance"> Distance in meters <br>
+      id = "distance"> Distance (Meters)<br>
    <button type = "button"
       onclick = "javascript:calc();"> Calculate </button> <br>
    <b> Residual energy in joule at selected distance: </b> <br>
