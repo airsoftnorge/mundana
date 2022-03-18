@@ -33,7 +33,7 @@ function calc() {
     var crossection_m2 = 0.0000282743
     var speed_ms = Math.sqrt(energy.value / (0.5 * weight_kg))
     var drag_ish = airdensity_kgm3 * crossection_m2 * dragcoefficient
-    var speed_at_distance = speed_ms * Math.exp(-(drag_ish / (weight_kg * 2) * distance_m))
+    var speed_at_distance = speed_ms * Math.exp(-(drag_ish / (weight_kg * 2) * distanceValue))
     var energy_at_distance = 0.5 * weight_kg * speed_at_distance ** 2
 	
 	document.getElementById("total").value = energy_at_distance.toString();
