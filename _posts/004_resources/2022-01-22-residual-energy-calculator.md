@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BB residual energy calculator"
+title: "Residual energy at distance calculator"
 author: "adakar"
 categories: resources
 tags: [bb, velocity, energy, joule, residual]
