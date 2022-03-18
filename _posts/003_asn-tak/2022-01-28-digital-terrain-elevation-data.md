@@ -7,7 +7,7 @@ tags: [atak, tak, height, heatmap, elevation, dted, srtm]
 image: assets/images/elevation.png
 ---
 
-TAK clients can utilize [DTED](https://en.wikipedia.org/wiki/DTED) to give the user a visual representation of how the terrain will be, heatmap or 3d in the client, provide viewshed finding to avoid being seen and pathing options. 
+TAK clients, such as [wintak](../wintak) and [atak](../atak)can utilize [DTED](https://en.wikipedia.org/wiki/DTED) to give the user a visual representation of how the terrain will be, heatmap or 3d in the client, provide viewshed finding to avoid being seen and pathing options. 
 
 AirsoftNorge provides three [DTED](https://en.wikipedia.org/wiki/DTED) packages, one global low resolution one dted0, and a high resolution option for both Norway and Sweden. 
 
