@@ -43,11 +43,11 @@ layout: default
 		</div>
 		<!-- Tags -->
 		<div class="row col-md-12">
-			<div class="mb-4" style="padding-top:45px;">
+			<div class="mb-4" style="padding-top:55px;">
 				<span class="taglist" style="color:#817055;">
 					<div style="font-weight: bold;">Tags</div>
 					{% for tag in page.tags %}
-					<a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+					<a class="sscroll btn btn-light btn-sm font-weight-bold" style="color:#817055;" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
 					{% endfor %}
 				</span>
 			</div>
