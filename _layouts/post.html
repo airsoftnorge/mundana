@@ -43,19 +43,17 @@ layout: default
 		</div>
 		<!-- Tags -->
 		
-		{% if page.tags == ""  %}
-		<div class="row col-md-12">
-		{% else %}
 		<div class="row col-md-12">
 			<div class="mb-4" style="padding-top:45px;">
+			{% if page.tag == blank %}
 				<span class="taglist">
 					<div style="font-weight: bold;">Tags</div>
 					{% for tag in page.tags %}
 					<a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
 					{% endfor %}
 				</span>
+			{% endif %}
 			</div>
-		</div>
-		{% endif %}
+		</div>	
 	</div>
 </div>
