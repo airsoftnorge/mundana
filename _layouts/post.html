@@ -7,7 +7,8 @@ layout: default
       <div class="h-100 tofront">
          <div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
             <div class="col-md-8 pr-0 align-self-start">
-               <h1 class="display-4  barticle-headline">{{ page.title }}</h1>
+               <h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+			   <!--<h1 class="display-4  barticle-headline">{{ page.title }}</h1>-->
 				<p class="text-uppercase font-weight-bold">
                   <span class="catlist">
                   {% for category in page.categories %}
