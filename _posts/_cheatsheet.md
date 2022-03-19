@@ -13,7 +13,7 @@
 		<div>
 			CONTENT GOES HERE
 		</div>
-</details>
+	</details>
 
 
 <!-- Pathing -->
