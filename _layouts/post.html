@@ -22,11 +22,11 @@ layout: default
 						<!--<img style="border-radius: 0.25rem !important;" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>-->
 						<img alt="{{ author.name }}" src="{{site.baseurl}}/{{author.avatar}}" class="rounded" height="90" width="90">
 						{% endif %}
-						<a href="../authors">
-						<small class="ml-3 align-self-start"> {{ author.name }} <span></span>
+						
+						<small class="ml-3 align-self-start"> <a href="../authors">{{ author.name }}</a>
 						<span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
-						</a>
+						
 					</div>
 				</div>
 				<!--{% if page.image %}-->
