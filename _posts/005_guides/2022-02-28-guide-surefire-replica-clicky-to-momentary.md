@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guide: Modding a tailcap from clicky to momentary"
+title: "Guide: Modifying a surefire replica endcap to be momentary only"
 author: "adakar"
 categories: guides
 tags: [replica, surefire, sf, m600, m300, m300v, m600v]
@@ -9,7 +9,7 @@ image: assets/images/m300v.png
 
 This will teach you how to modify your surefire replica from a clicky to a momentary switch. You might have to do this multiple times to get the contacts aligned perfectly.
 
-Step 1: Disassemble the tailcap.
+Step 1: Disassemble the tailcap. 
 <div class="image-thumbnail">
 	<a href="https://user-images.githubusercontent.com/25975089/156904654-bded8bf5-65ac-451b-9594-20991d4e2f2f.png">
 		<img src="https://user-images.githubusercontent.com/25975089/156904654-bded8bf5-65ac-451b-9594-20991d4e2f2f.png" width="640"/>
