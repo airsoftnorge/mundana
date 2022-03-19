@@ -19,7 +19,7 @@ layout: default
 					</p>-->
 					<div class="d-flex align-items-center">
 						{% if author.avatar %}
-						<img class="rounded" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
+						<img style="border-radius: 0.25rem !important;" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
 						{% endif %}
 						<small class="ml-3"> {{ author.name }} <span></span>
 						<span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
