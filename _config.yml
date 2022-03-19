@@ -32,7 +32,7 @@ authors:
       
     adakar:
       name:           AdakaR
-      site:           https://www.airsoftnorge.com
+      #site:           https://www.airsoftnorge.com
       avatar:         /assets/graphics/avatars/avatar_flode.png
       bio:            "More than 15 years of experience in airsoft. Former member of Stor-Oslo Airsoftklubb (SOAK)."
       #github:         https://github.com/skadakar
@@ -40,7 +40,7 @@ authors:
       
     ulfhednar:
       name:           Ulfhednar
-      site:           https://www.airsoftnorge.com
+      #site:           https://www.airsoftnorge.com
       facebook:       https://www.facebook.com/ulfhednarmilsim
       avatar:         /assets/graphics/avatars/avatar_ulfhednar_grid.png
       bio:            "15 years of experience as an airsofter and collector of military equipment, with a proclivity for helmets, all things H&K and Ranger Green. Former member of Møre og Romsdal Airsoft. (MRA)."
