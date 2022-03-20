@@ -835,10 +835,13 @@ div.a2a_full_footer {display:none;}
 	 article {
 		 font-size:1.24rem;
 	 }
-	 /*
+	 
 	 .topfirstimage {
-		 height:360px !Important;
+		 max-width: 640px !important;
+		 max-height:360px !Important;
+		 width: 100%;
+		 height: 100%;
 	 }
-	 */
+	 
  }
  
