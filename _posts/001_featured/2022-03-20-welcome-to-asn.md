@@ -4,7 +4,7 @@ title: "Welcome to AirsoftNorge.com"
 author: "staff"
 categories: featured
 tags: [ASN, AirsoftNorge, AirsoftNorge.com]
-<!-- image: assets/graphics/asn-banner.png -->
+image: assets/graphics/asn-logo-v1.png
 ---
 
 
