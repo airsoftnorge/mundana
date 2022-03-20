@@ -2,8 +2,8 @@
 layout: post
 title: "Welcome to AirsoftNorge.com"
 author: "staff"
-categories: featured
-tags: [ASN, AirsoftNorge, Announcement]
+categories: announcements
+tags: [ASN, AirsoftNorge, Announcement, featured]
 image: assets/graphics/asn-logo-v1.png
 ---
 
