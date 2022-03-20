@@ -837,10 +837,8 @@ div.a2a_full_footer {display:none;}
 	 }
 	 
 	 .topfirstimage {
-		 max-width: 640px !important;
-		 max-height:360px !Important;
-		 width: 100% !important;
-		 height: 100% !important;
+		 height:360px !Important;
+		 width:640px !Important;
 	 }
 	 
  }
