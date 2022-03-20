@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Welcome to AirsoftNorge.com"
+title: "An Introduction to TAK"
 author: "staff"
-categories: announcements
-tags: [airsoftnorge, announcement, featured]
-image: assets/graphics/asn-logo-v1.png
+categories: tak
+tags: [asn-tak, atak, tak, featured]
+image: assets/graphics/ASN-PLACEHOLDER.png
 ---
 
 
