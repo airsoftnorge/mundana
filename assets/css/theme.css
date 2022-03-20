@@ -839,6 +839,7 @@ div.a2a_full_footer {display:none;}
 	 .topfirstimage {
 		 max-height:360px !Important;
 		 max-width:640px !Important;
+		 height: 360px !important;
 	 }
 	 
  }
