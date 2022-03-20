@@ -15,7 +15,7 @@ tags: [ASN, AirsoftNorge, AirsoftNorge.com]
 </div>
 
 
-**AirsoftNorge.com is a site dedicated to the dissemination of knowledge and information throughout the Norwegian airsoft community.**
+**AirsoftNorge.com is a site dedicated to the dissemination of knowledge and information for the Norwegian airsoft community.**
 
 <p>
 The online airsoft community in Norway currently exists as a widely dispersed array of facebook groups, discord channels and smaller club-specific websites and forums.<br>
