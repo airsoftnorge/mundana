@@ -18,8 +18,8 @@ description: "ASN"
 			<div class="card border-0 mb-4 box-shadow">   
 				<a href="{{site.baseurl}}{{latest_post.url}}">
 				<!--<div class="topfirstimage w-100 rounded" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %});  background-size: cover;    background-repeat: no-repeat;">-->
-				<img class="w-100" src="{% if first_post.image contains "://" %}{{ first_post.image }}{% else %}{{site.baseurl}}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
-			<!--</div>-->
+				<div><img class="w-100" src="{% if first_post.image contains "://" %}{{ first_post.image }}{% else %}{{site.baseurl}}/{{ first_post.image }}{% endif %}" alt="{{ first_post.title }}">
+			</div>
 			</a>
 			<div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
 				<h2 class="h4 font-weight-bold">
