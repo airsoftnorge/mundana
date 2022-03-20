@@ -12,7 +12,7 @@ image: assets/graphics/asn-logo-v1.png
 
 
 The online airsoft community in Norway currently exists as a widely dispersed array of facebook groups, discord channels and smaller club-specific websites and forums.<br>
-An unfortunate side effect of this, is that unlike the era of large centralized discussion boards, there no longer is a persistent knowledgebase people can look up to find answers to questions that the community has answered a million times over.
+An unfortunate side effect of this, is that unlike the era of large centralized discussion boards, there no longer is a persistent knowledgebase people can look up, to find answers to questions that the community has answered a million times over.
 
 Our hope is to change this, and turn ASN into the go-to site where the collective knowledge of the community can be documented and stored for anyone interested in the airsoft hobby.<br>
 In service of this, we have changed our publishing language to English, in the hopes that content on our site can also serve as a resources airsofters outside of Norway going forward.
