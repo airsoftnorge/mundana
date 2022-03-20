@@ -3,16 +3,9 @@ layout: post
 title: "Welcome to AirsoftNorge.com"
 author: "staff"
 categories: announcements
-tags: [ASN, AirsoftNorge, Announcement, featured]
+tags: [airsoftnorge, announcement, featured]
 image: assets/graphics/asn-logo-v1.png
 ---
-
-
-<!--<div class="image-thumbnail">
-	<a href="{{site.baseurl}}assets/graphics/asn-banner.png">
-		<img src="{{site.baseurl}}assets/graphics/asn-banner.png" width="640"/>
-	</a>
-	</div>-->
 
 
 **AirsoftNorge.com is a site dedicated to the dissemination of knowledge and information for the Norwegian airsoft community.**
@@ -25,7 +18,6 @@ Our hope is to change this, and turn ASN into the go-to site where the collectiv
 In service of this, we have changed our publishing language to English, in the hopes that content on our site can also serve as a resources airsofters outside of Norway going forward.
 
 On our site, you will find introductory [guides for newcomers]({{site.baseurl}}/beginners) to the airsoft hobby, guides and information on the [ASN-TAK]({{site.baseurl}}/tak) infrastructure we operate, [resources]({{site.baseurl}}/resources) like wiring diagrams for radio accessories, and a wide array of helpful instructional content and [guides]({{site.baseurl}}/guides).
-
 
 
 You can also find us
