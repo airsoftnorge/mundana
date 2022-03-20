@@ -36,7 +36,7 @@ You can also find us
 * <a href="https://discord.gg/gMegmXMAPN" target="_blank">On Discord</a><br>
 *Where we encourage you to engage in discussion with the rest of the community, and where we also accept suggestions and submissions for future content on the site*
 
-* <a href="https://www.youtube.com/channel/UC0jdeJCXXosXPuwOcTH1MAA" target="_blank">On YouTube</a>)<br>
+* <a href="https://www.youtube.com/channel/UC0jdeJCXXosXPuwOcTH1MAA" target="_blank">On YouTube</a><br>
 *Where we will upload instructional content*
 
 Additionally, we can also be reached <a href="mailto:staff.airsoftnorge@gmail.com" target="_blank">by email</a>, should you wish to contact us in private.
