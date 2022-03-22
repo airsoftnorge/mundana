@@ -4,7 +4,7 @@ title: "A picture guide to Telemark Battalion 2014-2018 impressions"
 author: "ulfhednar"
 categories: guides
 tags: [guide, tmbn, norwegian army, impression]
-image: assets/graphics/ASN-PLACEHOLDER.png
+image: assets/images/005_guides/2022-03-22-tmbn-picture-guide/2022-03-22-tmbn-picture-guide.png
 ---
 
 
