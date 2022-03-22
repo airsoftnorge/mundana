@@ -8,8 +8,8 @@ image: assets/images/005_guides/2022-03-22-tmbn-picture-guide/2022-03-22-tmbn-pi
 ---
 
 
-The intention of this short picture guide, is to give a general broad-strokes impression of the equipment used by the Telemark Battalion of the Norweian Army during the 2015 to 2018 period.<br>
-It is in no way complete, but gives a good overview over the gear issued to the battalion, and in large part excludes privately purchased items.
+The intention of this short picture guide, is to give a general broad-strokes impression of the equipment used by the Telemark Battalion of the Norwegian Army during the 2014 to 2018 period.<br>
+It is in no way complete, but gives a good overview over the gear issued to the battalion - and in large part excludes privately purchased items, since they are usually one-offs, and make a poor basis for an impression.
 
 
 * 2014 - Exercise Noble Ledger - Hedmark, Norway
