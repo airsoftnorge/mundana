@@ -16,8 +16,8 @@ You will at any time find the most recent version of ATAK on <a href="https://pl
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}assets\images\003_asn-tak\2022-03-20-introduction-to-tak\ATAK_guide_016.png">
-		<img src="{{site.baseurl}}assets\images\003_asn-tak\2022-03-20-introduction-to-tak\ATAK_guide_016.png" width="640"/>
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_016.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_016.png" width="640"/>
 	</a>
 </div>
 
