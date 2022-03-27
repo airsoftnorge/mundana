@@ -2,7 +2,7 @@
 layout: post
 title: "An introduction to TAK Tracker"
 author: "staff"
-categories: [tak]
+categories: tak
 tags: [asn-tak, tak tracker, tak]
 image: assets\images\003_asn-tak\2022-03-20-introduction-to-tak/ATAK_guide_016.png
 ---
