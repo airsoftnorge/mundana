@@ -33,3 +33,117 @@ Instead, while experimenting or familiarizing yourself with the app, keep Locati
 Another option is to use an Android emulator for PC (we have used <a href="https://www.bluestacks.com" target="_blank">Bluestacks</a> for this purpose in the past - which without GPS hardware will not give away your accurate location (*but may give the location of an ISP node near you*).
 
 
+With that out of the way, this is how you install and set up ATAK-Civ for use with ASN-TAK:
+
+* To install the app, follow this link: <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">Google Play Store: ATAK-Civ</a>, or search for ATAK on the Google Play Store.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_001.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_001.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_002.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_002.png" width="640"/>
+	</a>
+</div>
+
+
+
+* Open the app, *read* the EULA, and approve the barrage of Android OS permission requests ATAK requires to operate.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_003.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_003.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_004.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_004.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_005.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_005.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_006.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_006.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_007.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_007.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_008.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_008.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_009.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_009.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_010.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_010.png" width="640"/>
+	</a>
+</div>
+
+
+
+* Once you get to this point, you have to make sure to allow ATAK to use your GPS even when running in the background.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_011.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_011.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_012.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_012.png" width="640"/>
+	</a>
+</div>
+
+
+
+* You also have to allow ATAK to use your precise location.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_013.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_013.png" width="640"/>
+	</a>
+</div>
+
+
+
+* Finally you will have to allow ATAK access to all files in Android settings.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_014.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_014.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_015.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_015.png" width="640"/>
+	</a>
+</div>
+
+
+
+* At this point, the ATAK app will begin loading, and you're ready to start configuring it for use with ASN-TAK.
+
