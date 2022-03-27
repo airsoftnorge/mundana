@@ -160,3 +160,145 @@ With that out of the way, this is how you install and set up ATAK-Civ for use wi
 		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_016.png" width="640"/>
 	</a>
 </div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_017.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_017.png" width="640"/>
+	</a>
+</div>
+
+
+
+* As *TAK Device Setup* pops up, we start with establishing your Callsign Identity.
+Your callsign identity consists of your individual callsign, a team color (the display color for your map marker), and your team role.
+All of these can easily be changed from the Settings menu later as your needs change.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_018.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_018.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_019.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_019.png" width="640"/>
+	</a>
+</div>
+
+
+
+* Next, back on the *TAK Device Setup* menu, select the *Data Package option, then *Local SD*, and navigate to the folder you saved the data packages to.
+This is where we import the data packages you downloaded at the beginning of this guide.
+Adding the <a href="https://github.com/airsoftnorge/taksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> is strictly necessary at this point, but you can also add the Digital Elevation Data packages at the same time.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_018.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_018.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_020.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_020.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_021.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_021.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_022.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_022.png" width="640"/>
+	</a>
+</div>
+
+
+
+* Finally, you have to disable Android OS battery optimization for the ATAK app, to allow it to function correctly while running in the background.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_023.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_023.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_024.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_024.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_025.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_025.png" width="640"/>
+	</a>
+</div>
+
+
+
+* You've finished the initial setup of ATAK, and can now connect to the ASN-TAK server of your choice.
+Press the top right toolbar icon to open the *ATAK Menu*, navigate to *Settings*.
+Once in the *Settings Menu*, select *TAK Servers*, and connect to the ASN-TAK server of your choice by checking the box on the right side.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_037.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_037.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_038.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_038.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_039.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_039.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_040.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_040.png" width="640"/>
+	</a>
+</div>
+
+
+
+* You are now set up, connected to ASN-TAK, and can begin experimenting the features of ATAK at your leisure.
+Currently, the ASN-TAK Configuration Package includes several maps, including a topographical map of Norway by Kartverket, a Google Maps/Satellite Photo hybrid map, and a pure ESRI satellite map by ArcGIS.
+In addition to this, you can manually add other maps at any time.
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_026.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_026.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_027.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_027.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_028.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_028.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_029.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_029.png" width="640"/>
+	</a>
+</div>
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_030.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_030.png" width="640"/>
+	</a>
+</div>
