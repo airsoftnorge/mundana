@@ -20,7 +20,7 @@ You will at any time find the most recent version of ATAK on <a href="https://pl
 * Unless you turn on location Services before opening the app, your position will be displayed to other users on the server immediately upon launching the app
 * Turning off location Services after opening app, will leave a marker displaying the location where Location Services were turned off.
 
-*With this in mind, we highly recommend that you do not use the ATAK app with Lcation Services activated, while located in or around your home, or your workplace.*
+***With this in mind, we highly recommend that you do not use the ATAK app with Lcation Services activated, while located in or around your home, or your workplace.***<br>
 Instead, while experimenting or familiarizing yourself with the app, keep Location Services turned off - and ensure that you close the app properly before turning them back on.
 Another option is to use an Android emulator for PC (we have used <a href="https://www.bluestacks.com" target="_blank">Bluestacks</a> for this purpose in the past - which without GPS hardware will not give away your accurate location (*but may give the location of an ISP node near you*).
 
