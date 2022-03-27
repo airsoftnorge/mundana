@@ -42,8 +42,7 @@ With that out of the way, this is how you install and set up ATAK-Civ for use wi
 	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> (optional)
 	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> (optional)<br>
 <br>
-<br>
-<br>
+
 * To install the app, follow this link: <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">Google Play Store: ATAK-Civ</a>, or search for ATAK on the Google Play Store.
 
 <div class="image-thumbnail">
