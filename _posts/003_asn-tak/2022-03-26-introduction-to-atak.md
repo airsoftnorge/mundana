@@ -2,7 +2,7 @@
 layout: post
 title: "An Introduction to ATAK"
 author: "staff"
-categories: tak
+categories: [tak, guides]
 tags: [asn-tak, atak, tak, featured]
 image: assets\images\003_asn-tak\2022-03-20-introduction-to-tak\ASN-TAK_01.png
 ---
@@ -13,6 +13,14 @@ To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge
 
 In this article, we will cover the installation and initial setup of TAK on the android platform for use with our ASN-TAK servers.
 You will at any time find the most recent version of ATAK on <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">the Google Play Store</a>
+
+
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets\images\003_asn-tak\2022-03-20-introduction-to-tak\ATAK_guide_016.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak\2022-03-20-introduction-to-tak\ATAK_guide_016.png" width="640"/>
+	</a>
+</div>
+
 
 **That being said, before installation, there are a few things you should consider with privacy in mind:**
 * ATAK uses the GPS/Location Services of your device to display your current geographic location, with a high degree of accuracy.
