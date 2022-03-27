@@ -147,3 +147,8 @@ With that out of the way, this is how you install and set up ATAK-Civ for use wi
 
 * At this point, the ATAK app will begin loading, and you're ready to start configuring it for use with ASN-TAK.
 
+<div class="image-thumbnail">
+	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_016.png">
+		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_016.png" width="640"/>
+	</a>
+</div>
