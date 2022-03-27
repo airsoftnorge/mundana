@@ -15,9 +15,9 @@ In this article, we will cover the installation and initial setup of TAK on the 
 You will at any time find the most recent version of ATAK on <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">the Google Play Store</a>
 
 **That being said, before installation, there are a few things you should consider with privacy in mind:**
-* ATAK uses the GPS/Location Services of your device to display your current geographic location, with a high degree of accuracy
-* This location is visible to anyone else connected to the same server(s)
-* Unless you turn on location Services before opening the app, your position will be displayed to other users on the server immediately upon launching the app
+* ATAK uses the GPS/Location Services of your device to display your current geographic location, with a high degree of accuracy.
+* This location is visible to anyone else connected to the same server(s).
+* Unless you turn on location Services before opening the app, your position will be displayed to other users on the server immediately upon launching the app.
 * Turning off location Services after opening app, will leave a marker displaying the location where Location Services were turned off.
 
 ***With this in mind, we highly recommend that you do not use the ATAK app with Location Services activated, while located in or around your home, or your workplace.***<br>
