@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to modify a replica Surefire tailcap to momentary-on
+title: "How to modify a replica Surefire tailcap to momentary-on"
 author: "adakar"
 categories: guides
 tags: [surefire, tailcap, modification, how to]
