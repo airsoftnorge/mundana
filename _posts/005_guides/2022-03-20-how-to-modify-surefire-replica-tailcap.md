@@ -20,7 +20,7 @@ This short guide will teach you how to modify your surefire replica from a *bina
 
 
 
-*Step 2: Remove the switch assembly
+* Step 2: Remove the switch assembly
 
 <div class="image-thumbnail">
 	<a href="https://user-images.githubusercontent.com/25975089/156904657-76d332c8-0190-49e8-adc6-eb15cfb8c98e.png">
@@ -49,7 +49,8 @@ This short guide will teach you how to modify your surefire replica from a *bina
 
 
 
-Here are all the components:
+Here are the disassembled components:
+
 <div class="image-thumbnail">
 	<a href="https://user-images.githubusercontent.com/25975089/156904711-747872d7-c373-4026-bb55-ca4a79237266.png">
 		<img src="https://user-images.githubusercontent.com/25975089/156904711-747872d7-c373-4026-bb55-ca4a79237266.png" width="640"/>
