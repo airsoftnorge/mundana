@@ -4,7 +4,7 @@ title: "How to modify a replica Surefire tailcap to momentary-on
 author: "adakar"
 categories: guides
 tags: [surefire, tailcap, modification, how to]
-image: assets/images/guides/2022-02-28-how-to-modify-surefire-replica-tailcap/m300v.png
+image: assets/images/guides/2022-03-20-how-to-modify-surefire-replica-tailcap/m300v.png
 ---
 
 This short guide will teach you how to modify your surefire replica from a *binary on/off* to a *momentary-on* switch. Aligning the contacts properly is a bit tricky, and might require multiple attempts.
