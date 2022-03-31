@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guide: Programming the TCA PRC 148"
+title: "How to program the TCA PRC 148"
 author: "adakar"
 categories: guides
 tags: [guide, tca, 148, mbitr]
