@@ -7,7 +7,7 @@ tags: [guide, tca, 148, mbitr]
 image: assets/images/005_guides/2022-03-20-guide-program-tca-148/tca148programming.png
 ---
 
-This guide assumes you have both a functional programming cable and access to the TCA-148 software. 
+#### This guide assumes you have both a functional programming cable and access to the TCA-148 software. 
 Both can be found [here](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?ParentId=1324666353492015337%C2%A4tPage=1&editCurrentLanguage=1213907847692&webId=1213907847691&productId=1643131950020709686).
 Inquire about the software on discord if you have a cable but no software.
 
