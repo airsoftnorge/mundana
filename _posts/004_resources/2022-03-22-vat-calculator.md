@@ -4,7 +4,7 @@ title: "VAT Calculator"
 author: "adakar"
 categories: resources
 tags: [moms, toll, fortolling, vat, value added tax, tax]
-image: assets/images/toll.png
+image: assets/images/004_resources/mva.png
 ---
 
 In Norway, everything you buy is taxed by a 25% value added tax (VAT). This is usually baked into the price in Norway, making it functionally invisible. 
