@@ -4,7 +4,7 @@ title: "Residual energy at distance calculator"
 author: "adakar"
 categories: resources
 tags: [bb, velocity, energy, joule, residual]
-image: assets/images/math.png
+image: assets/images/004_resources/bbcalc.png
 ---
 
 This calculator helps determine the residual energy of a BB at a certain distance. It's meant to help you pick the right bullet weight for your area and verify observations made in-game. 
