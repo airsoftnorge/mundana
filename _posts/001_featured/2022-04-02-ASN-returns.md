@@ -16,7 +16,7 @@ After just shy of two months, we are finally back - with a new look and new form
 
 AirsoftNorge first went live on November 29th, 2018 - with a stated goal to become a hub of knowledge and discussion for the Norwegian airsoft community, in a format where knowledge would be preserved for posterity, as opposed to the fleeting nature of Facebook groups and discord servers.
 Through steady growth over three years, we had a relatively small, but dedicated userbase who consistently posted high quality content on our forums, as well as a steady influx of new users, many of which were entirely new to the airsoft hobby.
-Then, in early February of this year, a change made by an external software vendor permanently bricked the AirsoftNorge forums. Our time was initially spent on troubleshooting, and although we managed to recover the forum's database in mostly intact condition, it became clear we would have to rebuilt everything from scratch - or come up with something new.
+Then, in early February of this year, a change made by an external software vendor permanently bricked the AirsoftNorge Forums. Our time was initially spent on troubleshooting, and although we managed to recover the forum's database in mostly intact condition, it became clear we would have to rebuild everything from scratch - or come up with something new.
 
 <div class="image-thumbnail">
 	<a href="{{site.baseurl}}assets/images/001_featured/ASN-phpbb.jpg">
