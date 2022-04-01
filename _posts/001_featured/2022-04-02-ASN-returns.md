@@ -3,7 +3,7 @@ layout: post
 title: "AirsoftNorge is back!"
 author: "staff"
 categories: announcements
-tags: [airsoftnorge, announcement, featured, asn]
+tags: [airsoftnorge, announcement, featured]
 image: assets/images/001_featured/ASN-launch.png
 ---
 
