@@ -24,7 +24,7 @@ Inquire about the software on discord if you have a cable but no software.
 
 * Once downloaded select Save as and save it as a backup.
 
-* Adjust it to match the following, you can reference the [PMR16 channels](446-channels) chart.
+* Adjust it to match the following, you can reference the [PMR16 channels](../PMR446-channels) chart.
 
 ![image](https://user-images.githubusercontent.com/25975089/153642027-7ac4564c-b29b-435a-9525-15bb0f20fbf0.png)
 
