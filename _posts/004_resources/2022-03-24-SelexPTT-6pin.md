@@ -12,21 +12,21 @@ image: assets/images/004_resources/U-229-Selex5pinPTT_02.png
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assetss/images/004_resources/U-229-Selex5pinPTT.png">
-		<img src="{{site.baseurl}}/assetss/images/004_resources/U-229-Selex5pinPTT.png" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/004_resources/U-229-Selex5pinPTT.png">
+		<img src="{{site.baseurl}}/assets/images/004_resources/U-229-Selex5pinPTT.png" width="640"/>
 	</a>
 </div>
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assetss/images/004_resources/U-229-Selex5pinPTT_02.png">
-		<img src="{{site.baseurl}}/assetss/images/004_resources/U-229-Selex5pinPTT_02.png" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/004_resources/U-229-Selex5pinPTT_02.png">
+		<img src="{{site.baseurl}}/assets/images/004_resources/U-229-Selex5pinPTT_02.png" width="640"/>
 	</a>
 </div>
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assetss/images/004_resources/U-229-Selex5pinPTT_03.png">
-		<img src="{{site.baseurl}}/assetss/images/004_resources/U-229-Selex5pinPTT_03.png" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/004_resources/U-229-Selex5pinPTT_03.png">
+		<img src="{{site.baseurl}}/assets/images/004_resources/U-229-Selex5pinPTT_03.png" width="640"/>
 	</a>
 </div>

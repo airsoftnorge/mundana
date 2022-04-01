@@ -39,8 +39,8 @@ These two produce the same result:
 <!-- Image with zoom -->
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/PeltorWiring.png">
-		<img src="{{site.baseurl}}/assets/images/PeltorWiring.png" width="640"/>
+	<a href="{{site.baseurl}}/asset/images/PeltorWiring.png">
+		<img src="{{site.baseurl}}/asset/images/PeltorWiring.png" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>

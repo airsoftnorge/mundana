@@ -14,21 +14,21 @@ This article will be updated as soon as we find further informaretion on the sub
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assetss/images/004_resources/PAM17FM1-Selex5pinPTT.png">
-		<img src="{{site.baseurl}}/assetss/images/004_resources/PAM17FM1-Selex5pinPTT.png" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/004_resources/PAM17FM1-Selex5pinPTT.png">
+		<img src="{{site.baseurl}}/assets/images/004_resources/PAM17FM1-Selex5pinPTT.png" width="640"/>
 	</a>
 </div>
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assetss/images/004_resources/PAM17FM1-Selex5pinPTT_02.png">
-		<img src="{{site.baseurl}}/assetss/images/004_resources/PAM17FM1-Selex5pinPTT_02.png" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/004_resources/PAM17FM1-Selex5pinPTT_02.png">
+		<img src="{{site.baseurl}}/assets/images/004_resources/PAM17FM1-Selex5pinPTT_02.png" width="640"/>
 	</a>
 </div>
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assetss/images/004_resources/PAM17FM1-Selex5pinPTT_03.png">
-		<img src="{{site.baseurl}}/assetss/images/004_resources/PAM17FM1-Selex5pinPTT_03.png" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/004_resources/PAM17FM1-Selex5pinPTT_03.png">
+		<img src="{{site.baseurl}}/assets/images/004_resources/PAM17FM1-Selex5pinPTT_03.png" width="640"/>
 	</a>
 </div>
