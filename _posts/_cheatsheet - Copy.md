@@ -4,7 +4,7 @@ title: "cheatsheet"
 author: "staff"
 categories: test
 tags: [cheatsheet]
-image: assets/images/test.jpg
+image: /assets/images/test.jpg
 ---
 
 <!-- Styling -->
@@ -48,8 +48,8 @@ image: assets/images/test.jpg
 	<!-- Image with zoom -->
 
 	<div class="image-thumbnail">
-		<a href="{{site.baseurl}}assets/images/PeltorWiring.png">
-			<img src="{{site.baseurl}}assets/images/PeltorWiring.png" width="640"/>
+		<a href="{{site.baseurl}}/assets/images/PeltorWiring.png">
+			<img src="{{site.baseurl}}/assets/images/PeltorWiring.png" width="640"/>
 			<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 		</a>
 	</div>
