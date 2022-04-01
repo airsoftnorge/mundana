@@ -26,6 +26,6 @@ These are the purchases that are recommended to do *in order*. Consult discord i
 * High quality shoes, preferably with some amount of ankle support. Hiking shoes work great.
 * A uniform that you like. If you've already made some friends, or play with friends - matching uniforms will have you play on the same team. If you don't like uniforms any hiking gear will also work fine.
 * A load bearing vest or chest rig for carrying magasines, water, spare batteries and other essentials. It's wise to avoid expensive armor carriers at first.
-* A programmable radio on the [PMR446](446-channels) net.
+* A programmable radio on the [PMR446](../PMR446-channels) net.
 * A headset and push-to-talk switch compatible with your radio.
 
