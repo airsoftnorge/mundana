@@ -3,7 +3,7 @@ layout: post
 title: "Wiring Diagram: Selex 5-pin PTT to "
 author: "ulfhednar"
 categories: resources
-tags: [radio, Selex, quick disconnect, LEMO 5-pin, Bernier PAM 17FM1]
+tags: [radio, Selex, LEMO 5-pin, Bernier PAM 17FM1]
 image: assets/images/004_resources/PAM17FM1-Selex5pinPTT_02.png
 ---
 
