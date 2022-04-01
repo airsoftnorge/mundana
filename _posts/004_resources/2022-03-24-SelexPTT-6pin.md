@@ -3,7 +3,7 @@ layout: post
 title: "Wiring Diagram: Selex 5-pin PTT to NATO 6-pin"
 author: "ulfhednar"
 categories: resources
-tags: [radio, invisio, v60, quick disconnect, LEMO 5-pin, Nexus U-229]
+tags: [radio, Selex, LEMO 5-pin, Nexus U-229]
 image: assets/images/004_resources/U-229-Selex5pinPTT_02.png
 ---
 
