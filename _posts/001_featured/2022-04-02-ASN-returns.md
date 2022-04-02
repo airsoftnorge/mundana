@@ -32,24 +32,24 @@ Although we were overall very happy with the kind of discussion the ASN Forums f
 
 
 
-* AirsoftNorge.com<br>
+* **AirsoftNorge.com**<br>
 Our intention for the ASN site, is to function as a permanent repository for the combined knowledge of the Norwegian airsoft community.
 Rather than a forum consisting strictly of user generated content, the ASN site will be a more curated collection of articles, based on suggestions from the community - and we hope to recruit more contributors/writers to the site from the community over time.
 
-* AirsoftNorge on Discord<br>
+* **AirsoftNorge on Discord**<br>
 To facilitate the kind of discussion we're used to from the ASN Forums, but with a significantly reduced barrier to entry, we have chosen to establish a Discord server to serve as a supplement to the main ASN site.
 In addition to general airsoft discussion, sales/trades and sharing of pictures and videos - the Discord server will be the main source where we take suggestions from the community on what content you'd like to see on the site in the future.
 
 You can join our Discord server here: <a href="https://discord.gg/gMegmXMAPN" target="_blank">AirsoftNorge.com @ Discord</a>
 
-* AirsoftNorge on Facebook<br>
+* **AirsoftNorge on Facebook**<br>
 
 The main purpose of our Facebook page, in addition to being a port of entry for new users, will be to keep you up to date with any behind the scenes work that may result in outages or other issues with our site, Discord server or other infrastructure.
 Additionally, we may also periodically share articles from the main ASN site to allow them to reach a wider audience.
 
 You can follow our Facebook page here: <a href="https://www.facebook.com/AirsoftNorge" target="_blank">AirsoftNorge.com @ Facebook</a>
 
-* AirsoftNorge on YouTube<br>
+* **AirsoftNorge on YouTube**<br>
 
 Our youtube channel currently exists entirely to feature instructional content, tutorials and how-to guides as a supplement to the main ASN site.
 Beyond that, we are open to suggestions from the community for what other kinds of video content you would like to see from us in the future.
