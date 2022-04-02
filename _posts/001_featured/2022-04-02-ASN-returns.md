@@ -8,7 +8,7 @@ image: assets/images/001_featured/ASN-launch.png
 ---
 
 
-####AirsoftNorge.com has returned!
+#### AirsoftNorge.com has returned!
 
 After just shy of two months, we are finally back - with a new look and new format - and the intention of providing the same high level content you came to expect from our previous ASN Forum.
 
