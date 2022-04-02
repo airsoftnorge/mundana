@@ -25,7 +25,7 @@ You can also find us
 * <a href="https://www.facebook.com/AirsoftNorge" target="_blank">On Facebook</a><br>
 *Where we will post news and announcements from AirsoftNorge*
 
-* <a href="https://discord.gg/gMegmXMAPN" target="_blank">On Discord</a><br>
+* <a href="https://discord.gg/eQafMF6PGQ" target="_blank">On Discord</a><br>
 *Where we encourage you to engage in discussion with the rest of the community, and where we also accept suggestions and submissions for future content on the site*
 
 * <a href="https://www.youtube.com/channel/UC0jdeJCXXosXPuwOcTH1MAA" target="_blank">On YouTube</a><br>

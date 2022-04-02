@@ -40,7 +40,7 @@ Rather than a forum consisting strictly of user generated content, the ASN site 
 To facilitate the kind of discussion we're used to from the ASN Forums, but with a significantly reduced barrier to entry, we have chosen to establish a Discord server to serve as a supplement to the main ASN site.
 In addition to general airsoft discussion, sales/trades and sharing of pictures and videos - the Discord server will be the main source where we take suggestions from the community on what content you'd like to see on the site in the future.
 
-You can join our Discord server here: <a href="https://discord.gg/gMegmXMAPN" target="_blank">AirsoftNorge.com @ Discord</a>
+You can join our Discord server here: <a href="https://discord.gg/eQafMF6PGQ" target="_blank">AirsoftNorge.com @ Discord</a>
 
 * **AirsoftNorge on Facebook**<br>
 
