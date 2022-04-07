@@ -12,7 +12,8 @@ For the purposes of airsoft, the <a href="https://en.wikipedia.org/wiki/Android_
 To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge has set up the ASN-TAK infrastructure, consisting of three dedicated TAK servers for public use by airsofters across Norway.
 
 In this article, we will cover the installation and initial setup of WinTAK on the windows platform for use with our ASN-TAK servers.
-WinTAK is only available through <a href="https://www.tak.gov" target="_blank">tak.gov</a>, which requires registration. 
+
+### WinTAK is only available through <a href="https://www.tak.gov" target="_blank">tak.gov</a>, which requires registration. 
 
 
 **That being said, before installation, there are a few things you should consider with privacy in mind:**
