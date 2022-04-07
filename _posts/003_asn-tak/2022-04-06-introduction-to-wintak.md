@@ -13,7 +13,6 @@ To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge
 
 In this article, we will cover the installation and initial setup of WinTAK on the windows platform for use with our ASN-TAK servers.
 
-#### WinTAK is only available through <a href="https://www.tak.gov" target="_blank">tak.gov</a>, which requires registration. 
 
 
 **That being said, before installation, there are a few things you should consider with privacy in mind:**
@@ -25,8 +24,9 @@ With that out of the way, this is how you install and set up WinTAK-Civ for use 
 
 Note: WinTAK requires your Windows installation to have English as the display language.
 
+* Download WinTAK from [TAK.gov](https://tak.gov) (Registration required)
 
-* First, download the following files and save them to your computer:
+* Second, download the following files and save them to your computer:
 
 	* <a href="https://github.com/airsoftnorge/wintaksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Certificate package for WinTAK</a> (Required to connect to ASN-TAK servers)
 	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> (optional)
