@@ -26,7 +26,7 @@ Note: WinTAK requires your Windows installation to have English as the display l
 
 * Download WinTAK from [TAK.gov](https://tak.gov) (Registration required)
 
-* Second, download the following files and save them to your computer:
+* Download the following files and save them to your computer:
 
 	* <a href="https://github.com/airsoftnorge/wintaksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Certificate package for WinTAK</a> (Required to connect to ASN-TAK servers)
 	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> (optional)
