@@ -3,7 +3,7 @@ layout: post
 title: "An Introduction to WinTAK"
 author: "staff"
 categories: [tak, guides]
-tags: [asn-tak, wintak, tak,]
+tags: [asn-tak, wintak, tak]
 image: assets\images\003_asn-tak\2022-04-06-introduction-to-wintak\WINTAK_001.png
 ---
 
