@@ -37,7 +37,7 @@ With that out of the way, this is how you install and set up ATAK-Civ for use wi
 
 * First, download the following files and save them to your device's SD-card or internal storage:
 
-	* <a href="https://github.com/airsoftnorge/taksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> (Required to connect to ASN-TAK servers)
+	* <a href="https://github.com/airsoftnorge/ataksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> (Required to connect to ASN-TAK servers)
 	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> (optional)
 	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> (optional)
 	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> (optional)<br>
@@ -189,7 +189,7 @@ All of these can easily be changed from the Settings menu later as your needs ch
 
 * Next, back on the *TAK Device Setup* menu, select the *Data Package option, then *Local SD*, and navigate to the folder you saved the data packages to.
 This is where we import the data packages you downloaded at the beginning of this guide.
-Adding the <a href="https://github.com/airsoftnorge/taksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> is strictly necessary at this point, but you can also add the Digital Elevation Data packages at the same time.
+Adding the <a href="https://github.com/airsoftnorge/ataksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> is strictly necessary at this point, but you can also add the Digital Elevation Data packages at the same time.
 
 <div class="image-thumbnail">
 	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-20-introduction-to-tak/ATAK_guide_018.png">
