@@ -9,7 +9,10 @@ image: assets/images/002_beginners/2022-03-19-before-you-buy/beforeyoubuy.png
 
 #### Self awareness
 As a new player you do not yet have the information needed to discern good advise from stores trying to exploit your lack of knowledge. Therefore we strongly urge you to try airsoft out a bit before you buy anything. 
+
 Try as many guns as possible to see if something stands out, and be aware that all airsoft guns are terrible and airsoft-youtube consists mostly of advertisements, and people giving only their first impressions of a system, without having extended experience with it.
+
+Test glasses/goggles for fit to avoid expensive protective equiptment that does not fit.
 
 Sniper rifles in airsoft is not as portrayed on the internet. For most people, the minimum engagement distances, combined with the lack of skill will make it a horrible route for a new player. 
 Any somewhat organized opponent will run you down real fast. It's better to start out without restrictions and rather go down this route once you're more experienced. 
