@@ -9,6 +9,7 @@ image: assets\images\003_asn-tak\2022-03-29-atak-setup\ASN-TAK_01.png
 
 Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
 
+#### Setting up ATAK for ASN-TAK
 
 * Download the following files and save them to your device's SD-card or internal storage:
 
