@@ -2,8 +2,8 @@
 layout: post
 title: "ASN-TAK introduction and privacy"
 author: "staff"
-categories: [tak, guides]
-tags: [asn-tak, atak, tak, featured]
+categories: [tak]
+tags: [asn-tak, atak, tak]
 image: assets\images\003_asn-tak\2022-03-19-introduction-to-tak\ASN-TAK.png
 ---
 
