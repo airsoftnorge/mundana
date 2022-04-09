@@ -7,7 +7,7 @@ tags: [asn-tak, wintak, tak]
 image: assets/images/003_asn-tak/2022-04-06-wintak-setup/WINTAK_001.png
 ---
 
-Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
 
 Note: WinTAK requires your Windows installation to have English as the display language.
 

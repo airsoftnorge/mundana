@@ -7,7 +7,7 @@ tags: [asn-tak, atak, tak, featured]
 image: assets\images\003_asn-tak\2022-03-29-atak-setup\ASN-TAK_01.png
 ---
 
-Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
 
 
 * Download the following files and save them to your device's SD-card or internal storage:

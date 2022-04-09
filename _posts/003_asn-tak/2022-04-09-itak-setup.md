@@ -7,7 +7,7 @@ tags: [asn-tak, itak, tak, featured]
 image: assets/images/003_asn-tak/2022-04-09-itak-setup/itak.png
 ---
 
-Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
 
 * Download [ITAK](https://apps.apple.com/us/app/itak/id1561656396) from the Apple app store.
 * Download the server configurations.

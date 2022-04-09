@@ -7,7 +7,7 @@ tags: [asn-tak, tak tracker, tak]
 image: assets/images/003_asn-tak/2022-03-24-tak-tracker-setup/1.png
 ---
 
-Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
 
 
 <a href="https://play.google.com/store/apps/details?id=gov.tak.taktracker&hl=en&gl=US" target="_blank">TAK Tracker</a> is a less resource intensive app that allows you to passively feed location data into a TAK network of your choosing.
