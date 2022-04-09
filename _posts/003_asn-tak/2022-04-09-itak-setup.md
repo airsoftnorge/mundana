@@ -26,7 +26,7 @@ Repeat for each server.
 
 <br>
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif">
-		<img src="{{site.baseurl}}assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif" width="640"/>
+	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif">
+		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif" width="640"/>
 	</a>
 </div>
