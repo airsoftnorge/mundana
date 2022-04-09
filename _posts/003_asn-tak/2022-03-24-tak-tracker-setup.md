@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "An introduction to TAK Tracker"
+title: "TAK tracker setup guide"
 author: "staff"
 categories: tak
 tags: [asn-tak, tak tracker, tak]
 image: assets\images\003_asn-tak\2022-03-20-introduction-to-tak/ATAK_guide_016.png
 ---
+
+Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}asn-tak-overview).
 
 
 <a href="https://play.google.com/store/apps/details?id=gov.tak.taktracker&hl=en&gl=US" target="_blank">TAK Tracker</a> is a less resource intensive app that allows you to passively feed location data into a TAK network of your choosing.
