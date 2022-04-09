@@ -25,12 +25,12 @@ TAK comes in 3 main flavors that is relevant for airsoft, but have a different o
 
 
 #### Privacy concerns
-* WinTAK, ITAK and ATAK uses the GPS/Location Services of your device to display your current geographic location, with a high degree of accuracy.
+* All TAK products use the GPS/Location Services of your device to display your current geographic location, with a high degree of accuracy.
 * This location is visible to anyone else connected to the same server(s).
 * Unless you turn on location Services before opening the app, your position will be displayed to other users on the server immediately upon launching the app.
 * Turning off location Services after opening app, will leave a marker displaying the location where Location Services were turned off.
 
 **With this in mind, we highly recommend that you do not use any TAK app with Location Services activated, while located in or around your home, or your workplace.**<br>
 
-Instead, while experimenting or familiarizing yourself with the app, keep Location Services turned off - and ensure that you close the app properly before turning them back on.
+While experimenting or familiarizing yourself with the app, keep Location Services turned off - and ensure that you close the app properly before turning them back on.
 Another option is to use an Android emulator for PC (we have used <a href="https://www.bluestacks.com" target="_blank">Bluestacks</a> for this purpose in the past - which without GPS hardware will not give away your accurate location (*but may give the location of an ISP node near you*).

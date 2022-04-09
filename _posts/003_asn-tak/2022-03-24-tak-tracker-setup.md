@@ -4,7 +4,7 @@ title: "TAK tracker setup guide"
 author: "staff"
 categories: tak
 tags: [asn-tak, tak tracker, tak]
-image: assets\images\003_asn-tak\2022-03-20-introduction-to-tak/ATAK_guide_016.png
+image: assets/images/003_asn-tak/2022-03-24-tak-tracker-setup/1.png
 ---
 
 Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}/asn-tak-overview).
