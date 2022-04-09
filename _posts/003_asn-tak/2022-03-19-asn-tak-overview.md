@@ -26,10 +26,10 @@ TAK comes in 3 main flavors that is relevant for airsoft, but have a different o
 
 #### Privacy concerns
 * All TAK products use the GPS/Location Services of your device to display your current geographic location, with a high degree of accuracy.
-* This location is visible to anyone else connected to the same server(s).
+* Your location is visible to anyone else connected to the same server(s).
+* While ASN does not record or store data sent through ASN-TAK any user can.
 * Unless you turn on location Services before opening the app, your position will be displayed to other users on the server immediately upon launching the app.
 * Turning off location Services after opening app, will leave a marker displaying the location where Location Services were turned off.
-
 **With this in mind, we highly recommend that you do not use any TAK app with Location Services activated, while located in or around your home, or your workplace.**<br>
 
 While experimenting or familiarizing yourself with the app, keep Location Services turned off - and ensure that you close the app properly before turning them back on.
