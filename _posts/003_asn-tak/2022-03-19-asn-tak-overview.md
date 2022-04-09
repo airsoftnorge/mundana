@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ASN-TAK introduction and privacy"
+title: "ASN-TAK introduction and information"
 author: "staff"
 categories: [tak]
 tags: [asn-tak, atak, tak]
