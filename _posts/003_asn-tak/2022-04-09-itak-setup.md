@@ -4,7 +4,7 @@ title: "ITAK Setup guide"
 author: "staff"
 categories: [tak, guides]
 tags: [asn-tak, atak, tak, featured]
-image: assets\images\003_asn-tak\2022-04-09-itak-setup\itak.png
+image: assets/images/003_asn-tak/2022-04-09-itak-setup/itak.png
 ---
 
 Please be aware of potential privacy concerns when using this software, read more [here]({{site.baseurl}}asn-tak-overview).
