@@ -14,19 +14,14 @@ To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge
 #### Flavors of TAK
 TAK comes in 3 main flavors that is relevant for airsoft, but have a different origin and purpose behind them, resulting in some key differences that may or may not be relevant for you.
 
-[ATAK]({{site.baseurl}}/atak-setup) is the android version of the software originally created for the department of defense and has features that match up with this. More focus on elevation data, night vision compatibility and radio interfaces for non permissive use. 
-
-[WinTAK]({{site.baseurl}}/wintak-setup) was created for the ops center and runs on Windows.
-
-[ITAK]({{site.baseurl}}/itak-setup) was created on ios for the department of homeland security, and therefore is better suited for law enforcement and permissive environments. It features superior in city maps and support most basic TAK features. 
+* [ATAK]({{site.baseurl}}/atak-setup) is the android version of the software originally created for the department of defense and has features that match up with this. More focus on elevation data, night vision compatibility and radio interfaces for non permissive use. 
+* [WinTAK]({{site.baseurl}}/wintak-setup) was created for the ops center and runs on Windows.
+* [ITAK]({{site.baseurl}}/itak-setup) was created on ios for the department of homeland security, and therefore is better suited for law enforcement and permissive environments. It features superior in city maps and support most basic TAK features. 
 
 #### Supportive products:
 
-[TAK Tracker](https://play.google.com/store/apps/details?id=gov.tak.taktracker&hl=en&gl=US) is a less resource intensive app that allows you to passively feed location data into a TAK network of your choosing.
-Unlike the ATAK app, it features no maps, messaging or interaction with data packages.
-Despite these limited features, it could be useful for tracking individuals that do not have a need to actually interact actively with the TAK network, or if you have a spare *Android End User Device*, it could be used to track game objectives, vehicles or just about anything else you can think of.
-
-[FreeTAK UAS](https://play.google.com/store/apps/details?id=org.FreeTak.FreeTAKUAS&hl=en&gl=US) let you stream drone footage to specific TAK servers, allthough this is not compatible with standard TAK currently.
+* [TAK Tracker](https://play.google.com/store/apps/details?id=gov.tak.taktracker&hl=en&gl=US) is a less resource intensive app that allows you to passively feed location data into a TAK network of your choosing. Unlike the ATAK app, it features no maps, messaging or interaction with data packages. Despite these limited features, it could be useful for tracking individuals that do not have a need to actually interact actively with the TAK network, or if you have a spare *Android End User Device*, it could be used to track game objectives, vehicles or just about anything else you can think of.
+* [FreeTAK UAS](https://play.google.com/store/apps/details?id=org.FreeTak.FreeTAKUAS&hl=en&gl=US) let you stream drone footage to specific TAK servers, allthough this is not compatible with standard TAK currently.
 
 
 #### Privacy concerns
