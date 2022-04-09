@@ -4,7 +4,7 @@ title: "ASN-TAK introduction and privacy"
 author: "staff"
 categories: [tak]
 tags: [asn-tak, atak, tak]
-image: assets/images/003_asn-tak/2022-03-19-introduction-to-tak/ASN-TAK.png
+image: assets/images/003_asn-tak/2022-03-19-asn-tak-overview/ASN-TAK.png
 ---
 
 ### ASN-TAK
