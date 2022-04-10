@@ -13,9 +13,9 @@ Before using any TAK software, please make yourself familiar with the products a
 
 * Download [ITAK](https://apps.apple.com/us/app/itak/id1561656396) from the Apple app store.
 * Download the server configurations.
-* * [ASN-TAK: Red](https://github.com/airsoftnorge/itaksetup/raw/main/RED.zip)
-* * [ASN-TAK: Blue](https://github.com/airsoftnorge/itaksetup/raw/main/BLUE.zip)
-* * [ASN-TAK: Yellow](https://github.com/airsoftnorge/itaksetup/raw/main/YELLOW.zip)
+* * [ASN-TAK: Red](https://github.com/airsoftnorge/itaksetup/raw/main/Red.zip)
+* * [ASN-TAK: Blue](https://github.com/airsoftnorge/itaksetup/raw/main/Blue.zip)
+* * [ASN-TAK: Yellow](https://github.com/airsoftnorge/itaksetup/raw/main/Yellow.zip)
 * Open iTAK
 * Click the top right `i` icon
 * Select Network 
