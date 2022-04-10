@@ -19,9 +19,6 @@
 <!-- Pathing -->
 These two produce the same result:
 
-[Link](/TEST)
-[Link](../TEST)
-
 
 
 <!-- Media links -->
