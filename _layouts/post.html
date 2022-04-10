@@ -13,14 +13,14 @@ layout: default
 					<p class="text-uppercase font-weight-bold">
 						<span class="catlist">
 						{% for category in page.categories %}
-						<a class="sscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
+						<a class="sscroll" href="/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
 						{% endfor %}
 						</span>
 					</p>-->
 					<div class="d-flex align-items-center">
 						{% if author.avatar %}
-						<!--<img style="border-radius: 0.25rem !important;" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>-->
-						<img alt="{{ author.name }}" src="{{site.baseurl}}/{{author.avatar}}" class="rounded" height="70" width="70">
+						<!--<img style="border-radius: 0.25rem !important;" src="/{{author.avatar}}" alt="{{author.name}}" width="70"/>-->
+						<img alt="{{ author.name }}" src="{{author.avatar}}" class="rounded" height="70" width="70">
 						{% endif %}
 						
 						<small class="ml-3 align-self-start"> <a href="../authors">{{ author.name }}</a>
@@ -31,7 +31,7 @@ layout: default
 				</div>
 				<!--{% if page.image %}-->
 				<div class="col-md-3 pr-0 align-self-start">
-					<img class="rounded"  src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+					<img class="rounded"  src="/{{ page.image }}" alt="{{ page.title }}">
 				</div>
 				<!--{% endif %}-->
 			</div>
@@ -50,7 +50,7 @@ layout: default
 				<span class="taglist" style="color:#817055;">
 					<div style="font-weight: bold;">Tags</div>
 					{% for tag in page.tags %}
-					<a class="sscroll btn btn-light btn-sm font-weight-bold" style="color:#817055;" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+					<a class="sscroll btn btn-light btn-sm font-weight-bold" style="color:#817055;" href="tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
 					{% endfor %}
 				</span>
 			</div>

@@ -19,8 +19,8 @@ Through steady growth over three years, we had a relatively small, but dedicated
 Then, in early February of this year, a change made by an external software vendor permanently bricked the AirsoftNorge Forums. Our time was initially spent on troubleshooting, but although we managed to recover the forum's database in mostly intact condition, it became clear we would have to rebuild everything from scratch - or come up with something new.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/001_featured/ASN-phpbb.jpg">
-		<img src="{{site.baseurl}}/assets/images/001_featured/ASN-phpbb.jpg" width="640"/>
+	<a href="/assets/images/001_featured/ASN-phpbb.jpg">
+		<img src="/assets/images/001_featured/ASN-phpbb.jpg" width="640"/>
 	</a>
 </div>
 
@@ -57,8 +57,8 @@ Beyond that, we are open to suggestions from the community for what other kinds 
 You can subscribe to our YouTube channel here: <a href="https://www.youtube.com/channel/UC0jdeJCXXosXPuwOcTH1MAA" target="_blank">AirsoftNorge.com @ YouTube</a>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/001_featured/ASN-launch.png">
-		<img src="{{site.baseurl}}/assets/images/001_featured/ASN-launch.png" width="640"/>
+	<a href="/assets/images/001_featured/ASN-launch.png">
+		<img src="/assets/images/001_featured/ASN-launch.png" width="640"/>
 	</a>
 </div>
 

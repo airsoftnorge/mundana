@@ -17,7 +17,7 @@ An unfortunate side effect of this, is that unlike the era of large centralized 
 Our hope is to change this, and turn ASN into the go-to site where the collective knowledge of the community can be documented and stored for anyone interested in the airsoft hobby.<br>
 In service of this, we have changed our publishing language to English, in the hopes that content on our site can also serve as a resources airsofters outside of Norway going forward.
 
-On our site, you will find introductory [guides for newcomers]({{site.baseurl}}/beginners) to the airsoft hobby, guides and information on the [ASN-TAK]({{site.baseurl}}/tak) infrastructure we operate, [resources]({{site.baseurl}}/resources) like wiring diagrams for radio accessories, and a wide array of helpful instructional content and [guides]({{site.baseurl}}/guides).
+On our site, you will find introductory [guides for newcomers](/beginners) to the airsoft hobby, guides and information on the [ASN-TAK](/tak) infrastructure we operate, [resources](/resources) like wiring diagrams for radio accessories, and a wide array of helpful instructional content and [guides](/guides).
 
 
 You can also find us

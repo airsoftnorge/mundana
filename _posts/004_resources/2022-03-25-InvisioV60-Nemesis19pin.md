@@ -12,14 +12,14 @@ image: assets/images/004_resources/V60-Nemesis19pin_02.png
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/004_resources/V60-Nemesis19pin.png">
-		<img src="{{site.baseurl}}/assets/images/004_resources/V60-Nemesis19pin.png" width="640"/>
+	<a href="/assets/images/004_resources/V60-Nemesis19pin.png">
+		<img src="/assets/images/004_resources/V60-Nemesis19pin.png" width="640"/>
 	</a>
 </div>
 
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/004_resources/V60-Nemesis19pin_02.png">
-		<img src="{{site.baseurl}}/assets/images/004_resources/V60-Nemesis19pin_02.png" width="640"/>
+	<a href="/assets/images/004_resources/V60-Nemesis19pin_02.png">
+		<img src="/assets/images/004_resources/V60-Nemesis19pin_02.png" width="640"/>
 	</a>
 </div>

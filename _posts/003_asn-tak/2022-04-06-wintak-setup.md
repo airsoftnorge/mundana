@@ -7,7 +7,7 @@ tags: [asn-tak, wintak, tak]
 image: assets/images/003_asn-tak/2022-04-06-wintak-setup/WINTAK_001.png
 ---
 
-Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here](/asn-tak-overview).
 
 #### Setting up WinTAK for ASN-TAK
 
@@ -29,15 +29,15 @@ Exctract the certificates to a folder of your choice
 
 Open up WinTAK and in the bottom right corner click the TAK Network Status
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/1.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/1.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/1.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/1.png" width="640"/>
 	</a>
 </div>
 
 From there select Manage Server Connections
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/2.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/2.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/2.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/2.png" width="640"/>
 	</a>
 </div>
 
@@ -45,38 +45,38 @@ This is where you add servers, for each one (Red, Blue, Yellow) you will need to
 
 Click Add Item
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/3.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/3.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/3.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/3.png" width="640"/>
 	</a>
 </div>
 
 Fill in as follows
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/4.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/4.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/4.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/4.png" width="640"/>
 	</a>
 </div>
 
 Select Install Certificate Authority:
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/5.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/5.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/5.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/5.png" width="640"/>
 	</a>
 </div>
 Here you select the server.p12 file and use the password `atakatak` and click OK
 
 Select Install Client Certificate
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/6.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/6.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/6.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/6.png" width="640"/>
 	</a>
 </div>
 Here you select the ASN-TAK.p12 file and use the password `atakatak` and click OK
 
 Click OK until you see the server as shown here
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/7.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/7.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/7.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/7.png" width="640"/>
 	</a>
 </div>
 
@@ -90,8 +90,8 @@ Extract the DTED data to `C:\ProgramData\WinTAK\DTED`
 
 Make sure the folder looks like this when done.
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/11.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/11.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/11.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/11.png" width="640"/>
 	</a>
 </div>
 
@@ -99,7 +99,7 @@ Restart WinTAK and you now will have elevation data.
 
 Verify in the bottom when you mouse over an area.
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/10.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-06-wintak-setup/10.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-06-wintak-setup/10.png">
+		<img src="/assets/images/003_asn-tak/2022-04-06-wintak-setup/10.png" width="640"/>
 	</a>
 </div>

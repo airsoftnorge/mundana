@@ -7,7 +7,7 @@ tags: [asn-tak, itak, tak, featured]
 image: assets/images/003_asn-tak/2022-04-09-itak-setup/itak.png
 ---
 
-Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here](/asn-tak-overview).
 
 #### Setting up ITAK for ASN-TAK
 
@@ -28,7 +28,7 @@ Repeat for each server.
 
 <br>
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif">
+		<img src="/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif" width="640"/>
 	</a>
 </div>

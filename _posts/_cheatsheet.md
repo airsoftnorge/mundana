@@ -19,7 +19,7 @@
 <!-- Pathing -->
 These two produce the same result:
 
-[Link]({{ site.baseurl }}/TEST)
+[Link](/TEST)
 [Link](../TEST)
 
 
@@ -39,8 +39,8 @@ These two produce the same result:
 <!-- Image with zoom -->
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/asset/images/PeltorWiring.png">
-		<img src="{{site.baseurl}}/asset/images/PeltorWiring.png" width="640"/>
+	<a href="/asset/images/PeltorWiring.png">
+		<img src="/asset/images/PeltorWiring.png" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>

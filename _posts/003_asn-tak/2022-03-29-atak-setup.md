@@ -7,7 +7,7 @@ tags: [asn-tak, atak, tak, featured]
 image: assets\images\003_asn-tak\2022-03-29-atak-setup\ASN-TAK_01.png
 ---
 
-Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here]({{site.baseurl}}/asn-tak-overview).
+Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here](/asn-tak-overview).
 
 #### Setting up ATAK for ASN-TAK
 
@@ -22,14 +22,14 @@ Before using any TAK software, please make yourself familiar with the products a
 * To install the app, follow this link: <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">Google Play Store: ATAK-Civ</a>, or search for ATAK on the Google Play Store.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_001.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_001.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_001.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_001.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_002.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_002.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_002.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_002.png" width="640"/>
 	</a>
 </div>
 
@@ -38,50 +38,50 @@ Before using any TAK software, please make yourself familiar with the products a
 * Open the app, *read* the EULA, and approve the barrage of Android OS permission requests ATAK requires to operate.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_003.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_003.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_003.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_003.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_004.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_004.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_004.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_004.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_005.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_005.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_005.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_005.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_006.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_006.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_006.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_006.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_007.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_007.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_007.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_007.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_008.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_008.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_008.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_008.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_009.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_009.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_009.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_009.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_010.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_010.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_010.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_010.png" width="640"/>
 	</a>
 </div>
 
@@ -90,14 +90,14 @@ Before using any TAK software, please make yourself familiar with the products a
 * Once you get to this point, you have to make sure to allow ATAK to use your GPS even when running in the background.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_011.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_011.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_011.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_011.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_012.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_012.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_012.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_012.png" width="640"/>
 	</a>
 </div>
 
@@ -106,8 +106,8 @@ Before using any TAK software, please make yourself familiar with the products a
 * You also have to allow ATAK to use your precise location.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_013.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_013.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_013.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_013.png" width="640"/>
 	</a>
 </div>
 
@@ -116,14 +116,14 @@ Before using any TAK software, please make yourself familiar with the products a
 * Finally you will have to allow ATAK access to all files in Android settings.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_014.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_014.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_014.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_014.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_015.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_015.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_015.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_015.png" width="640"/>
 	</a>
 </div>
 
@@ -132,14 +132,14 @@ Before using any TAK software, please make yourself familiar with the products a
 * At this point, the ATAK app will begin loading, and you're ready to start configuring it for use with ASN-TAK.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_016.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_016.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_016.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_016.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_017.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_017.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_017.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_017.png" width="640"/>
 	</a>
 </div>
 
@@ -150,14 +150,14 @@ Your callsign identity consists of your individual callsign, a team color (the d
 All of these can easily be changed from the Settings menu later as your needs change.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_019.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_019.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_019.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_019.png" width="640"/>
 	</a>
 </div>
 
@@ -168,26 +168,26 @@ This is where we import the data packages you downloaded at the beginning of thi
 Adding the <a href="https://github.com/airsoftnorge/ataksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> is strictly necessary at this point, but you can also add the Digital Elevation Data packages at the same time.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_020.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_020.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_020.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_020.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_021.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_021.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_021.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_021.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_022.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_022.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_022.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_022.png" width="640"/>
 	</a>
 </div>
 
@@ -196,20 +196,20 @@ Adding the <a href="https://github.com/airsoftnorge/ataksetup/archive/refs/heads
 * Finally, you have to disable Android OS battery optimization for the ATAK app, to allow it to function correctly while running in the background.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_023.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_023.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_023.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_023.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_024.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_024.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_024.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_024.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_025.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_025.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_025.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_025.png" width="640"/>
 	</a>
 </div>
 
@@ -220,26 +220,26 @@ Press the top right toolbar icon to open the *ATAK Menu*, navigate to *Settings*
 Once in the *Settings Menu*, select *TAK Servers*, and connect to the ASN-TAK server of your choice by checking the box on the right side.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_037.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_037.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_037.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_037.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_038.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_038.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_038.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_038.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_039.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_039.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_039.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_039.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_040.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_040.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_040.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_040.png" width="640"/>
 	</a>
 </div>
 
@@ -250,31 +250,31 @@ Currently, the ASN-TAK Configuration Package includes several maps, including a 
 In addition to this, you can manually add other maps at any time.
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_026.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_026.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_026.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_026.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_027.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_027.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_027.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_027.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_028.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_028.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_028.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_028.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_029.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_029.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_029.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_029.png" width="640"/>
 	</a>
 </div>
 
 <div class="image-thumbnail">
-	<a href="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_030.png">
-		<img src="{{site.baseurl}}/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_030.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_030.png">
+		<img src="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_030.png" width="640"/>
 	</a>
 </div>

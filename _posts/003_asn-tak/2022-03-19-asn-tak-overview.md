@@ -14,9 +14,9 @@ To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge
 #### Flavors of TAK
 TAK comes in 3 main flavors that is relevant for airsoft, but have a different origin and purpose behind them, resulting in some key differences that may or may not be relevant for you.
 
-* [ATAK]({{site.baseurl}}/atak-setup) is the android version of the software originally created for the US department of defense and has features that match up with this. More focus on elevation data, night vision compatibility and radio interfaces for non permissive use. 
-* [WinTAK]({{site.baseurl}}/wintak-setup) was created for the ops center and runs on Windows.
-* [ITAK]({{site.baseurl}}/itak-setup) was created on iOS for the US department of homeland security, and therefore is better suited for law enforcement and permissive environments. It features superior in city maps and support most basic TAK features. 
+* [ATAK](/atak-setup) is the android version of the software originally created for the US department of defense and has features that match up with this. More focus on elevation data, night vision compatibility and radio interfaces for non permissive use. 
+* [WinTAK](/wintak-setup) was created for the ops center and runs on Windows.
+* [ITAK](/itak-setup) was created on iOS for the US department of homeland security, and therefore is better suited for law enforcement and permissive environments. It features superior in city maps and support most basic TAK features. 
 
 #### Supportive products:
 

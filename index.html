@@ -16,12 +16,12 @@ description: "ASN"
 		{% assign latest_post = site.posts[0] %}
 		<div class="col-md-6">
 			<div class="card border-0 mb-4 box-shadow">   
-				<a href="{{site.baseurl}}{{latest_post.url}}">
-					<div class="topfirstimage rounded" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+				<a href="{{latest_post.url}}">
+					<div class="topfirstimage rounded" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} /{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
 				</a>
 				<div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
 					<h2 class="h4 font-weight-bold">
-						<a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+						<a class="text-dark" href="{{latest_post.url}}">{{ latest_post.title }}</a>
 					</h2>
 					<p class="excerpt">
 						{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
@@ -30,7 +30,7 @@ description: "ASN"
 						<small class="d-block text-muted">
 						In <span class="catlist">
 						{% for category in latest_post.categories %}
-						<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+						<a class="text-capitalize text-muted smoothscroll" href="/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
 						{% endfor %}
 						</span>                   
 						</small>
@@ -48,19 +48,19 @@ description: "ASN"
 		<div class="mb-3 d-flex align-items-center align-items-start">
 			{% if second_post.image %}
 			<div class="col-md-6">
-				<a href="{{site.baseurl}}{{second_post.url}}">
-				<img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{site.baseurl}}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
+				<a href="{{second_post.url}}">
+				<img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
 				</a>
 			</div>
 			{% endif %}                
 			<div>
 				<h2 class="mb-2 h6 font-weight-bold">
-					<a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+					<a class="text-dark" href="{{second_post.url}}">{{ second_post.title }}</a>
 				</h2>
 				<small class="d-block text-muted">
 				In <span class="catlist">
 				{% for category in second_post.categories %}
-				<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+				<a class="text-capitalize text-muted smoothscroll" href="/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
 				{% endfor %}
 				</span>                   
 				</small>
@@ -74,19 +74,19 @@ description: "ASN"
 		<div class="mb-3 d-flex align-items-center align-items-start">
 			{% if third_post.image %}
 			<div class="col-md-6">
-				<a href="{{site.baseurl}}{{third_post.url}}">
-				<img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+				<a href="{{third_post.url}}">
+				<img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
 				</a>
 			</div>
 			{% endif %}                
 			<div>
 				<h2 class="mb-2 h6 font-weight-bold" >
-					<a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+					<a class="text-dark" href="{{third_post.url}}">{{ third_post.title }}</a>
 				</h2>
 				<small class="d-block text-muted">
 				In <span class="catlist">
 				{% for category in third_post.categories %}
-				<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+				<a class="text-capitalize text-muted smoothscroll" href="/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
 				{% endfor %}
 				</span>                   
 				</small>
@@ -100,19 +100,19 @@ description: "ASN"
 		<div class="mb-3 d-flex align-items-center align-items-start">
 			{% if fourth_post.image %}
 			<div class="col-md-6">
-				<a href="{{site.baseurl}}{{fourth_post.url}}">
-				<img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+				<a href="{{fourth_post.url}}">
+				<img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
 				</a>
 			</div>
 			{% endif %}                
 			<div>
 				<h2 class="mb-2 h6 font-weight-bold">
-					<a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+					<a class="text-dark" href="{{fourth_post.url}}">{{ fourth_post.title }}</a>
 				</h2>
 				<small class="d-block text-muted">
 				In <span class="catlist">
 				{% for category in fourth_post.categories %}
-				<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+				<a class="text-capitalize text-muted smoothscroll" href="/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
 				{% endfor %}
 				</span>                   
 				</small>
@@ -139,7 +139,7 @@ description: "ASN"
 			{% if paginator.total_pages > 1 %}
 			<ul class="pagination">
 				{% if paginator.previous_page %}
-				<li class="page-item"><a class="page-link" href="{{site.baseurl}}{{ paginator.previous_page_path  | replace: '//', '/' }}">&laquo; Prev</a></li>
+				<li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path  | replace: '//', '/' }}">&laquo; Prev</a></li>
 				{% else %}
 				<li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
 				{% endif %}
@@ -147,13 +147,13 @@ description: "ASN"
 				{% if page == paginator.page %}
 				<li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
 				{% elsif page == 1 %}
-				<li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
+				<li class="page-item"><a class="page-link" href="/">{{ page }}</a></li>
 				{% else %}
-				<li class="page-item"><a class="page-link" href="{{site.baseurl}}{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+				<li class="page-item"><a class="page-link" href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
 				{% endif %}
 				{% endfor %}
 				{% if paginator.next_page %}
-				<li class="page-item"><a class="page-link" href="{{site.baseurl}}{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a></li>
+				<li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a></li>
 				{% else %}
 				<li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
 				{% endif %}
