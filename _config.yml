@@ -1,10 +1,10 @@
 # Site
 name: 'ASN'
 description: 'AirsoftNorge.com is a site for the dissemination of information and media within the Norwegian airsoft community.'
-logo: 'https://airsoftnorge.com/assets/graphics/asn-logo-45px.png'
-favicon: 'https://airsoftnorge.com/assets/graphics/favicon.ico'
-url: 'https://airsoftnorge.com/'
-baseurl: ''
+logo: 'assets/graphics/asn-logo-45px.png'
+favicon: 'assets/graphics/favicon.ico'
+url: 'https://airsoftnorge.com'
+baseurl: '/'
 email: 'staff.airsoftnorge@gmail.com'
 
 
