@@ -17,7 +17,7 @@ Before using any TAK software, please make yourself familiar with the products a
 * * [ASN-TAK: Blue](https://github.com/airsoftnorge/itaksetup/raw/main/Blue.zip)
 * * [ASN-TAK: Yellow](https://github.com/airsoftnorge/itaksetup/raw/main/Yellow.zip)
 * Open iTAK
-* Click the top right `i` icon
+* Click the top right `⚙` icon
 * Select Network 
 * Select Servers
 * Click the `+` icon.
