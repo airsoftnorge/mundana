@@ -6,8 +6,10 @@ categories: guides
 tags: [programming, radio, communications, chirp]
 image: assets/images/005_guides/2022-03-20-program-radio-with-chirp/uv5rprogramming.png
 ---
+In this guide we will go through the steps to program the most common handheld radios, icom, baofeng and puxxing among the most widespread.
 
 This guide assumes you have a functional programming cable for you radio. 
+
 Make sure to verify that your radio is on the [supported radios list](https://chirp.danplanet.com/projects/chirp/wiki/Home#Supported-Radio-Models), and always download the config first - as you cannot safely assume equal model names means equal firmware.
 
 * Download [CHIRP](https://chirp.danplanet.com/projects/chirp/wiki/Download).
