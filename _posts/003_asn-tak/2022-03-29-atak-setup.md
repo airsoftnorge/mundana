@@ -4,7 +4,8 @@ title: "ATAK Setup guide"
 author: "staff"
 categories: [tak, guides]
 tags: [asn-tak, atak, tak, featured]
-image: assets\images\003_asn-tak\2022-03-29-atak-setup\ASN-TAK_01.png
+image: assets/images/003_asn-tak/2022-03-29-atak-setup/ASN-TAK_01.png
+
 ---
 
 Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here](/asn-tak-overview).
