@@ -19,7 +19,7 @@ Before using any TAK software, please make yourself familiar with the products a
 	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> (optional)<br>
 <br>
 
-* To install the app, follow this link: <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">Google Play Store: ATAK-Civ</a>, or if you want a more fleshed out version with plugins register an account on [tak.gov](https://tak.gov).
+* To install the app, follow this link: <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">Google Play Store: ATAK-Civ</a>, or if you want plugins like night vision compatibility or UAS tool register an account on [tak.gov](https://tak.gov).
 
 
 <div class="image-thumbnail">
