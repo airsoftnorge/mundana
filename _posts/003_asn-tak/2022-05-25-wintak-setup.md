@@ -107,4 +107,11 @@ Wait until it has imported succesfully
 
 Now you will have height data available on your map, ryou can see the height when you mouse over in the bottom left corner, you can also utilize the 3d view and many other features in WinTAK using this data.
 
+Example of height data used in WinTAK. Blue markers are friendly, red are hostile. 
+
+<div class="image-thumbnail">
+	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/demo.png">
+		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/demo.png" width="640"/>
+	</a>
+</div>
 
