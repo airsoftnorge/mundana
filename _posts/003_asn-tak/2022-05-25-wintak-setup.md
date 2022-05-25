@@ -26,7 +26,7 @@ Note: WinTAK requires your Windows installation to have English as the display l
 
 ### Initial setup and connection
 
-Upon first opening WinTAK you will be prompted to accept terms and the option to import a datapackage. 
+Upon first opening WinTAK you will be prompted to accept terms and the option to import a data package. 
 
 
 <div class="image-thumbnail">
@@ -36,7 +36,7 @@ Upon first opening WinTAK you will be prompted to accept terms and the option to
 </div>
 
 
-Upon the option of importing a datapackage you select to do so.
+Upon the option of importing a data package you select to do so.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0b.png">
@@ -44,7 +44,7 @@ Upon the option of importing a datapackage you select to do so.
 	</a>
 </div>
 
-Select the newly downloaded ATAK packaage
+Select the newly downloaded ATAK package.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0c.png">
@@ -60,7 +60,7 @@ Select your map of choice
 	</a>
 </div>
 
-You can now click the little green icon in your bottom right and then Manage Server connections
+You can now click the little green icon in your bottom right and then Manage Server connections.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0d2.png">
@@ -68,7 +68,7 @@ You can now click the little green icon in your bottom right and then Manage Ser
 	</a>
 </div>
 
-Deselect the ones you do not want to activly send or receive data on.
+Deselect the ones you do not want to actively send or receive data on.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0e.png">
@@ -82,7 +82,7 @@ Deselect the ones you do not want to activly send or receive data on.
 
 If you wish to import further data in the future or import height data or any other data suitable for WinTAK. 
 
-Click file in the top left corner, then Import Manager and select Import Files
+Click file in the top left corner, then Import Manager and select Import Files.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/2.png">
@@ -90,7 +90,7 @@ Click file in the top left corner, then Import Manager and select Import Files
 	</a>
 </div>
 
-Select the datapackage you want, in this case the height data for all of Norway.
+Select the data package you want, in this case the height data for all of Norway.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/3.png">
@@ -98,7 +98,7 @@ Select the datapackage you want, in this case the height data for all of Norway.
 	</a>
 </div>
 
-Wait until it has imported succesfully
+Wait until it has imported successfully.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/4.png">
@@ -106,7 +106,7 @@ Wait until it has imported succesfully
 	</a>
 </div>
 
-Now you will have height data available on your map, ryou can see the height when you mouse over in the bottom left corner, you can also utilize the 3d view and many other features in WinTAK using this data.
+Now you will have height data available on your map, you can see the height when you mouse over in the bottom left corner, you can also utilize the 3d view and many other features in WinTAK using this data.
 
 Example of height data used in WinTAK. Blue markers are friendly, red are hostile. 
 
