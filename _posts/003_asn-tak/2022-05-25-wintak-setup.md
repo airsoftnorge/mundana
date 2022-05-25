@@ -16,11 +16,12 @@ Note: WinTAK requires your Windows installation to have English as the display l
 * Download WinTAK (4.6 or newer) from [TAK.gov](https://tak.gov) (Registration required)
 
 * Download the following files and save them to your computer:
-	* <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a> (Required to connect to ASN-TAK servers)
+	* <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a> 
 * Download any optional files you want:
-	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> (optional)
-	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> (optional)
-	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> (optional)<br>
+	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> 
+	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> 
+	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> 
+<br>
 <br>
 
 ### Initial setup and connection

@@ -5,19 +5,19 @@ author: "staff"
 categories: [tak, guides]
 tags: [asn-tak, atak, tak, featured]
 image: assets/images/003_asn-tak/2022-03-29-atak-setup/ASN-TAK_01.png
-
 ---
 
 Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here](/asn-tak-overview).
 
 #### Setting up ATAK for ASN-TAK
 
-* Download the following files and save them to your computer:
-	* <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a> (Required to connect to ASN-TAK servers)
+* Download the following files and save them to your phone:
+	* <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a>
 * Download any optional files you want:
-	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> (optional)
-	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> (optional)
-	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> (optional)<br>
+	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> 
+	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> 
+	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> 
+<br>
 <br>
 
 * To install the app, follow this link: <a href="https://play.google.com/store/apps/details?id=com.atakmap.app.civ" target="_blank">Google Play Store: ATAK-Civ</a>, or if you want plugins like night vision compatibility or UAS tool register an account on [tak.gov](https://tak.gov).
