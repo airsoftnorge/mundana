@@ -44,7 +44,7 @@ Upon the option of importing a data package you select to do so.
 	</a>
 </div>
 
-Select the newly downloaded ATAK package.
+Select the newly downloaded `ASN-ATAKsetup.zip` package.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0c.png">
@@ -90,7 +90,7 @@ Click file in the top left corner, then Import Manager and select Import Files.
 	</a>
 </div>
 
-Select the data package you want, in this case the height data for all of Norway.
+Select the data package you want, in this case the `DTED2-Norway-master.zip` containing height data for all of Norway.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/3.png">
