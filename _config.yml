@@ -51,13 +51,6 @@ authors:
 
 # Defaults
 defaults:
-  #Hide market
-  - scope:
-      path: "_posts/006_market/*"
-    values:
-      layout: post
-      author: staff
-      sitemap: false
   # all posts
   - scope:
       path: "_posts"
@@ -65,11 +58,12 @@ defaults:
       layout: post
       author: staff
       avatar: /assets/images/avatar_asn.png
-  # all pages
+  # all pages - Hidden from search!
   - scope:
       path: "_pages"
     values:
       layout: page
+      sitemap: false
       
 # Syntax
 markdown: kramdown
