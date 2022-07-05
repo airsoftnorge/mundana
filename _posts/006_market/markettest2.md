@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "MARKETTEST"
+title: "Markettest"
 author: "ulfhednar"
 categories: market
 tags: []
 image: assets/images/test.jpg
-hidden: true
 ---
 
 This guide covers the real time streaming protocol server available for use with [ASN-TAK](https://airsoftnorge.com/asn-tak-overview/).
