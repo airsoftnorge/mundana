@@ -5,9 +5,9 @@ pagination:
 enabled: true
 description: "ASN"
 ---
+{%- for post in site.posts -%}
+  {% if post.hide == null or post.hide == false %}
 <div class="container" style="padding-top:30px;">
-	{% if page.url == "/market" %}
-	{% else %}
 	{% if page.url == "/" %}
 	<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 	<div class="row remove-site-content-margin">
@@ -164,3 +164,5 @@ description: "ASN"
 		</div>
 	</div>
 </div>
+ {% endif %}
+{%- endfor -%}
