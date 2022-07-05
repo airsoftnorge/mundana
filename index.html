@@ -13,8 +13,6 @@ description: "ASN"
 			<h4 class="font-weight-bold spanborder"><span>Latest posts</span></h4>
 		</div>
 		<!-- latest post -->
-		{%- for post in site.posts -%}
-		{% if post.hide == null or post.hide == false %}
 		{% assign latest_post = site.posts[0] %}
 		<div class="col-md-6">
 			<div class="card border-0 mb-4 box-shadow">   
@@ -127,8 +125,6 @@ description: "ASN"
 	<div class="col-md-12 main-loop">
 		{% include sidebar-featured.html %}    
 	</div>
-  {% endif %}
-{%- endfor -%}
 </div>
 {% endif %} <!--endif page url is / -->
 <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
@@ -136,8 +132,6 @@ description: "ASN"
 	<div class="col-md-12 main-loop">
 		<h4 class="font-weight-bold spanborder"><span>Older posts</span></h4>
 		{% for post in paginator.posts %}
-		{%- for post in site.posts -%}
-		{% if post.hide == null or post.hide == false %}
 		{% include main-loop-card.html %}
 		{% endfor %}
 		<div class="mt-5">
@@ -166,8 +160,6 @@ description: "ASN"
 			</ul>
 			{% endif %}      
 		</div>
-		{% endif %}
-		{%- endfor -%}
 	</div>
 </div>
  
