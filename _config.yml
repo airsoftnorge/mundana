@@ -9,6 +9,7 @@ email: 'staff.airsoftnorge@gmail.com'
 
 
 include: ["_pages"]
+include: ["_market"]
 permalink: /:title/
 
 # Plugins
