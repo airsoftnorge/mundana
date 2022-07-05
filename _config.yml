@@ -52,13 +52,6 @@ authors:
 
 # Defaults
 defaults:
-  #Hide market
-  - scope:
-      path: "_market"
-    values:
-      layout: market
-      author: staff
-      sitemap: false
   # all posts
   - scope:
       path: "_posts"
