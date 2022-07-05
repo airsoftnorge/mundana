@@ -6,6 +6,8 @@ enabled: true
 description: "ASN"
 ---
 <div class="container" style="padding-top:30px;">
+	{% if page.url == "/market" %}
+	{% else %}
 	{% if page.url == "/" %}
 	<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 	<div class="row remove-site-content-margin">
