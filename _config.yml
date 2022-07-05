@@ -9,7 +9,6 @@ email: 'staff.airsoftnorge@gmail.com'
 
 
 include: ["_pages"]
-include: ["_market"]
 permalink: /:title/
 
 # Plugins
@@ -48,8 +47,6 @@ authors:
       bio:            "15 years of experience in airsoft, and as a collector of military equipment, with a proclivity for helmets, Ranger Green and all things H&K. Former member of Møre og Romsdal Airsoft (MRA)."
    
 
- 
-
 # Defaults
 defaults:
   # all posts
@@ -71,7 +68,6 @@ highlighter: rouge
 
 # Paginate
 paginate: 12
-
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
