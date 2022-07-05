@@ -58,7 +58,6 @@ defaults:
       layout: market
       author: staff
       sitemap: false
-      
   # all posts
   - scope:
       path: "_posts"

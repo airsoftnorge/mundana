@@ -6,4 +6,4 @@ permalink: /testsale
 image: assets/graphics/ASN-PLACEHOLDER.png
 ---
 
-Selling one poop! 
+Selling one poop! Special price!
