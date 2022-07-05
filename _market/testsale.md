@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: market
 title: Poopsale
 author: staff	
-permalink: /market-test1
+permalink: /testsale
 image: assets/graphics/ASN-PLACEHOLDER.png
 ---
 
