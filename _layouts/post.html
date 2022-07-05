@@ -23,7 +23,7 @@ layout: default
 						<img alt="{{ author.name }}" src="{{author.avatar}}" class="rounded" height="70" width="70">
 						{% endif %}
 						
-						<small class="ml-3 align-self-start"> <a href="../authors">{{ author.name }}</a>
+						<small class="ml-3 align-self-start"> <a href="../author-{{ author.name | slugify }}">{{ author.name }}</a>
 						<span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 						
