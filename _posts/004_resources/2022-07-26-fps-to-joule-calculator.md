@@ -25,7 +25,7 @@ function calc() {
 
    var ms = fps / 3.2808399;
    var weight_kg = weight / 1000;
-   var joule = 0.5 * weight_kg * ms ** 2;
+   var joule = 0.5*(weight_kg)*(ms**2);
    console.log("joule");
    console.log(joule);
 
