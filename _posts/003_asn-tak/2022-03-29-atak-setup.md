@@ -167,7 +167,7 @@ All of these can easily be changed from the Settings menu later as your needs ch
 
 * Next, back on the *TAK Device Setup* menu, select the *Data Package option, then *Local SD*, and navigate to the folder you saved the data packages to.
 This is where we import the data packages you downloaded at the beginning of this guide.
-Adding the <a href="https://github.com/airsoftnorge/ataksetup/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Configuration Package</a> is strictly necessary at this point, but you can also add the Digital Elevation Data packages at the same time.
+Adding the <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a> is strictly necessary at this point, but you can also add the Digital Elevation Data packages at the same time.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-03-29-atak-setup/ATAK_guide_018.png">
