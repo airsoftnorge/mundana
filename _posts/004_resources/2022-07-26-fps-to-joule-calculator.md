@@ -17,7 +17,7 @@ function calc() {
    var ms = fps.value / 3.2808399;
    var msValue = ms.value;
    var weight_kg = weight.value / 1000;
-   var joule = 0.5 * weight_kg * msValue ** 2;
+   var joule = parseFloat(0.5 * weight_kg * msValue ** 2);
    document.getElementById("total").value = parseFloat(joule).toFixed(2);
 }
 </script> 
