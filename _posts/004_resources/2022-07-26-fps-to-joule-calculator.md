@@ -12,12 +12,15 @@ Calculator that allows you to quickly convert from FPS to Joule.
 
 <script type = "text/javascript">
 function calc() {
-   var weight = document.getElementById("weight");
-   var fps = document.getElementById("fps");
-   var ms = fps.value / 3.2808399;
-   var msValue = ms.value;
-   var weight_kg = weight.value / 1000;
-   var joule = parseFloat(0.5 * weight_kg * msValue ** 2);
+   var weight = document.getElementById("weight").value;
+   var fps = document.getElementById("fps").value;
+
+   var weight=parseInt(weight);
+   var fps=parseInt(weight);
+
+   var ms = fps / 3.2808399;
+   var weight_kg = weight / 1000;
+   var joule = 0.5 * weight_kg * ms ** 2;
    document.getElementById("total").value = parseFloat(joule).toFixed(2);
 }
 </script> 
