@@ -56,7 +56,7 @@ function calc() {
    <button type = "button"
       onclick = "javascript:calc();"> Calculate </button> <br>
    <b> Residual energy in joule at selected distance: </b> <br>
-   <input type = "text"
+   <input type = "text" pattern="^\d*(\.\d{0,2})?$"
       placeholder = "Residual energy"
       id = "total"
       disabled />
