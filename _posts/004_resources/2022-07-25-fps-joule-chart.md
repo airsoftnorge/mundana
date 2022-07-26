@@ -21,7 +21,6 @@ image: assets/images/004_resources/chart.png
 
 [Source document](/assets/files/nasf-fps-joule-chart.xlsx)
 
+[Caulculator](https://airsoftnorge.com/fps-to-joule-calculator/) if your BB weight is not represented in the chart.
 
-Unsure what BB weight is right for you? Check out airsoftnorges [residual energy calculator](https://airsoftnorge.com/residual-energy-calculator/) that allows you to see how much energy is left in a BB after a given distance. 
-Also consider if you need hits fast on short range or slower but more accurate shots at longer range. This will vary a lot by playstyle or fields. 
 
