@@ -39,7 +39,7 @@ function calc() {
     var speed_at_distance = speed_ms * Math.exp(-(drag_ish / (weight_kg * 2) * distanceValue))
     var energy_at_distance = 0.5 * weight_kg * speed_at_distance ** 2
 	
-	document.getElementById("total").value = energy_at_distance.toString();
+	document.getElementById("total").value = parseFloat(energy_at_distance).toFixed(2);
 }
 </script> 
 <div>
@@ -56,7 +56,7 @@ function calc() {
    <button type = "button"
       onclick = "javascript:calc();"> Calculate </button> <br>
    <b> Residual energy in joule at selected distance: </b> <br>
-   <input type = "text" pattern="^\d*(\.\d{0,2})?$"
+   <input type = "text"
       placeholder = "Residual energy"
       id = "total"
       disabled />
