@@ -6,6 +6,7 @@ categories: resources
 tags: [fps, joule, chart, cheatsheet, nasf]
 image: assets/images/004_resources/chart.png
 ---
+
 NASF Joule rule cheatsheet for quick chronographing.
 
 For non-standard BB weights see this [Caulculator](https://airsoftnorge.com/fps-to-joule-calculator/).
