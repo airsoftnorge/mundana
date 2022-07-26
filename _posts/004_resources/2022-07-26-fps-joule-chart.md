@@ -9,7 +9,7 @@ image: assets/images/004_resources/chart.png
 **FPS to joule chart**
 
 <div class="image-thumbnail">
-<img src="/assets/images/004_resources/chart1-legend.png"/>
+	<img src="/assets/images/004_resources/chart1-legend.png"/>
 </div>
 
 
