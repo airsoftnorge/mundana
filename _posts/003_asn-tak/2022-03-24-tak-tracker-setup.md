@@ -3,7 +3,7 @@ layout: post
 title: "TAK tracker setup guide"
 author: "staff"
 categories: tak
-tags: [asn-tak, tak tracker, tak]
+tags: [asn-tak, tak tracker, tak, android]
 image: assets/images/003_asn-tak/2022-03-24-tak-tracker-setup/1.png
 ---
 

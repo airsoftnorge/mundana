@@ -3,7 +3,7 @@ layout: post
 title: "WinTAK setup guide"
 author: "staff"
 categories: [tak, guides]
-tags: [asn-tak, wintak, tak]
+tags: [asn-tak, wintak, tak, windows]
 image: assets/images/003_asn-tak/2022-05-25-wintak-setup/demo.png
 ---
 

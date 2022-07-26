@@ -3,7 +3,7 @@ layout: post
 title: "ATAK Setup guide"
 author: "staff"
 categories: [tak, guides]
-tags: [asn-tak, atak, tak, featured]
+tags: [asn-tak, atak, tak, featured, android]
 image: assets/images/003_asn-tak/2022-03-29-atak-setup/ASN-TAK_01.png
 ---
 
