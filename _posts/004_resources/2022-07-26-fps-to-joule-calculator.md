@@ -21,8 +21,16 @@ function calc() {
    console.log(weight);
 
    var weight=parseFloat(weight);
-   var fps=parseFloat(weight);
-   var joule = 0.5*(weight / 1000)*(fps / 3.2808399) **2;
+   var fps=parseFloat(fps);
+   console.log("Post Parse");
+
+   console.log("fps");
+   console.log(fps);
+
+   console.log("weight");
+   console.log(weight);
+
+   var joule = 0.5*(weight / 1000)*((fps / 3.2808399) **2);
    console.log("joule");
    console.log(joule);
 
