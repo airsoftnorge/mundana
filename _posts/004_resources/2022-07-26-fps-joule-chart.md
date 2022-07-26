@@ -4,7 +4,7 @@ title: "FPS to Joule chart"
 author: "adakar"
 categories: resources
 tags: [fps, joule, chart, cheatsheet]
-image: assets/images/004_resources/X50-NATO6pin_02.png
+image: assets/images/004_resources/chart.png
 ---
 
 
