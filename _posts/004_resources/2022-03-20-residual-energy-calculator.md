@@ -19,16 +19,13 @@ Compromises in the calculator:
 <script type = "text/javascript">
 function calc() {
     var weight = document.getElementById("weight");
-    var weightValue = parseFloat(weight.value);
     var energy = document.getElementById("energy");
-    var energyValue = parseFloat(energy.value);
     var distance = document.getElementById("distance");
     var distanceValue = parseFloat(distance.value);
-    var weight_kg = weight.value / 1000
-    var dragcoefficient = 0.47
-    var airdensity_kgm3 = 1.225
-    var radius_m = 0.003
-    var crossection_m2 = 0.0000282743
+    var weight_kg = weight.value / 1000;
+    var dragcoefficient = 0.47;
+    var airdensity_kgm3 = 1.225;
+    var crossection_m2 = 0.0000282743;
     var speed_ms = Math.sqrt(energy.value / (0.5 * weight_kg));
     var drag_ish = airdensity_kgm3 * crossection_m2 * dragcoefficient;
     var speed_at_distance = speed_ms * Math.exp(-(drag_ish / (weight_kg * 2) * distanceValue));
