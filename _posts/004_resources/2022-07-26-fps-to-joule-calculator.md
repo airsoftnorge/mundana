@@ -7,7 +7,8 @@ tags: [bb, velocity, energy, joule]
 image: assets/images/004_resources/math.jpg
 ---
 
-Calculator that allows you to quickly convert from FPS to Joule
+Calculator that allows you to quickly convert from FPS to Joule.
+
 
 <script type = "text/javascript">
 function calc() {
@@ -20,10 +21,7 @@ function calc() {
 <!-- Quick maths -->	
 	var weight_kg = weight.value / 1000
 <!-- Constants -->	
-    var joule = 0.5*weight_kg*(fpsValue / 3.2808399) * * 2
-    
-
-	
+    var joule = 0.5 * weight_kg * ((fpsValue / 3.2808399) * * 2)
 	document.getElementById("total").value = parseFloat(joule).toFixed(2);
 }
 </script> 
@@ -33,7 +31,7 @@ function calc() {
       placeholder = "0.2"
       id = "weight"> Weight (Grams)<br>
    <input type = "text"
-      placeholder = "0.9"
+      placeholder = "290"
       id = "fps"> FPS <br>
    <button type = "button"
       onclick = "javascript:calc();"> Calculate </button> <br>
@@ -44,3 +42,6 @@ function calc() {
       disabled />
    <br>
 </div>
+
+
+Want a quick lookup instead? Check out the [FPS to joule chart](https://airsoftnorge.com/fps-joule-chart/)
