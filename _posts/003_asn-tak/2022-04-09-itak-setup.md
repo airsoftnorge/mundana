@@ -3,7 +3,7 @@ layout: post
 title: "ITAK Setup guide"
 author: "staff"
 categories: [tak, guides]
-tags: [asn-tak, itak, tak, featured, ios]
+tags: [asn-tak, itak, tak, ios]
 image: assets/images/003_asn-tak/2022-04-09-itak-setup/itak.png
 ---
 
