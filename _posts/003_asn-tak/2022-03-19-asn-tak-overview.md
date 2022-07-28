@@ -3,7 +3,7 @@ layout: post
 title: "ASN-TAK introduction and information"
 author: "staff"
 categories: [tak]
-tags: [asn-tak, atak, tak]
+tags: [asn-tak, featured]
 image: assets/images/003_asn-tak/2022-03-19-asn-tak-overview/ASN-TAK.png
 ---
 
