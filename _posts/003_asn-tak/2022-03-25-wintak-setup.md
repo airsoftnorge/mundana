@@ -4,7 +4,7 @@ title: "WinTAK setup guide"
 author: "staff"
 categories: [tak, guides]
 tags: [asn-tak, wintak, tak, windows]
-image: assets/images/003_asn-tak/2022-05-25-wintak-setup/demo.png
+image: assets/images/003_asn-tak/2022-03-25-wintak-setup/demo.png
 ---
 
 Before using any TAK software, please make yourself familiar with the products and the potential privacy implications. More info [here](/asn-tak-overview).
@@ -30,8 +30,8 @@ Upon first opening WinTAK you will be prompted to accept terms and the option to
 
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0a.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0a.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0a.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0a.png" width="640"/>
 	</a>
 </div>
 
@@ -39,40 +39,40 @@ Upon first opening WinTAK you will be prompted to accept terms and the option to
 Upon the option of importing a data package you select to do so.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0b.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0b.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0b.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0b.png" width="640"/>
 	</a>
 </div>
 
 Select the newly downloaded `ASN-ATAKsetup.zip` package.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0c.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0c.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0c.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0c.png" width="640"/>
 	</a>
 </div>
 
 Select your map of choice
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0d.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0d.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0d.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0d.png" width="640"/>
 	</a>
 </div>
 
 You can now click the little green icon in your bottom right and then Manage Server connections.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0d2.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0d2.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0d2.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0d2.png" width="640"/>
 	</a>
 </div>
 
 Deselect the ones you do not want to actively send or receive data on.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0e.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/0e.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0e.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/0e.png" width="640"/>
 	</a>
 </div>
 
@@ -85,24 +85,24 @@ If you wish to import further data in the future or import height data or any ot
 Click file in the top left corner, then Import Manager and select Import Files.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/2.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/2.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/2.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/2.png" width="640"/>
 	</a>
 </div>
 
 Select the data package you want, in this case the `DTED2-Norway-master.zip` containing height data for all of Norway.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/3.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/3.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/3.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/3.png" width="640"/>
 	</a>
 </div>
 
 Wait until it has imported successfully.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/4.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/4.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/4.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/4.png" width="640"/>
 	</a>
 </div>
 
@@ -111,8 +111,8 @@ Now you will have height data available on your map, you can see the height when
 Example of height data used in WinTAK. Blue markers are friendly, red are hostile. 
 
 <div class="image-thumbnail">
-	<a href="/assets/images/003_asn-tak/2022-05-25-wintak-setup/demo.png">
-		<img src="/assets/images/003_asn-tak/2022-05-25-wintak-setup/demo.png" width="640"/>
+	<a href="/assets/images/003_asn-tak/2022-03-25-wintak-setup/demo.png">
+		<img src="/assets/images/003_asn-tak/2022-03-25-wintak-setup/demo.png" width="640"/>
 	</a>
 </div>
 
