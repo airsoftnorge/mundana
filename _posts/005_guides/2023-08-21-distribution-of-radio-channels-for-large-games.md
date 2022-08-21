@@ -53,10 +53,10 @@ This structure then in turn, can be used to formulate the callsigns used on the 
 > B9.4 - Company Logistics Officer <br>
 > B9.3 - Company Signals Officer <br>
 > <br>
->B1 - B Coy. Platoon 1 Command <br>
->B1.1 - B Coy. Platoon 1 Commander (Actual) <br>
->B1.2 - B Coy. Platoon 1 Second in Command (XO) <br>
->B1.3 - B.Coy Platoon 1 Signals Officer <br>
+> B1 - B Coy. Platoon 1 Command <br>
+> B1.1 - B Coy. Platoon 1 Commander (Actual) <br>
+> B1.2 - B Coy. Platoon 1 Second in Command (XO) <br>
+> B1.3 - B.Coy Platoon 1 Signals Officer <br>
 > <br>
 > B2 - B Coy. Platoon 2 Command <br>
 > B2.1 - B Coy. Platoon 2 Commander (Actual) <br>
