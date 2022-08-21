@@ -19,7 +19,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 > [ 446.00625 MHz ] - Channel 1 - **EMERGENCY** <br>
 > <br>
 > [ 446.10625 MHz ] - Channel 9 - Dedicated Game Administrative Channel<br>
-> <br>
+<br>
 
 # Side A (Alpha Company) Channels #
 <br>
