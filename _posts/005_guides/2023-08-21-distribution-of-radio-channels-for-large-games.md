@@ -13,7 +13,7 @@ As a general rule you want leaders to have radio to their people and one level a
 
 When operating within the inherent limitations of the PMR446 channel range, with its 16 available channels, an efficient layout can look like this:
 
-# Game Administrative Channels#
+# Game Administrative Channels #
 <br>
 
 > [ 446.00625 MHz ] - Channel 1 - **EMERGENCY** <br>
@@ -21,7 +21,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 > [ 446.10625 MHz ] - Channel 9 - Dedicated Game Administrative Channel<br>
 > <br>
 
-# Side A (Alpha Company) Channels#
+# Side A (Alpha Company) Channels #
 <br>
 
 > [ 446.01875 MHz ] - Channel 2 - Side A Command Net <br>
@@ -33,7 +33,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 > [ 446.09375 MHz ] - Channel 8 - Side A, Platoon 5 <br>
 > <br>
 
-# Side B (Bravo Company) Channels
+# Side B (Bravo Company) Channels #
 <br>
 
 > [ 446.11875 MHz ] - Channel 10 - Side B Command Net <br>
@@ -48,7 +48,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 This structure then in turn, can be used to formulate the callsigns used on the respective sides' Command Net channels, in this case, Side B (Bravo Company): <br>
 <br>
 
-# Side B Command Net Callsigns 
+# Side B Command Net Callsigns #
 <br>
 
 > B9 - Bravo Company Command <br>
@@ -86,7 +86,7 @@ This structure then in turn, can be used to formulate the callsigns used on the 
 On the platoon level nets, however, callsigns will shift one digit to the right - losing the signifier of the Company they're all in, and picking up identifiers for the individual soldiers in the platoon's squads instead: <br>
 <br>
 
-# Side B (Bravo Coy.), 3rd Platoon Net Callsigns 
+# Side B (Bravo Coy.), 3rd Platoon Net Callsigns #
 <br>
 
 > 3.9 - Platoon 3 Command <br>
