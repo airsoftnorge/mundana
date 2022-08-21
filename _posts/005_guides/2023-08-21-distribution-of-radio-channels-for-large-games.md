@@ -45,7 +45,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 > [ 446.19375 MHz ] - Channel 16 - Side B, Platoon 5 <br>
 <br>
 
-This structure then in turn, can be used to formulate the callsigns used on the respective sides' Command Net channels, in this case, Side B (Bravo Company): <br>
+This structure then in turn, can be used to formulate the callsigns used on the respective sides' Command Net channels, in the following example, Side B (Bravo Company): <br>
 <br>
 
 # Side B Command Net Callsigns #
