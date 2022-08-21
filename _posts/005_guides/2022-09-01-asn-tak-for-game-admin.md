@@ -7,10 +7,10 @@ tags: [gameadmin, tak]
 image: assets/images/005_guides/2022-09-01-biggametak/biggame.png
 ---
 
-When hosting a big game the quality of info you are receiving tends to be questionable, inaccurate reporting of possitions to their team command, reported inaccurately back to the game admin.
-Using TAK each side can solve their part in this, but as a game admin you need the full picture accross sides and simply connecting to all servers do not give you the team separation needed.
+Having complete situational awareness when hosting a large game is close to impossible, but by adding a dedicated server for game-admins we hope to improve awareness significantly.
+Each team using their dedicated TAK server will provide their command with valuable information, but for game admins you want to know everything at once and at a glance.
 
-To solve this ASN offers to host dedicated game admin servers for events, where we federate the information from each team into a new server, where each team is colorcoded on the way in.
+To solve this ASN offers to host dedicated game admin servers for events, where locations are federated one way to the game-admin server and color-coded.
 
 
 This is the view if on all servers:
@@ -28,4 +28,4 @@ Via the game-admin server you can see the people assigned their proper team colo
 	</a>
 </div>
 
-While this service will be free of charge, it will be pr event basis. To get this for your next big game contact us on [Discord](https://discord.gg/eQafMF6PGQ).
+To get this for your next big game contact us on [Discord](https://discord.gg/eQafMF6PGQ).
