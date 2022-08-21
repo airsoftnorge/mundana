@@ -39,7 +39,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 <br>
 This structure then in turn, can be used to formulate the callsigns used on the respective sides' Command Net channels, in this case, Side B (Bravo Company): <br>
 <br>
-> *Side B Command Net Callsigns* <br>
+> *Side B Command Net Callsigns <br>
 > <br>
 > B9 - Bravo Company Command <br>
 > B9.1 - Company Commander (Actual) <br>
