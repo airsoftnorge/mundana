@@ -31,7 +31,7 @@ When operating within the inherent limitations of the PMR446 channel range, with
 > [ 446.06875 MHz ] - Channel 6 - Side A, Platoon 3 <br>
 > [ 446.08125 MHz ] - Channel 7 - Side A, Platoon 4 <br>
 > [ 446.09375 MHz ] - Channel 8 - Side A, Platoon 5 <br>
-> <br>
+<br>
 
 # Side B (Bravo Company) Channels #
 <br>
@@ -99,3 +99,4 @@ On the platoon level nets, however, callsigns will shift one digit to the right 
 > 3.A.1 - Alpha Squad Leader <br>
 > 3.A.2 - Alpha Squad Second in Command <br>
 > 3.A.3 - 
+<br>
