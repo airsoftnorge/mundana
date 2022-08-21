@@ -74,7 +74,7 @@ This structure then in turn, can be used to formulate the callsigns used on the 
 <br>
 On the platoon level nets, however, callsigns will shift one digit to the right - losing the signifier of the Company they're all in, and picking up identifiers for the individual soldiers in the platoon's squads instead: <br>
 <br>
-> *Side B (Bravo Coy.), 3rd Platoon Net Callsigns* <br>
+> *Side B (Bravo Coy.), 3rd Platoon Net Callsigns <br>
 > <br>
 > 3.9 - Platoon 3 Command <br>
 > 3.9.1 - Platoon 3 Commander (Actual) <br>
