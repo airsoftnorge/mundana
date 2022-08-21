@@ -83,7 +83,7 @@ This structure then in turn, can be used to formulate the callsigns used on the 
 > B5.3 B Coy QRF / Special Purpose Platoon Signals Officer <br>
 <br>
 
-On the platoon level nets, however, callsigns will shift one digit to the right - losing the signifier of the Company they're all in, and picking up identifiers for the individual soldiers in the platoon's squads instead: <br>
+On the platoon level nets, however, callsigns will shift one digit to the right - losing the signifier of what Company the Platoon belongs to, and picking up identifiers for the individual soldiers in the Platoon's Squads instead: <br>
 <br>
 
 # Side B (Bravo Coy.), 3rd Platoon Net Callsigns #
