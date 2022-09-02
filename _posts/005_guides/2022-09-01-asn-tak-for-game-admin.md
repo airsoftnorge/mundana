@@ -29,3 +29,4 @@ Via the game-admin server you can see the people assigned their proper team colo
 </div>
 
 To get this for your next big game contact us on [Discord](https://discord.gg/eQafMF6PGQ).
+
