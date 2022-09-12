@@ -18,9 +18,9 @@ The servers are pruned on regular intervals to avoid cluttering. If you have a g
 #### TAK software
 TAK comes in 3 main flavors that is relevant for airsoft, but have a different origin and purpose behind them, resulting in some key differences that may or may not be relevant for you.
 
-* <i class="fa-brands fa-android"></i>  [ATAK](/atak-setup) is the android version of the software originally created for the US department of defense and has features that match up with this. More focus on elevation data, night vision compatibility and radio interfaces for non permissive use. <br>
-* <i class="fa-brands fa-apple"></i>  [ITAK](/itak-setup) was created on iOS for the US department of homeland security, and therefore is better suited for law enforcement and permissive environments. It features superior in city maps and support most basic TAK features. <br>
-* <i class="fa-brands fa-windows"></i>  [WinTAK](/wintak-setup) was created for the ops center and runs on Windows. <br>
+* [ATAK](/atak-setup) <i class="fa-brands fa-android"></i> is the android version of the software originally created for the US department of defense and has features that match up with this. More focus on elevation data, night vision compatibility and radio interfaces for non permissive use. <br>
+* [ITAK](/itak-setup) <i class="fa-brands fa-apple"></i> was created on iOS for the US department of homeland security, and therefore is better suited for law enforcement and permissive environments. It features superior in city maps and support most basic TAK features. <br>
+* [WinTAK](/wintak-setup) <i class="fa-brands fa-windows"></i> was created for the ops center and runs on Windows. <br>
 
 
 
