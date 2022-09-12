@@ -9,7 +9,9 @@ image: assets/images/003_asn-tak/2022-03-19-asn-tak-overview/ASN-TAK.png
 
 #### ASN-TAK
 For the purposes of airsoft, the <a href="https://en.wikipedia.org/wiki/Android_Team_Awareness_Kit" target="_blank">Team Awareness Kit (TAK)</a> is a software suite capable of supporting mission planning and navigation, as well as communication and coordination between individuals, squads and entire teams on the airsoft field.
-To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge has set up the ASN-TAK infrastructure, consisting of three dedicated TAK servers for public use by airsofters across Norway.
+To facilitate the use of TAK in support of airsoft games in Norway, AirsoftNorge has set up the ASN-TAK infrastructure, consisting of three dedicated TAK servers for public use by airsofters across Norway. 
+
+We also offer free to use [RTSP servers](https://airsoftnorge.com/rtps-asn/) for video feeds from drones or other sensors.
 
 The servers are pruned on regular intervals to avoid cluttering. If you have a game area you want visible this should be done with data packages and uploaded to the servers when games are organized.
 
