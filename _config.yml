@@ -22,7 +22,7 @@ authors:
 
     staff:
       name:           Staff
-      site:           https://www.airsoftnorge.com
+      site:           https://airsoftnorge.com
       avatar:         /assets/graphics/avatars/avatar_asn.png
       bio:            "Posts and announcements from members of AirsoftNorge staff."
       email:          staff.airsoftnorge@gmail.com
@@ -48,7 +48,6 @@ authors:
    
 
  
-
 # Defaults
 defaults:
 
