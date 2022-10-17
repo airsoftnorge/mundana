@@ -17,6 +17,7 @@ Before using any TAK software, please make yourself familiar with the products a
 	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> 
 	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> 
 	* <a href="https://github.com/airsoftnorge/DTED0-World/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Worldwide DTED0 Digital Elevation Data Package</a> 
+	* <a href="https://github.com/joshuafuller/ATAK-Maps" target="_blank">ATAK Maps (A collection of map sources)</a>
 <br>
 <br>
 
