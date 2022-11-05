@@ -20,6 +20,8 @@ Use the links below to orient yourself as best as possible.
 * [Norsk Airsoft](https://www.facebook.com/groups/2345948168/) - The largest community group.
 * [Norsk Airsoft Hittegods](https://www.facebook.com/groups/556696031711353/) - Lost and found group.
 * [Norsk Milsim](https://www.facebook.com/groups/norskmilsim/) - Largest group for milsim oriented airsoft.
+* [Midtvest Airsoft](https://www.facebook.com/groups/1374368922868849) 
+* [Midt-norge Airsoft](https://www.facebook.com/groups/midt.norge.airsoft) 
 * [Airsoftnorge.com](https://www.facebook.com/AirsoftNorge) - Status about the airsoftnorge.com pages and some annoucements.
 * [NASF](https://www.facebook.com/norairsoft) -  Public channel for NASF news and updates.
 
@@ -34,6 +36,7 @@ Use the links below to orient yourself as best as possible.
 
 * [Airsoftspill på Østlandet (16+)](https://www.facebook.com/groups/142941056177706/) 
 * [Spill i nærområdet. Buskerud, Telemark og Vestfold](https://www.facebook.com/groups/1524197147800307)
+
 
 ### Find your local club:
 
