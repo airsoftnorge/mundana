@@ -28,7 +28,7 @@ Use the links below to orient yourself as best as possible.
 
 ### Notable discord servers:
 
-* [Norsk Airsoft](https://discord.gg/v2a5hAhVfW) - The biggest community discord server.
+* [Norsk Airsoft](https://discord.gg/5HdH32e35E) - The biggest community discord server.
 * [Airsoftnorge.com](https://discord.gg/eQafMF6PGQ) - Our discord server for general use and content discussion.
 
 
