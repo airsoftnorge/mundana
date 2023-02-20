@@ -47,8 +47,8 @@ In this scenarie you probably have a mix and match between Peltor and Nato wirin
 Google the model number on the silver sticker on your headset and your PTT, what you are looking for is "NATO Wired" or "Peltor Wired" in most cases.
 
 <div class="image-thumbnail">
-	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.png">
-		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.png" width="640"/>
+	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg">
+		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
@@ -76,8 +76,8 @@ This must be matched with the appropriate input from your headset plug, see [thi
 You can swap wiring in the PTT by changing the output of your B and C pole. 
 
 <div class="image-thumbnail">
-	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.jpg">
-		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.jpg" width="640"/>
+	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png">
+		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
