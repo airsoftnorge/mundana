@@ -15,13 +15,10 @@ This guide will cover the basic steps to troubleshoot when your coms line is not
 ### Scenario 1: Everything works, but your microphone is perceived very low.
 
 Depending on your radio one of three things can solve this:
-
 - Enable dynamic microphone on your radio.
 	- If your radio supports both types of microphones you might be able to enable dynamic microphone and everything is well.
-
 - Replace your microphone with a replica microphone, negating the need for amplification.
 	- Replica microphones generally do not require amplification and can be used on real headsets to bypass the issue.
-
 - You need to buy/solder in amplification for your microphone.
     -  [1: Radio mod](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1387478681544002075)
     -  [2: Downlead amplifier](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1429033561572000266)
