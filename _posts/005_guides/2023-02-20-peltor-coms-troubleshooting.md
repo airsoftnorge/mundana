@@ -12,7 +12,7 @@ There are two main issues people face with a peltor coms setup, given nothing is
 This guide will cover the basic steps to troubleshoot when your coms line is not playing nice.
 
 
-# Scenario 1: Everything works, but you are precieved very low.
+# Scenario 1: Everything works, but your microphone is perceived very low.
 
 Depending on your radio one of three things can solve this:
 
@@ -21,7 +21,7 @@ If your radio supports both types of microphones you might be able to enable dyn
 
 * Replace your microphone with a replica microphone, negating the need for amplification.
 Replica microphones generally do not require amplification and can be used on real headsets to bypass the issue.
-Exmaples: 1
+Examples: 1
 
 * You need to buy/solder in amplification for your microphone.
 Depending on your radio there are multiple places you can do this. Either on the headset downlead, inside the PTT, an adapter between your downlead and your radio or you can amplify the radio itself.
