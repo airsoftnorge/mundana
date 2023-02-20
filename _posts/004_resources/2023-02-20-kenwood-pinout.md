@@ -4,7 +4,7 @@ title: "Wiring Diagram: Kenwood 3,5 + 2,5mm jack"
 author: "adakar"
 categories: resources
 tags: [radio, NATO, U-185, U-229U, AP-136]
-image: assets/images/004_resources/kenwood.png
+image: assets/images/004_resources/headingkenwood.png
 ---
 
 
