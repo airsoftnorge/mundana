@@ -16,20 +16,18 @@ This guide will cover the basic steps to troubleshoot when your coms line is not
 
 Depending on your radio one of three things can solve this:
 
-* Enable dynamic microphone on your radio.
-* * If your radio supports both types of microphones you might be able to enable dynamic microphone and everything is well.
+- Enable dynamic microphone on your radio.
+	- If your radio supports both types of microphones you might be able to enable dynamic microphone and everything is well.
 
-* Replace your microphone with a replica microphone, negating the need for amplification.
+- Replace your microphone with a replica microphone, negating the need for amplification.
+	- Replica microphones generally do not require amplification and can be used on real headsets to bypass the issue.
 
-* * Replica microphones generally do not require amplification and can be used on real headsets to bypass the issue.
-
-* You need to buy/solder in amplification for your microphone.
-
-* * Depending on your radio there are multiple places you can do this. Either on the headset downlead, inside the PTT, an adapter between your downlead and your radio or you can amplify the radio itself. 
-* *  [1: Radio mod](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1387478681544002075)
-* *  [2: Downlead amplifier](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1429033561572000266)
-* *  [3: Adapter with amplification](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=Amplify+&currentPage=1&ParentId=1324666353492015337&productId=1429033811734000292)
-* * 4: You make your own custom amplification circuit and solder it in where appropriate. 
+- You need to buy/solder in amplification for your microphone.
+    - Depending on your radio there are multiple places you can do this. Either on the headset downlead, inside the PTT, an adapter between your downlead and your radio or you can amplify the radio itself. 
+    -  [1: Radio mod](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1387478681544002075)
+    -  [2: Downlead amplifier](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1429033561572000266)
+	-  [3: Adapter with amplification](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=Amplify+&currentPage=1&ParentId=1324666353492015337&productId=1429033811734000292)
+	- 4: You make your own custom amplification circuit and solder it in where appropriate. 
 
 
 
@@ -38,7 +36,7 @@ In this scenarie you probably have a mix and match between Peltor and Nato wirin
 
 
 #### Identifying pinout
-Google the model number on the silver sticker on your headset and your PTT, what you are looking for is `NATO Wired` or `Peltor Wired` in most cases.
+Google the model number on the silver sticker on your headset and your PTT, what you are looking for is "NATO Wired" or "Peltor Wired" in most cases.
 
 <div class="image-thumbnail">
 	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg">
@@ -77,7 +75,7 @@ You can swap wiring in the PTT by changing the output of your B and C pole.
 </div>
 
 #### Solution 2: Buying an adapter cable.
-
-* [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
-* [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
-* [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
+- Example list of adapters that will go between your headset and PTT.
+	- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
+	- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
+	- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
