@@ -7,7 +7,7 @@ tags: [peltor, j11, nato, downlead]
 image: assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/heading.png
 ---
 
-There are two main issues people face with a peltor coms setup, given nothing is actually broken. One being the need to amplify your microphone or that your downlead wiring do not match.
+There are two main issues people face with a peltor coms setup, excluding damage. First issue being the need to amplify your microphone, secound being your wireing not matching.
 
 This guide will cover the basic steps to troubleshoot when your coms line is not playing nice.
 
