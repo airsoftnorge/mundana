@@ -17,21 +17,18 @@ This guide will cover the basic steps to troubleshoot when your coms line is not
 Depending on your radio one of three things can solve this:
 
 * Enable dynamic microphone on your radio.
-
-If your radio supports both types of microphones you might be able to enable dynamic microphone and everything is well.
+* * If your radio supports both types of microphones you might be able to enable dynamic microphone and everything is well.
 
 * Replace your microphone with a replica microphone, negating the need for amplification.
 
-Replica microphones generally do not require amplification and can be used on real headsets to bypass the issue.
+* * Replica microphones generally do not require amplification and can be used on real headsets to bypass the issue.
 
 * You need to buy/solder in amplification for your microphone.
 
-Depending on your radio there are multiple places you can do this. Either on the headset downlead, inside the PTT, an adapter between your downlead and your radio or you can amplify the radio itself.
-
-If you are familiar with soldering you can make your own ampification:
+* * Depending on your radio there are multiple places you can do this. Either on the headset downlead, inside the PTT, an adapter between your downlead and your radio or you can amplify the radio itself. If you are familiar with soldering you can make your own ampification.
 
 
-Off the shelves options:
+#### Off the shelves options:
 * [1 Radio mod](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1387478681544002075)
 * [2 Downlead amplifier](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1429033561572000266)
 * [3 Adapter with amplification](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=Amplify+&currentPage=1&ParentId=1324666353492015337&productId=1429033811734000292)
@@ -39,7 +36,7 @@ Off the shelves options:
 
 
 
-### Scenario 2: Microphone or sound in is not working
+### Scenario 2: Microphone or sound in is does not work
 In this scenarie you probably have a mix and match between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 
