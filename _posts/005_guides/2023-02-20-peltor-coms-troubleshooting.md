@@ -12,7 +12,7 @@ There are two main issues people face with a peltor coms setup, given nothing is
 This guide will cover the basic steps to troubleshoot when your coms line is not playing nice.
 
 
-## Scenario 1: Everything works, but your microphone is perceived very low.
+### Scenario 1: Everything works, but your microphone is perceived very low.
 
 Depending on your radio one of three things can solve this:
 
@@ -39,11 +39,11 @@ Off the shelves options:
 
 
 
-## Scenario 2: Microphone or sound in is not working
+### Scenario 2: Microphone or sound in is not working
 In this scenarie you probably have a mix and match between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 
-### Identifying pinout
+#### Identifying pinout
 Google the model number on the silver sticker on your headset and your PTT, what you are looking for is "NATO Wired" or "Peltor Wired" in most cases.
 
 <div class="image-thumbnail">
@@ -54,24 +54,24 @@ Google the model number on the silver sticker on your headset and your PTT, what
 </div>
 
 
-### Identifying pinout without the model number
+#### Identifying pinout without the model number
 
 This requires a voltmeter.
 
-#### Headset
+##### Headset
 To be verified:
 
 Use the microphone socket and the J11 plug to verify pinout of the headset according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 
 Depending on the diameter of your voltmeter prongs you might want to use a little wire as inbetween to not mess up the socket.
 
-#### PTT
+##### PTT
 Open the PTT and match the pins to your radio pinout, as there are too many options here we'll focus on the two most common, [U283 6pin](https://airsoftnorge.com/6pinout/) and the [Kenwood](https://airsoftnorge.com/kenwood-pinout/) plug used in most chinese radios.
 
 This must be matched with the appropriate input from your headset plug, see [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 
 
-### Solution 1: Switching wiring in the PTT
+#### Solution 1: Switching wiring in the PTT
 
 You can swap wiring in the PTT by changing the output of your B and C pole. 
 
@@ -82,7 +82,7 @@ You can swap wiring in the PTT by changing the output of your B and C pole.
 	</a>
 </div>
 
-### Solution 2: Buying an adapter cable.
+#### Solution 2: Buying an adapter cable.
 
 * [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
 * [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
