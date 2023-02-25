@@ -75,3 +75,8 @@ You can swap wiring in the PTT by changing the output of your B and C pole.
 	- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
 	- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
 	- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
+
+### Give up and throw money at it.
+
+If you are stuck or found a solution you want, but do not have the skills/gear to do it yourself or friends that do there is only one commercial option we can wholly recommend, which is [JCI Coms](https://www.facebook.com/profile.php?id=100040638679937). 
+You will have to ship your gear to the UK, pay for his time and shipping back. Rates are reasonable and turnaround is acceptable, but more importantly quality is excellent. 
