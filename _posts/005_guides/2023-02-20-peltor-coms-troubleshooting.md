@@ -13,7 +13,6 @@ This guide will cover the basic steps to troubleshoot when your coms line is not
 
 
 ### Scenario 1: Everything works, but your microphone is perceived very low.
-
 Depending on your radio one of three things can solve this:
 - Enable dynamic microphone on your radio.
 	- If your radio supports both types of microphones you might be able to enable dynamic microphone and everything is well.
@@ -26,13 +25,13 @@ Depending on your radio one of three things can solve this:
 	- 4: You make your own custom amplification circuit and solder it in where appropriate. 
 
 
-
 #### Scenario 2: Microphone or sound in is does not work
 In this scenarie you probably have a mix and match between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 
 ##### Identifying pinout
-- Google the model number on the silver sticker on your headset and your PTT, what you are looking for is "NATO Wired" or "Peltor Wired" in most cases.
+- Google the model number on the silver sticker on your headset and your PTT
+	- Look for "NATO Wired" or "Peltor Wired"
 
 <div class="image-thumbnail">
 	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg">
