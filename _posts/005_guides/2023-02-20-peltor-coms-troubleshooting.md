@@ -71,10 +71,10 @@ You can swap wiring in the PTT by changing the output of your B and C pole.
 </div>
 
 #### Solution 2: Buying an adapter cable.
-- Example list of adapters that will go between your headset and PTT.
-	- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
-	- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
-	- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
+Example list of adapters that will go between your headset and PTT.
+- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
+- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
+- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
 
 ### Give up and throw money at it.
 
