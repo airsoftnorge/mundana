@@ -7,9 +7,9 @@ tags: [peltor, j11, nato, downlead]
 image: assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/heading.png
 ---
 
-There are two main issues people face with a peltor coms setup, excluding damage. First issue being the need to amplify your microphone, secound being your wireing not matching.
+This guide will cover the basic steps to troubleshoot when your coms line is not playing nice. It will also provide an alternative solution if you cannot figure it out on your own or get stuck. 
 
-This guide will cover the basic steps to troubleshoot when your coms line is not playing nice.
+There are two main issues people face with a peltor coms setup, excluding damaged wires. 
 
 
 ### Scenario 1: Everything works, but your microphone is perceived very low.
@@ -70,7 +70,7 @@ Example list of adapters that will go between your headset and PTT.
 - [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
 - [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
 
-### Give up and throw money at it.
+### Alternative solution: Throw money at it.
 
 If you are stuck or found a solution you want, but do not have the skills/gear to do it yourself or friends that do there is only one commercial option we can wholly recommend, which is [JCI Coms](https://www.facebook.com/profile.php?id=100040638679937). 
 You will have to ship your gear to the UK, pay for his time and shipping back. Rates are reasonable and turnaround is acceptable, but more importantly quality is excellent. 
