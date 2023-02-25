@@ -31,7 +31,6 @@ In this scenarie you probably have a mix and match between Peltor and Nato wirin
 
 ##### Identifying pinout
 - Google the model number on the silver sticker on your headset and your PTT
-	- Look for "NATO Wired" or "Peltor Wired"
 
 <div class="image-thumbnail">
 	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg">
@@ -39,6 +38,7 @@ In this scenarie you probably have a mix and match between Peltor and Nato wirin
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
+- Look for "NATO Wired" or "Peltor Wired"
 
 
 ##### Identifying pinout without the model number
