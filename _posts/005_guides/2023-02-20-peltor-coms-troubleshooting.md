@@ -3,7 +3,7 @@ layout: post
 title: "Peltor coms troubleshooting"
 author: "adakar"
 categories: guides
-tags: [peltor, j11, nato, downlead]
+tags: [peltor, j11, nato, pinout, troubleshooting]
 image: assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/heading.png
 ---
 
