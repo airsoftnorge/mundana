@@ -30,7 +30,6 @@ Depending on your radio one of three things can solve this:
 This means you probably have a mix between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 Start by identifying the wiring of your headset and PTT:
-
 - Method 1: Identifying pinout by model number.
 	- Google the model number on the silver sticker on your headset and your PTT
 	- Look for "NATO Wired" or "Peltor Wired"
@@ -42,7 +41,6 @@ Start by identifying the wiring of your headset and PTT:
 </div>
 
 - Method 2: Identifying pinout without the model number.
-	- These options are verified using a multimeter to verify pinouts.
 	- Headset
 		- Use the microphone socket and the J11 plug to verify pinout of the headset according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/). `To be verified`
 		- Depending on the diameter of your voltmeter prongs you might want to use a little wire as inbetween to not mess up the socket.
