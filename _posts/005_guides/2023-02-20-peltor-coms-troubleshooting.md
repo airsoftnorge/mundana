@@ -7,9 +7,9 @@ tags: [peltor, j11, nato, downlead]
 image: assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/heading.png
 ---
 
-This guide will cover the basic steps to troubleshoot when your coms line is not playing nice. It will also provide an alternative solution if you cannot figure it out on your own or get stuck. 
+This guide will cover the basic steps to troubleshoot and solve your peltor to radio issues. 
 
-There are two main issues people face with a peltor coms setup, excluding damaged wires. 
+The guide is focused on the two most commonly seen issues, wiring mismatches or a need for microphone amplification. 
 
 
 ### Scenario 1: Everything works, but your microphone is perceived very low.
@@ -22,14 +22,14 @@ Depending on your radio one of three things can solve this:
     -  [1: Radio mod](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1387478681544002075)
     -  [2: Downlead amplifier](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=amp&currentPage=1&ParentId=1324666353492015337&productId=1429033561572000266)
 	-  [3: Adapter with amplification](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=Amplify+&currentPage=1&ParentId=1324666353492015337&productId=1429033811734000292)
-	- 4: You make your own custom amplification circuit and solder it in where appropriate. 
+	- 4: You make your own custom amplification circuit and solder it in where appropriate.
 
 
 #### Scenario 2: Microphone or sound in is does not work
 In this scenarie you probably have a mix and match between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 
-##### Identifying pinout
+##### Identifying pinout by model number.
 - Google the model number on the silver sticker on your headset and your PTT
 
 <div class="image-thumbnail">
@@ -41,7 +41,7 @@ In this scenarie you probably have a mix and match between Peltor and Nato wirin
 - Look for "NATO Wired" or "Peltor Wired"
 
 
-##### Identifying pinout without the model number
+##### Identifying pinout without the model number.
 These options are verified using a multimeter to verify pinouts.
 
 - Headset
@@ -53,7 +53,7 @@ These options are verified using a multimeter to verify pinouts.
 	- This must be matched with the appropriate input from your headset plug, see [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 
 
-#### Solution 1: Switching wiring in the PTT
+#### Solution 1: Switching wiring in the PTT.
 
 You can swap wiring in the PTT by changing the output of your B and C pole. 
 
