@@ -26,7 +26,7 @@ Depending on your radio one of three things can solve this:
 	- 4: You make your own custom amplification circuit and solder it in where appropriate.
 
 
-#### Scenario 2: Microphone or sound in is does not work
+### Scenario 2: Microphone or sound in is does not work
 This means you probably have a mix between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 Start by identifying the wiring of your headset and PTT:
