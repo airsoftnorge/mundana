@@ -53,10 +53,9 @@ These options are verified using a multimeter to verify pinouts.
 	- This must be matched with the appropriate input from your headset plug, see [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 
 
-#### Solution 1: Switching wiring in the PTT.
-
-You can swap wiring in the PTT by changing the output of your B and C pole. 
-
+##### Solutions:
+- Option 1: Switching wiring in the PTT.
+	 -You can swap wiring in the PTT by changing the output of your B and C pole. 
 <div class="image-thumbnail">
 	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png">
 		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png" width="640"/>
@@ -64,11 +63,10 @@ You can swap wiring in the PTT by changing the output of your B and C pole.
 	</a>
 </div>
 
-#### Solution 2: Buying an adapter cable.
-Example list of adapters that will go between your headset and PTT.
-- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
-- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
-- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
+- Option 2: Buying an adapter cable.
+	- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
+	- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
+	- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
 
 ### Alternative solution: Throw money at it.
 
