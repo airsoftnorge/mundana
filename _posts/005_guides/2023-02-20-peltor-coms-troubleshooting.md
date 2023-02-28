@@ -60,6 +60,7 @@ After confirming that you have a mismatch of headset and ptt wiring you can conv
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
+
 - Option 2: Buying an adapter cable.
 	- [Example 1](https://shop.reconbrothers.com/product/3m-Peltor-NATO-adapter-custom/)
 	- [Example 2](https://fivefourcommunications.com/product/Peltor-wired-to-NATO-wiring-adapter/)
