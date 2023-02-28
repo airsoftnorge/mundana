@@ -42,8 +42,7 @@ Start by identifying the wiring of your headset and PTT:
 
 - Method 2: Identifying pinout without the model number.
 	- Headset
-		- Use the microphone socket and the J11 plug to verify pinout of the headset according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/). `To be verified`
-		- Depending on the diameter of your voltmeter prongs you might want to use a little wire as inbetween to not mess up the socket.
+		- Check for continuity on the speaker or mic +/- and and match according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 	- PTT
 		- Open the PTT and match the pins to your radio pinout, as there are too many options here we'll focus on the two most common, [U283 6pin](https://airsoftnorge.com/6pinout/) and the [Kenwood](https://airsoftnorge.com/kenwood-pinout/) plug used in most chinese radios.
 		- This must be matched with the appropriate input from your headset plug, see [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
