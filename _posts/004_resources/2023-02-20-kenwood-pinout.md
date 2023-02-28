@@ -9,6 +9,7 @@ image: assets/images/004_resources/headingkenwood.png
 
 
 **The following is a wiring diagram for connecting an Kenwood plug most commonly found in chinese radios.**
+
 Be aware that not all pins will be populated on your common baofeng, this is not a problem in almost all cases. 
 
 <div class="image-thumbnail">
