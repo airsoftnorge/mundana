@@ -3,11 +3,11 @@ layout: post
 title: "Peltor coms troubleshooting"
 author: "adakar"
 categories: guides
-tags: [peltor, j11, nato, pinout, troubleshooting]
-image: assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/heading.png
+tags: [Peltor, j11, TP-120, TP120, NATO, pinout, troubleshooting]
+image: assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/heading.png
 ---
 
-This guide will cover the basic steps to troubleshoot and solve your peltor to radio issues. 
+This guide will cover the basic steps to troubleshoot and solve your Peltor to radio issues. 
 
 The guide is focused on the two most commonly seen issues, wiring mismatches or a need for microphone amplification. 
 
@@ -27,15 +27,15 @@ Depending on your radio one of three things can solve this:
 
 
 ### Scenario 2: Microphone or sound in is does not work
-This means you probably have a mix between Peltor and Nato wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
+This means you probably have a mix between Peltor and NATO wiring. Typically if either headset or PTT is the wrong pinout for you you get sound in but not out. 
 
 Start by identifying the wiring of your headset and PTT:
 - Method 1: Identifying pinout by model number.
 	- Google the model number on the silver sticker on your headset and your PTT
 	- Look for "NATO Wired" or "Peltor Wired"
 <div class="image-thumbnail">
-	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg">
-		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg" width="640"/>
+	<a href="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/headset.jpg">
+		<img src="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/headset.jpg" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
@@ -46,7 +46,7 @@ Start by identifying the wiring of your headset and PTT:
 	- Headset with an AA or AAA battery and some wires/paperclips
 		- Connect the battery negative to base pin 4 of the TP120 and the positive to pin 2.
 		- If you hear noise/static in the headphones while wearing them it's NATO wired.
-		- Connect battery across 4 and 3 and hear noise/static it's civilian aka peltor wired. 
+		- Connect battery across 4 and 3 and hear noise/static it's civilian aka Peltor wired. 
 	- PTT with a multimeter
 		- Open the PTT and match the pins to your radio pinout, as there are too many options here we'll focus on the two most common, [U283 6pin](https://airsoftnorge.com/6pinout/) and the [Kenwood](https://airsoftnorge.com/kenwood-pinout/) plug used in most chinese radios.
 		- This must be matched with the appropriate input from your headset plug, see [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
@@ -55,15 +55,15 @@ After confirming that you have a mismatch of headset and ptt wiring you can conv
 - Option 1: Switching wiring in the PTT.
 	 -You can swap wiring in the PTT by changing the output of your B and C pole. 
 <div class="image-thumbnail">
-	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png">
-		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png" width="640"/>
+	<a href="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/ptt.png">
+		<img src="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/ptt.png" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
 - Option 2: Buying an adapter cable.
-	- [Example 1](https://shop.reconbrothers.com/product/3m-peltor-nato-adapter-custom/)
-	- [Example 2](https://fivefourcommunications.com/product/peltor-wired-to-nato-wiring-adapter/)
-	- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-peltor-nato-20cm)
+	- [Example 1](https://shop.reconbrothers.com/product/3m-Peltor-NATO-adapter-custom/)
+	- [Example 2](https://fivefourcommunications.com/product/Peltor-wired-to-NATO-wiring-adapter/)
+	- [Example 3](https://sambandsradio.no/alfagear/an-1030/adapter-nexus-Peltor-NATO-20cm)
 
 If you are stuck or found a solution you want, but do not have the skills/gear to do it yourself or friends that do there is only one commercial option we can wholly recommend, which is [JCI Coms](https://www.facebook.com/profile.php?id=100040638679937). 
 You will have to ship your gear to the UK, pay for his time and shipping back. Rates are reasonable and turnaround is acceptable, but more importantly quality is excellent. 
