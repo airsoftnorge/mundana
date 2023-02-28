@@ -34,8 +34,8 @@ Start by identifying the wiring of your headset and PTT:
 	- Google the model number on the silver sticker on your headset and your PTT
 	- Look for "NATO Wired" or "Peltor Wired"
 <div class="image-thumbnail">
-	<a href="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/headset.jpg">
-		<img src="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/headset.jpg" width="640"/>
+	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg">
+		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/headset.jpg" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
@@ -55,8 +55,8 @@ After confirming that you have a mismatch of headset and ptt wiring you can conv
 - Option 1: Switching wiring in the PTT.
 	 -You can swap wiring in the PTT by changing the output of your B and C pole. 
 <div class="image-thumbnail">
-	<a href="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/ptt.png">
-		<img src="/assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/ptt.png" width="640"/>
+	<a href="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png">
+		<img src="/assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/ptt.png" width="640"/>
 		<div class="image-thumbnail-centered"><i class="fa-solid fa-magnifying-glass"></i></div>
 	</a>
 </div>
