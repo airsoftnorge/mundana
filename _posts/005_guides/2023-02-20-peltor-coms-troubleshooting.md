@@ -40,10 +40,15 @@ Start by identifying the wiring of your headset and PTT:
 	</a>
 </div>
 
-- Method 2: Identifying pinout without the model number (Requires multimeter).
-	- Headset
-		- Check for continuity on the speaker or mic +/- and and match according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
-	- PTT
+- Method 2: Identifying pinout without the model number.
+	- Headset with multimeter
+		- Check for continuity on the speaker or mic +/- and and match according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/). 
+	- Headset without multimeter
+		- Using an AA or AAA type battery and a couple of metal paperclips or some wire
+		- Connect the battery negative to base pin 4 of the TP120 and the positive to pin 2.
+		- If you hear noise/static in the headphones while wearing them it's NATO wired.
+		- Connect battery across 4 and 3 and hear noise/static it's civilian aka peltor wired. 
+	- PTT with a multimeter
 		- Open the PTT and match the pins to your radio pinout, as there are too many options here we'll focus on the two most common, [U283 6pin](https://airsoftnorge.com/6pinout/) and the [Kenwood](https://airsoftnorge.com/kenwood-pinout/) plug used in most chinese radios.
 		- This must be matched with the appropriate input from your headset plug, see [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 
