@@ -40,7 +40,7 @@ Start by identifying the wiring of your headset and PTT:
 	</a>
 </div>
 
-- Method 2: Identifying pinout without the model number.
+- Method 2: Identifying pinout without the model number (Requires multimeter).
 	- Headset
 		- Check for continuity on the speaker or mic +/- and and match according to [this overview](https://airsoftnorge.com/Peltor-J11-4pin/).
 	- PTT
