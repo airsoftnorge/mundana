@@ -4,7 +4,7 @@ title: "Peltor coms troubleshooting"
 author: "adakar"
 categories: guides
 tags: [Peltor, j11, TP-120, TP120, NATO, pinout, troubleshooting]
-image: assets/images/005_guides/2023-02-21-Peltor-coms-troubleshooting/heading.png
+image: assets/images/005_guides/2023-02-21-peltor-coms-troubleshooting/heading.png
 ---
 
 This guide will cover the basic steps to troubleshoot and solve your Peltor to radio issues. 
