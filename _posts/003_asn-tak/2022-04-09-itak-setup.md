@@ -26,6 +26,14 @@ Before using any TAK software, please make yourself familiar with the products a
 
 Repeat for each server. 
 
+#### Disable sleep for Itak
+
+- Click the top right `⚙` icon
+- Preferences
+- Display
+- Prevent device from going to sleep
+
+
 <br>
 <div class="image-thumbnail">
 	<a href="/assets/images/003_asn-tak/2022-04-09-itak-setup/bilde.avif">
