@@ -12,7 +12,7 @@ Before using any TAK software, please make yourself familiar with the products a
 #### Setting up ATAK for ASN-TAK
 
 * Download the following files and save them to your phone:
-	* <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a> (Updated 13.01.2023)
+	* <a href="https://github.com/airsoftnorge/ataksetup/raw/main/ASN-ATAKsetup.zip" target="_blank">ASN-TAK: Configuration Package</a> (Updated 30.03.2023)
 * Download any optional files you want:
 	* <a href="https://github.com/airsoftnorge/DTED2-Norway/archive/refs/heads/master.zip" target="_blank">ASN-TAK: Norway DTED2 Digital Elevation Data Package</a> 
 	* <a href="https://github.com/airsoftnorge/DTED2-Sweden/archive/refs/heads/main.zip" target="_blank">ASN-TAK: Sweden DTED2 Digital Elevation Data Package</a> 
