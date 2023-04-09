@@ -33,6 +33,12 @@ Repeat for each server.
 - Display
 - Prevent device from going to sleep
 
+#### Enable clustering Itak
+
+- Click the top right `⚙` icon
+- Layers
+- Clustering
+
 
 <br>
 <div class="image-thumbnail">
