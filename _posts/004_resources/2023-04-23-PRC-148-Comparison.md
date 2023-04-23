@@ -17,6 +17,8 @@ PRC 148 Replica options
 | TRI 148 2023 	| ✅				| ✅							| ❌				| ❌						| Lithium battery	|
 
 
+
+
 | Symbol | Meaning 					|
 |---	|---						|
 | ✅	| Standard					|
