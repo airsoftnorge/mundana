@@ -8,16 +8,18 @@ image: assets/images/004_resources/148.png
 ---
 PRC 148 MBITR Replica options
 
-| Model			| Powered F-pin		| Harris battery support 		| KDU support 		| Software programable 		| Standard battery	|
-|---			|---				|---							|---				|---						|---				|
-| TCA 148 2022 	| ❌*				| ✅							| ❌				| ✅						| 4x 18650 in case	|	
-| TCA 148 2019 	| ❌*				| ❌							| ❌				| ✅						| 4x 18650 in case	|	
-| TRI 148 2023 	| ✅				| ✅							| ❌				| ❌						| Lithium battery	|
- 
+| Model   | DOM     | Powered F-pin | Harris battery support | KDU support | Software programable | Standard battery |
+| ------- | ------- | ------------- | ---------------------- | ----------- | -------------------- | ---------------- |
+| TCA 148 | 2022    | ❌\*          | ✅                     | ❌          | ✅                   | 4x 18650 in case |
+| TCA 148 | 2019    | ❌\*          | ❌                     | ❌          | ✅                   | 4x 18650 in case |
+| TRI 148 | 2023 -> | ✅            | ✅                     | ❌          | ❌                   | Lithium battery  |
+| TRI 148 | <- 2020 | ✅            | ❌                     | ❌          | ❌                   | Lithium battery  |
+
  <br/>
  
 | Feature                   | Description                                                                               |
 |---                        |---                                                                                        |
+| DOM                       | Date of manufacture, as these radios keep changing and getting updates.                   |
 | Powered F-pin             | Allows you to power speakers or PTTs like a invisio V60 from the radio.                   |
 | Harris battery support    | Allows you to use real harris batteries.                                                  |
 | Software programable      | Allows you to setup channels, names, powerlevels via software, either on a PC or phone.   |
@@ -25,8 +27,9 @@ PRC 148 MBITR Replica options
 
  <br/>
  
-| Symbol | Meaning 					|
-|---	|---						|
-| ✅	| Standard					|
-| ❌	| Unsopported 				|
-| ❌*	| Can be modified			|
+| Symbol | Meaning                  |
+|---    |---                        |
+| ✅ | Standard                  |
+| ❌ | Unsopported               |
+| ❌\*    | Can be modified           |
+
