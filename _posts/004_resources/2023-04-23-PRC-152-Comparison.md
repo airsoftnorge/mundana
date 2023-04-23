@@ -6,7 +6,6 @@ categories: resources
 tags: [radio, TRI, TCA, FCS, 152, 152A, KDU]
 image: assets/images/004_resources/152.png
 ---
-
 PRC 152 A Replica options
 
 | Model				| Powered F-pin		| Harris battery support 		| KDU support 		| GPS 		| Software programable 		| Standard battery	|
