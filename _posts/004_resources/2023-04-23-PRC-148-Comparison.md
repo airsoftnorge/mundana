@@ -17,6 +17,18 @@ PRC 148 MBITR Replica options
  <br/>
  
  
+| Feature                   | Description                                                                               |
+|---                        |---                                                                                        |
+| Powered F-pin             | Allows you to power speakers or PTTs like a invisio V60 from the radio.                   |
+| Harris battery support    | Allows you to use real harris batteries.                                                  |
+| Software programable      | Allows you to setup channels, names, powerlevels via software, either on a PC or phone.   |
+| Standard battery          | What kind of battery or case the radio arrives with.                                      |
+
+
+
+ <br/>
+ 
+ 
 | Symbol | Meaning 					|
 |---	|---						|
 | ✅	| Standard					|
