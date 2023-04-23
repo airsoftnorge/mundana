@@ -15,8 +15,8 @@ PRC 148 MBITR Replica options
 | TCA 148 2019 	| ❌*				| ❌							| ❌				| ✅						| 4x 18650 in case	|	
 | TRI 148 2023 	| ✅				| ✅							| ❌				| ❌						| Lithium battery	|
  
- </br>
- </br>
+ <br/>
+ 
  
 | Symbol | Meaning 					|
 |---	|---						|

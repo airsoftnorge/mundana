@@ -15,8 +15,8 @@ PRC 152 A Replica options
 | TRI 152A 2023 	|	✅				| ✅							| ✅				| ❌		| ❌						| Lithium 			|
 | FCS 152A 2022 	|	✅				| ✅							| ✅				| ❌		| ✅						| 4x 18650 in case	|	
  
- </br>
- </br>
+ <br/>
+ 
  
 | Symbol | Meaning 					|
 |---	|---						|
