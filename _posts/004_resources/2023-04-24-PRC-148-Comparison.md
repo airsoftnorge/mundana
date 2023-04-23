@@ -4,7 +4,7 @@ title: "PRC 148 Replica comparison guide"
 author: "adakar"
 categories: resources
 tags: [radio, tca, tri, 148]
-image: assets/images/004_resources/headingkenwood.png
+image: assets/images/004_resources/148.png
 ---
 
 PRC 148 Replica options

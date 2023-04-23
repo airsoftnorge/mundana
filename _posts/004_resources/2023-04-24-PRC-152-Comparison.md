@@ -4,7 +4,7 @@ title: "PRC 152A Replica comparison guide"
 author: "adakar"
 categories: resources
 tags: [radio, TRI, TCA, FCS, 152, 152A, KDU]
-image: assets/images/004_resources/headingkenwood.png
+image: assets/images/004_resources/152.png
 ---
 
 PRC 152 A Replica options
