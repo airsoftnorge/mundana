@@ -13,7 +13,7 @@ PRC 152 A Replica options
 | TCA 152A | 2023 -> | ❌\*          | ✅                     | ✅          | ✅  | ✅                   | 4x 18650 in case |
 | TCA 152A | <- 2023 | ❌\*          | ❌                     | ❌          | ❌  | ✅                   | 4x 18650 in case |
 | TRI 152A | 2023 -> | ✅            | ✅                     | ✅          | ❌  | ❌                   | Lithium battery  |
-| TRI 152A | <- 2020 | ✅            | ❌                     | ✅          | ❌  | ❌                   | Lithium battery  |
+| TRI 152A | <- 2020 | ❌            | ✅                     | ✅          | ❌  | ❌                   | Lithium battery  |
 | FCS 152A | 2022    | ✅            | ✅                     | ✅          | ❌  | ✅                   | 4x 18650 in case |
 
  <br/>
