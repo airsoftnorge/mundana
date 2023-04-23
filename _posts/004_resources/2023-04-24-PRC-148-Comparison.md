@@ -9,10 +9,10 @@ image: assets/images/004_resources/headingkenwood.png
 
 PRC 148 Replica options
 
-| Model			| Powered F-pin		| Harris battery support 		| KDU support 		| Software programable 		|
-|---			|---				|---							|---				|---						|
-| TCA 148 2023 	| ❌				| ✅							| ❌				| ✅						|
-| TCA 148 2022 	| ❌				| ✅							| ❌				| ✅						|
-| TCA 148 2019 	| ❌				| ❌							| ❌				| ✅						|
-| TRI 148 2023 	| ✅				| ✅							| ❌				| ❌						|
+| Model			| Powered F-pin		| Harris battery support 		| KDU support 		| Software programable 		| Standard battery	|
+|---			|---				|---							|---				|---						|---				|
+| TCA 148 2023 	| ❌				| ✅							| ❌				| ✅						| 4x 18650 in case	|	
+| TCA 148 2022 	| ❌				| ✅							| ❌				| ✅						| 4x 18650 in case	|	
+| TCA 148 2019 	| ❌				| ❌							| ❌				| ✅						| 4x 18650 in case	|	
+| TRI 148 2023 	| ✅				| ✅							| ❌				| ❌						| Lithium battery	|
 

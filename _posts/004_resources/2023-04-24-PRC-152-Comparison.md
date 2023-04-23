@@ -9,10 +9,9 @@ image: assets/images/004_resources/headingkenwood.png
 
 PRC 152 A Replica options
 
-| Model				| Powered F-pin		| Harris battery support 		| KDU support 		| GPS 		| Software programable 		|
-|---				|---				|---							|---				|---		|---						|	
-| TCA 152A 2023 	|	❌				| ✅							| ✅				| ✅		| ✅						|
-| TCA 152A 2022 	|	❌				| ❌							| ❌				| ❌		| ✅						|
-| TRI 152A 2023 	|	✅				| ✅							| ✅				| ❌		| ❌						|
-| TCA 152A 2022 	|	✅				| ✅							| ✅				| ❌		| ❌						|
-| FCS 152A 2022 	|	✅				| ✅							| ✅				| ❌		| ✅						|
+| Model				| Powered F-pin		| Harris battery support 		| KDU support 		| GPS 		| Software programable 		| Standard battery	|
+|---				|---				|---							|---				|---		|---						|---				|	
+| TCA 152A 2023 	|	❌				| ✅							| ✅				| ✅		| ✅						| 4x 18650 in case	|	
+| TCA 152A 2022 	|	❌				| ❌							| ❌				| ❌		| ✅						| 4x 18650 in case	|	
+| TRI 152A 2023 	|	✅				| ✅							| ✅				| ❌		| ❌						| Lithium 			|
+| FCS 152A 2022 	|	✅				| ✅							| ✅				| ❌		| ✅						| 4x 18650 in case	|	
