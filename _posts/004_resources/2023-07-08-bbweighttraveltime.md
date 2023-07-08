@@ -16,8 +16,8 @@ image: assets/images/004_resources/bbcalc.png
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         canvas {
-            display: 640;
-            width: 100%;
+            display: block;
+            width: 640px;
             height: auto;
         }
     </style>
