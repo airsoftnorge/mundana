@@ -26,12 +26,12 @@ Travel is cut off once the BB has less than 2m/s velocity.
 </head>
 <body>
 
-  <canvas id="myChart"></canvas>
+  <canvas id="onepointtwo"></canvas>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var ctx = document.getElementById('myChart').getContext('2d');
-      var myChart = new Chart(ctx, {
+      var ctx = document.getElementById('onepointtwo').getContext('2d');
+      var onepointtwo = new Chart(ctx, {
         type: 'line',
         data: {
           datasets: [
@@ -85,11 +85,17 @@ Travel is cut off once the BB has less than 2m/s velocity.
             x: {
               type: 'linear',
               position: 'bottom',
-              text: 'Distande in meters'
+              title: {
+                            display: true,
+                            text: 'Meters'
+                        }
             },
             y: {
               beginAtZero: true,
-              text:'Seconds'
+                                      title: {
+                            display: true,
+                            text: 'Seconds'
+                        }
             }
           }
         }
