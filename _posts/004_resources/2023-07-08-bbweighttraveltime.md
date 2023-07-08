@@ -389,3 +389,6 @@ Travel is cut off once the BB has less than 5m/s velocity.
       });
    </script>
 </body>
+
+
+Source data created using this [ttt.py](/assets/files/ttt.py)
