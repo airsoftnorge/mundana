@@ -9,7 +9,7 @@ image: assets/images/004_resources/tttchart.png
 
 Charts to show time to target with different BB weights with the standard NASF ruleset.
 
-This chart does not:
+This chart does <b>not</b>:
 * Take into account accuracy.
 * Take into account how heavier BBs are more resistant to wind drift.
 * Go further than 150 meters.
@@ -20,6 +20,8 @@ This chart does not:
 Your effective range is defined as how far away _you_ are able to make reliable hits. Outside of your own gear both terrain and the enemy team will have a say in how far out you can hit and you should adjust accordingly. If you have more accuracy than the ranges in your field, lighter BBs might be a good option, if you have no trouble with dodging people but lack accuracy at range heavier BBs can be helpful. 
 
 For a reference of how much time the differences actually represent see this [video](https://youtu.be/U3_b4UEYoWM?t=44).
+
+Source data created using this [ttt.py](/assets/files/ttt.py)
 
 
 <head>
@@ -396,4 +398,3 @@ For a reference of how much time the differences actually represent see this [vi
 </body>
 
 
-Source data created using this [ttt.py](/assets/files/ttt.py)
