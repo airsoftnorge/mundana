@@ -9,7 +9,7 @@ image: assets/images/004_resources/bbcalc.png
 
 Charts to show time to target with different BB weights with the standard NASF ruleset.
 
-This chart does not take into account relevant factors like how far before the BB hits the ground or how wind resistent different BB weights are. It serves as a guide to help you if your main problem is people dodging slow bullets and not accuracy or range. 
+This chart does not take into account other factors like wind drift, accuracy or if the BB will hit the ground before going that far. It serves as a guide to what might be a good compromize weight if you are struggeling with people dodging, but not with accuracy or range. 
 
 Travel is cut off once the BB has less than 5m/s velocity.
 
