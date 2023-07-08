@@ -4,7 +4,7 @@ title: "BB weight travel time chart"
 author: "adakar"
 categories: resources
 tags: [bb, weight, travel, time]
-image: assets/images/004_resources/bbcalc.png
+image: assets/images/004_resources/tttchart.png
 ---
 
 Charts to show time to target with different BB weights with the standard NASF ruleset.
