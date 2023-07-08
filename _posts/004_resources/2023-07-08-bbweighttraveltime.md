@@ -12,7 +12,19 @@ image: assets/images/004_resources/bbcalc.png
 
 0.9 Joule 0.20 to 0.36g BBs
 
-
+<html>
+<head>
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
   <canvas id="myChart"></canvas>
 
   <script>
@@ -52,7 +64,7 @@ image: assets/images/004_resources/bbcalc.png
       });
     });
   </script>
-
+</body>
 
 
 
