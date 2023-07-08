@@ -11,18 +11,21 @@ image: assets/images/004_resources/bbcalc.png
 
 1.2 Joule 0.20 to 0.36g BBs
 
+Travel is cut off once the BB has less than 2m/s velocity.
+
 <head>
     <title>Chart.js Example</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         canvas {
             display: block;
-            width: 640px;
+            width: 100%;
             height: auto;
         }
     </style>
 </head>
 <body>
+<div class="row row col-md-12">
   <canvas id="myChart"></canvas>
 
   <script>
@@ -91,6 +94,7 @@ image: assets/images/004_resources/bbcalc.png
       });
     });
   </script>
+</div>
 </body>
 
 
