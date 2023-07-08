@@ -19,7 +19,7 @@ Travel is cut off once the BB has less than 2m/s velocity.
     <style>
         canvas {
             display: block;
-            width: 100%;
+            width: 100vw;
             height: auto;
         }
     </style>
@@ -84,10 +84,12 @@ Travel is cut off once the BB has less than 2m/s velocity.
           scales: {
             x: {
               type: 'linear',
-              position: 'bottom'
+              position: 'bottom',
+              text: 'Distande in meters'
             },
             y: {
-              beginAtZero: true
+              beginAtZero: true,
+              text:'Seconds'
             }
           }
         }
