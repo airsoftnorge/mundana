@@ -19,13 +19,13 @@ Travel is cut off once the BB has less than 2m/s velocity.
     <style>
         canvas {
             display: block;
-            width: 100vw;
+            width: 1100px;
             height: auto;
         }
     </style>
 </head>
 <body>
-<div class="row row col-md-12">
+
   <canvas id="myChart"></canvas>
 
   <script>
@@ -96,7 +96,7 @@ Travel is cut off once the BB has less than 2m/s velocity.
       });
     });
   </script>
-</div>
+
 </body>
 
 
