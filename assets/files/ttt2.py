@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     for value in range(mindist, maxdist):
         time = calculate_time_with_air_resistance(energy, weight, value)
-        if time < 500:
+        if time < 500: # Removes pointless data from when the BB is slower than 5ms and would have hit the ground.
             time_values.append({"x": value, "y": time})
 
     print(time_values)
