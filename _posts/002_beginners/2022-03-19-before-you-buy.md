@@ -17,6 +17,12 @@ Test glasses/goggles for fit to avoid expensive protective equiptment that does 
 Sniper rifles in airsoft is not as portrayed on the internet. For most people, the minimum engagement distances, combined with the lack of skill will make it a horrible route for a new player. 
 Any somewhat organized opponent will run you down real fast. It's better to start out without restrictions and rather go down this route once you're more experienced. 
 
+#### Things that are not intuitive that you should take some time to concider..
+
+Protective glasses/goggles fit - You must ensure that under normal use there will not be gaps that would allow a BB to hit your eye, you can test this by trying to poke your eye with a cleaning rod when testing glasses, especially side entry is hard to guesstimate.
+
+Teeth protection is something you should have a clear rationale for using/not using or what you are using. How relevant it is depends a lot on how your face and teeth are organized, if you expose front teeth when exhausted you should absolutely wear some sort of protection. 
+
 #### You have tried airsoft a few times and want your own gear.. 
 
 These are the purchases that are recommended to do *in order*. Consult discord if you need help with specifics. 
