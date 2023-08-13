@@ -12,12 +12,12 @@ Charts to show time to target with different BB weights with the standard NASF r
 This chart does <b>not</b>:
 * Take into account accuracy.
 * Take into account how heavier BBs are more resistant to wind drift.
-* Go further than 150 meters.
+* Go further than 120 meters.
 * Care that your hopup cannot hop that far.
 * Calculate time after the BB stops moving faster than 5m/s.
 * Give an estimate of max range or effective range.
 
-Your effective range is defined as how far away _you_ are able to make reliable hits. Outside of your own gear both terrain and the enemy team will have a say in how far out you can hit and you should adjust accordingly. If you have more accuracy than the ranges in your field, lighter BBs might be a good option, if you have no trouble with dodging people but lack accuracy at range heavier BBs can be helpful. 
+Your effective range is defined as how far away _you_ are able to make reliable hits. Outside of your own gear both terrain and the enemy team will have a say in how far out you can hit and you should adjust accordingly.
 
 For a reference of how much time the differences actually represent see this [video](https://youtu.be/U3_b4UEYoWM?t=44).
 
