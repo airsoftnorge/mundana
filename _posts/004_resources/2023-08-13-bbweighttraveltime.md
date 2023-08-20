@@ -7,17 +7,17 @@ tags: [bb, weight, travel, time]
 image: assets/images/004_resources/tttchart.png
 ---
 
-Charts to show time to target with different BB weights with the standard NASF ruleset.
+Charts to show time to target with different BB weights with the standard NASF Joule ruleset.
 
-This chart does <b>not</b>:
+#### This chart does not:
 * Take into account accuracy.
 * Take into account how heavier BBs are more resistant to wind drift.
 * Go further than 120 meters.
 * Care that your hopup cannot hop that far.
 * Calculate time after the BB stops moving faster than 5m/s.
-* Give an estimate of max range or effective range.
+* Give an estimate effective range.
 
-Your effective range is defined as how far away _you_ are able to make reliable hits. Outside of your own gear both terrain and the enemy team will have a say in how far out you can hit and you should adjust accordingly.
+Your effective range is defined as how far away _you_ are able to make reliable hits. 
 
 For a reference of how much time the differences actually represent see this [video](https://youtu.be/U3_b4UEYoWM?t=44).
 
