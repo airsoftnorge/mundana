@@ -29,6 +29,13 @@ Repeat for each server.
 #### Disable sleep for Itak
 
 - Click the top right `⚙` icon
+- Tools
+- Beacon
+- Unclick toggle
+
+#### Disable emergency broadcast
+
+- Click the top right `⚙` icon
 - Preferences
 - Display
 - Prevent device from going to sleep
