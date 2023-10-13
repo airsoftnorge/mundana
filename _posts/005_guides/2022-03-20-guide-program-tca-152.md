@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to program the TCA PRC 152"
+title: "How to program the TCA PRC 152 (2022 and previous versions)"
 author: "adakar"
 categories: guides
 tags: [guide, tca, 152, mbitr]
