@@ -38,7 +38,7 @@ Inquire about the software on discord if you have a cable but no software.
 
 
 
-* Make sure that options are set to what you need, it's extremely important that step is set to 12.50K:
+* Make sure that options are set to what you need, 6.25khz is fine, 12,5khz is the normal step for norwegian radio channels:
 
 <div class="image-thumbnail">
 	<a href="https://user-images.githubusercontent.com/25975089/153642830-98129ce3-f8e2-42cf-a0c6-089178188a50.png">
