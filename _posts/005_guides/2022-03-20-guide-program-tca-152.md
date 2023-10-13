@@ -16,6 +16,8 @@ Inquire about the software on discord if you have a cable but no software.
 
 * Connect the TCA 152 to your computer, open the TCA-152 software and turn on the radio.
 
+* Press `Set(S)` and select `Communication Port(C)`, pick the correct com port for your radio.
+
 * Select Program and download the current configuration from your radio:
 
 ![image](https://user-images.githubusercontent.com/25975089/153642586-2ce89992-e961-44ee-ae93-9b168f948b4e.png)
