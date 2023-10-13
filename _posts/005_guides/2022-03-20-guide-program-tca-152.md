@@ -30,7 +30,7 @@ Inquire about the software on discord if you have a cable but no software.
 
 
 
-* Open the options and verify that they match what you want, it's extremely important that frequency step it on 12.50K:
+* Make sure that options are set to what you need, 6.25khz is fine, 12,5khz is the normal step for norwegian radio channels:
 
 ![image](https://user-images.githubusercontent.com/25975089/153642368-3fd3d13f-152c-4a60-8f83-97983a3be0a5.png)
 
