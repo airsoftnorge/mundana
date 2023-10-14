@@ -8,8 +8,10 @@ image: assets/images/005_guides/2022-03-20-guide-program-tca-148/tca148programmi
 ---
 
 #### This guide assumes you have both a functional programming cable and access to the TCA-148 software. 
-Both can be found [here](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?ParentId=1324666353492015337%C2%A4tPage=1&editCurrentLanguage=1213907847692&webId=1213907847691&productId=1643131950020709686).
-Inquire about the software on discord if you have a cable but no software.
+
+[Programming cable](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=programming&currentPage=1&ParentId=1324666353492015337&productId=1516938489906103430)
+
+[Software](https://ln5.sync.com/dl/858b9a8b0/tnd3tbbi-9prubgdb-mibuzws7-qcke9v7c)
 
 Verify that you do not have this issue in Device Manager in Windows:
 
