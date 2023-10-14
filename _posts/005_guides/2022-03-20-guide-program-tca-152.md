@@ -11,10 +11,20 @@ image: assets/images/005_guides/2022-03-20-guide-program-tca-152/tca152programmi
 Both can be found [here](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=programming&currentPage=1&ParentId=1324666353492015337&productId=1516938489906103430).
 Inquire about the software on discord if you have a cable but no software.
 
+Before beginning very your computer can talk to your programming cable, open device manager and see if you see an error like this:
+![image](https://github.com/airsoftnorge/mundana/assets/25975089/4e3126b4-ac14-49b0-9763-1ff935ee3145)
+In which case proceed to follow [this guide](https://embetronicx.com/uncategorized/fixed-prolific-pl2303ta-usb-to-serial-and-windows-11/) first.
+
+
+
 #### Not all radios are identical so make sure you keep a backup of the original radio configuration!
 
 
 * Connect the TCA 152 to your computer, open the TCA-152 software and turn on the radio.
+
+* Set the radio to programming mode by switching the mode to LD
+  ![load](https://github.com/airsoftnorge/mundana/assets/25975089/696ca973-bd94-4ce5-8236-596f662cf510)
+ 
 
 * Press Set(S) and select Communication Port(C), pick the correct com port for your radio.
 
