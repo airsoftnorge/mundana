@@ -16,7 +16,6 @@ Before beginning very your computer can talk to your programming cable, open dev
 In which case proceed to follow [this guide](https://embetronicx.com/uncategorized/fixed-prolific-pl2303ta-usb-to-serial-and-windows-11/) first.
 
 
-
 #### Not all radios are identical so make sure you keep a backup of the original radio configuration!
 
 
