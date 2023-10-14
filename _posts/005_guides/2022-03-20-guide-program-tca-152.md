@@ -11,7 +11,7 @@ image: assets/images/005_guides/2022-03-20-guide-program-tca-152/tca152programmi
 Both can be found [here](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=programming&currentPage=1&ParentId=1324666353492015337&productId=1516938489906103430).
 Inquire about the software on discord if you have a cable but no software.
 
-Before beginning very your computer can talk to your programming cable, open device manager and see if you see an error like this:
+Verify that you do not have this issue in Device Manager in Windows:
 
 ![image](https://github.com/airsoftnorge/mundana/assets/25975089/4e3126b4-ac14-49b0-9763-1ff935ee3145)
 
