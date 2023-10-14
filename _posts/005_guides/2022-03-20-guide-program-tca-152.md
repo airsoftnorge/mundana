@@ -11,7 +11,8 @@ image: assets/images/005_guides/2022-03-20-guide-program-tca-152/tca152programmi
 
 * [Programming cable](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=programming&currentPage=1&ParentId=1324666353492015337&productId=1516938489906103430)
 * [Software](https://microbin.securitybits.io/file/eel-sloth-toad)
-* [Software mirror](https://microbin.securitybits.io/file/horse-emu)
+* [Software mirror](https://ln5.sync.com/dl/765b09c60/5e22cjdt-d7gkwbuq-8uafdhbs-ey34ck74)
+
 
 
 #### Programming cable drivers if on win 11 or higher
