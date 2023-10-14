@@ -13,6 +13,7 @@ Inquire about the software on discord if you have a cable but no software.
 
 Before beginning very your computer can talk to your programming cable, open device manager and see if you see an error like this:
 ![image](https://github.com/airsoftnorge/mundana/assets/25975089/4e3126b4-ac14-49b0-9763-1ff935ee3145)
+
 In which case proceed to follow [this guide](https://embetronicx.com/uncategorized/fixed-prolific-pl2303ta-usb-to-serial-and-windows-11/) first.
 
 
