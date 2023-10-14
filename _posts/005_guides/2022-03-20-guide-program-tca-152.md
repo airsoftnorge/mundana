@@ -12,6 +12,8 @@ image: assets/images/005_guides/2022-03-20-guide-program-tca-152/tca152programmi
 
 [Software](https://ln5.sync.com/dl/765b09c60/5e22cjdt-d7gkwbuq-8uafdhbs-ey34ck74)
 
+#### Programming cable drivers if on win 11 or higher
+
 Verify that you do not have this issue in Device Manager in Windows:
 
 ![image](https://github.com/airsoftnorge/mundana/assets/25975089/4e3126b4-ac14-49b0-9763-1ff935ee3145)
