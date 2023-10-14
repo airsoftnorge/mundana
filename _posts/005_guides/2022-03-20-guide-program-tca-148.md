@@ -11,6 +11,8 @@ image: assets/images/005_guides/2022-03-20-guide-program-tca-148/tca148programmi
 
 * [Programming cable](http://www.px-airsoft.com/showroom/model/T0002/templateProductDetails.do?webId=1213907847691&editCurrentLanguage=1213907847692&module=SearchProduct&keyWords=programming&currentPage=1&ParentId=1324666353492015337&productId=1516938489906103430)
 * [Software](https://microbin.securitybits.io/file/snake-pug-koala)
+* [Software mirror](https://ln5.sync.com/dl/858b9a8b0/tnd3tbbi-9prubgdb-mibuzws7-qcke9v7c)
+
 
 #### Programming cable drivers if on win 11 or higher
 
@@ -19,8 +21,6 @@ Verify that you do not have this issue in Device Manager in Windows:
 ![image](https://github.com/airsoftnorge/mundana/assets/25975089/4e3126b4-ac14-49b0-9763-1ff935ee3145)
 
 In which case proceed to follow [this guide](https://embetronicx.com/uncategorized/fixed-prolific-pl2303ta-usb-to-serial-and-windows-11/) first.
-
-
 
 
 #### Not all radios are identical so make sure you keep a backup of the original radio configuration!
