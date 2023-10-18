@@ -35,14 +35,13 @@ Use the links below to orient yourself as best as possible.
 
 ### Game annoucement facebook pages:
 
-* [Airsoftspill på Østlandet (16+)](https://www.facebook.com/groups/142941056177706/) 
+* [Airsoftspill på Østlandet (14+)](https://www.facebook.com/groups/142941056177706/) 
 * [Spill i nærområdet. Buskerud, Telemark og Vestfold](https://www.facebook.com/groups/1524197147800307)
 
 
 ### Find your local club:
 
-* [Airsoftbodens Klubboversikt](https://airsoftboden.no/sider/klubboversikt) 
-* [NASF](https://www.nasf.no)
+* [Norges Airsoftforbund club map](https://www.nasfweb.com/klubbkart)
 
 
 
