@@ -19,7 +19,7 @@ PRC 148 MBITR Replica options
  
 | Feature                   | Description                                                                               |
 |---                        |---                                                                                        |
-| DOM                       | Date of manufacture, as these radios keep changing and getting updates. Anything with a `->` means current production                              |
+| DOM                       | Date of manufacture, as these radios keep changing and getting updates. Anything with a `->` means current production or last production run                              |
 | Powered F-pin             | Allows you to power speakers or PTTs like a invisio V60 from the radio.                   |
 | Harris battery support    | Allows you to use real harris batteries.                                                  |
 | Software programable      | Allows you to setup channels, names, powerlevels via software, either on a PC or phone.   |
