@@ -32,7 +32,7 @@ PRC 152 A Replica options
  <br/>
  
 | ✅ | ❌                  | ❌\* |
-|---    |---                        |---|
+|:-:     |:-:                         |:-: |
 |Supported | Not supported | Can be modifided for support|
 
 
