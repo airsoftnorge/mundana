@@ -27,9 +27,7 @@ PRC 148 MBITR Replica options
 
  <br/>
  
-| Symbol | Meaning                  |
-|---    |---                        |
-| ✅ | Standard                  |
-| ❌ | Unsopported               |
-| ❌\*    | Can be modified           |
+| ✅ | ❌                  | ❌\* |
+|---    |---                        |---|
+|Supported | Not supported | Can be modifided for support|
 
