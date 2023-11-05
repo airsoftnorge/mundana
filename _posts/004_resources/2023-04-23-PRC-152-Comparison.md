@@ -21,7 +21,7 @@ PRC 152 A Replica options
  
 | Feature                   | Description                                                                                                                                        |
 |---                        |---                                                                                                                                                 |
-| DOM                       | Date of manufacture, as these radios keep changing and getting updates. Anything with a `->` means current production                              |
+| DOM                       | Date of manufacture, as these radios keep changing and getting updates. Anything with a `->` means current production or last production run                              |
 | Powered F-pin             | Allows you to power speakers or PTTs like a invisio V60 from the radio.                                                                            |
 | Harris battery support    | Allows you to use real harris batteries.                                                                                                           |
 | KDU                       | Remote control for the radio, perfect for radios in a backpack or back mounted.                                                                    |
