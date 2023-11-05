@@ -8,8 +8,8 @@ image: assets/images/004_resources/148.png
 ---
 PRC 148 MBITR Replica options
 
-| Model   | DOM     | F-pin vcc | Harris compatible | KDU support | Software support | Standard battery |
-| ------- | ------- | ------------- | ---------------------- | ----------- | -------------------- | ---------------- |
+| Model   | DOM       | F-pin vcc | Harris compatible | KDU support | Software support | Standard battery |
+| ------- | --- | :-: | :-: | :-: | :-: | ---------------- |
 | TCA 148 | 2022 `->`    | ❌\*          | ✅                     | ❌          | ✅                   | 4x 18650 in case |
 | TCA 148 | 2019    | ❌\*          | ❌                     | ❌          | ✅                   | 4x 18650 in case |
 | TRI 148 | 2023 `->` | ✅            | ✅                     | ❌          | ❌                   | Lithium battery  |
