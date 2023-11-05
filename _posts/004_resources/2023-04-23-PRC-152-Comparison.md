@@ -11,7 +11,7 @@ PRC 152 A Replica options
 | Model    | DOM                          | F-pin vcc | Harris compatible | KDU support | GPS | Software support | Standard battery |
 | -------- | ---------------------------- | ------------- | ---------------------- | ----------- | --- | -------------------- | ---------------- |
 | TCA 152A | 2023-09 `->`                 | ✅            | ✅                     | ✅          | ✅  | ✅                   | 4x 18650 in case |
-| TCA 152A | 2023-01 - 2023-08           | ❌\*          | ✅                     | ✅          | ✅  | ✅                   | 4x 18650 in case |
+| TCA 152A | 2023-01->08           | ❌\*          | ✅                     | ✅          | ✅  | ✅                   | 4x 18650 in case |
 | TCA 152A | <- 2023                      | ❌\*          | ❌                     | ❌          | ❌  | ✅                   | 4x 18650 in case |
 | TRI 152A | 2023 `->`                    | ✅            | ✅                     | ✅          | ❌  | ❌                   | Lithium battery  |
 | TRI 152A | <- 2020                      | ❌            | ✅                     | ✅          | ❌  | ❌                   | Lithium battery  |
