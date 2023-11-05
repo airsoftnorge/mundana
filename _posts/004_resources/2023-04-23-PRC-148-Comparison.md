@@ -28,6 +28,6 @@ PRC 148 MBITR Replica options
  <br/>
  
 | ✅ | ❌                  | ❌\* |
-|---    |---                        |---|
+|:-:     |:-:                         |:-: |
 |Supported | Not supported | Can be modifided for support|
 
