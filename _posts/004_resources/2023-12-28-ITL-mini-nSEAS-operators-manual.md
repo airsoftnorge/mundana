@@ -4,7 +4,7 @@ title: "ITL Mini n/SEAS Operator's Manual"
 author: "ulfhednar"
 categories: resources
 tags: [night vision, manual, ITL Mini n/SEAS]
-image: assets/images/004_resources\2023-12-28-ITL-Mini-nSEAS-Operators-Manual/ITL_nSEAS001.jpg
+image: assets/images/004_resources/2023-12-28-ITL-Mini-nSEAS-Operators-Manual/ITL_nSEAS001.jpg
 ---
 
 Since 2007, I have been obsessively collecting information and pictures of the Mini N/SEAS (Mini Night Single Eye Aquisition Sight) made by ITL, International Technologies (Lasers) LTD / ITL Optronics.
