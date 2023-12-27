@@ -7,6 +7,9 @@ url: 'https://airsoftnorge.com'
 baseurl: '/'
 email: 'staff.airsoftnorge@gmail.com'
 
+timezone: Europe/Oslo
+
+
 
 include: ["_pages"]
 permalink: /:title/
