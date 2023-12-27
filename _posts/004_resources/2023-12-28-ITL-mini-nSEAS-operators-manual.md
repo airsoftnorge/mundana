@@ -23,6 +23,7 @@ The physical manual is a small booklet, measuring 105 x 135 mm, and the images i
 		<img src="/assets/images/004_resources\2023-12-28-ITL-Mini-nSEAS-Operators-Manual/Page_01.png" width="640"/>
 	</a>
 </div>
+
 <div class="image-thumbnail">
 	<a href="/assets/images/004_resources\2023-12-28-ITL-Mini-nSEAS-Operators-Manual/Page_02.png">
 		<img src="/assets/images/004_resources\2023-12-28-ITL-Mini-nSEAS-Operators-Manual/Page_02.png" width="640"/>
