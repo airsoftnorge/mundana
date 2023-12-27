@@ -7,15 +7,15 @@ tags: [night vision, manual, ITL Mini n/SEAS]
 image: assets/images/004_resources/2023-12-28-ITL-Mini-nSEAS-Operators-Manual/ITL_nSEAS001.jpg
 ---
 
-Since 2007, I have been obsessively collecting information and pictures of the Mini N/SEAS (Mini Night Single Eye Aquisition Sight) made by ITL, International Technologies (Lasers) LTD / ITL Optronics.
+Since 2007, I have been obsessively collecting information, pictures and accessories for the Mini N/SEAS (Mini Night Single Eye Aquisition Sight) made by ITL, International Technologies (Lasers) LTD / ITL Optronics. <br>
 Over the course of these 16 years, I have never once even heard about someone being in possession of an Operator's Manual for these night vision systems.
-I have even talked with soldiers that have the Mini N/SEAS as their issued NODs, where no one in their entire unit has had access to a manual for them, which has resulted in them being used in a manner that needlessly increases the soldiers' risk of being detected, simply through ignorance of how their night vision units function.
+I have even talked with soldiers that have the Mini N/SEAS as their issued NODs, where no one in their entire unit has had access to a manual for them, which has resulted in them being used in a manner that needlessly increases the soldiers' risk of being detected - simply through ignorance of how their night vision units function.
 
 Last week I received some N/SEAS transport cases from a surplus lot (*facilitated by our Discord member Pikitoka - thank you!*), and I was equal parts shocked and thrilled to find that one of the cases had an original Operator's Manual in it, in near mint condition.
-Given that these manuals are virtually unobtainium, it seems only right to share this information with the community.
+Given that these manuals are virtually unobtainium, it seems only right to share this information with the community. <br>
 We now also have a channel for discussion of night vision on <a href="https://discord.gg/XEERM2CcH8" target="_blank">our AirsoftNorge.com Discord server</a> which you are welcome to drop by if you're interested in further discussion about the ITL Mini N/SEAS, other night vision systems, ATAK or just tactical gear and airsoft in general.
 
-It was quite the pain in the arse to be able to scan this manual in a non-destructive manner, but the result turned out half-decent in the end, and I now present you with all 88 pages of *Operator's Manual for Mini N/SEAS, Mini Night Single Eye Aquisition Sight, version 12.01*.
+It was quite the pain in the arse to be able to scan this manual in a non-destructive manner, but the result turned out half-decent in the end, and I now present you with all 88 pages of *Operator's Manual for Mini N/SEAS, Mini Night Single Eye Aquisition Sight, version 12.01*. <br>
 The physical manual is a small booklet, measuring 105 x 135 mm, and the images in this guide have been formatted to be true to that size, on a monitor with 1440p resolution.
 
 <div class="image-thumbnail">
