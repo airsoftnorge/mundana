@@ -9,7 +9,7 @@ image: assets/images/004_resources/tttchart.png
 
 Charts to show time to target with different BB weights with the standard NASF Joule ruleset.
 
-#### This chart does not:
+This chart does not:
 * Take into account accuracy.
 * Take into account how heavier BBs are more resistant to wind drift.
 * Go further than 120 meters.
@@ -21,8 +21,11 @@ Your effective range is defined as how far away _you_ are able to make reliable 
 
 For a reference of how much time the differences actually represent see this [video](https://youtu.be/U3_b4UEYoWM?t=44).
 
-Source data created using this [ttt2.py](/assets/files/ttt2.py)
+*Explosive Enterprises* video covering the same subject [here](https://www.youtube.com/watch?v=JtYlIpIq2Xk).
 
+### Data
+
+Source data created using this [ttt2.py](/assets/files/ttt2.py)
 
 <head>
     <title>Chart.js Example</title>
