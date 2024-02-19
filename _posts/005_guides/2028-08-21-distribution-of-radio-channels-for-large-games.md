@@ -22,34 +22,34 @@ These are two functional channel distributions depending on if you are limited b
 # Game Administrative Channels #
 <br>
 
-> [ Zodiac 1 ] - Channel 1 - **EMERGENCY** + Game admin <br>
+> [ 68.700MHz ] - Zodiac Channel 1 - **EMERGENCY** + Game admin <br>
 
 <br>
 
 # Side A (Alpha Company) Channels #
 <br>
 
-> [ Zodiac 2 ] - Channel 2 - Side A Command Net <br>
-> [ 446.01875 MHz ] - Channel 2 - Side A, QRF / Special Purpose <br>
-> [ 446.03125 MHz ] - Channel 3 - Side A, Platoon 1 <br>
-> [ 446.04375 MHz ] - Channel 4 - Side A, Platoon 2 <br>
-> [ 446.05625 MHz ] - Channel 5 - Side A, Platoon 3 <br>
-> [ 446.06875 MHz ] - Channel 6 - Side A, Platoon 4 <br>
-> [ 446.08125 MHz ] - Channel 7 - Side A, Platoon 5 <br>
-> [ 446.09375 MHz ] - Channel 8 - Side A, Platoon 6 <br>
+> [ 68.725MHz ] - Zodiac Channel 2 - Side A Command Net <br>
+> [ 446.01875 MHz ] - PMR446 Channel 2 - Side A, QRF / Special Purpose <br>
+> [ 446.03125 MHz ] - PMR446 Channel 3 - Side A, Platoon 1 <br>
+> [ 446.04375 MHz ] - PMR446 Channel 4 - Side A, Platoon 2 <br>
+> [ 446.05625 MHz ] - PMR446 Channel 5 - Side A, Platoon 3 <br>
+> [ 446.06875 MHz ] - PMR446 Channel 6 - Side A, Platoon 4 <br>
+> [ 446.08125 MHz ] - PMR446 Channel 7 - Side A, Platoon 5 <br>
+> [ 446.09375 MHz ] - PMR446 Channel 8 - Side A, Platoon 6 <br>
 <br>
 
 # Side B (Bravo Company) Channels #
 <br>
 
-> [ Zodiac 3 ] - Channel 3 - Side B Command Net <br>
-> [ 446.11875 MHz ] - Channel 10 - Side B, QRF / Special Purpose <br>
-> [ 446.13125 MHz ] - Channel 11 - Side B, Platoon 1 <br>
-> [ 446.14375 MHz ] - Channel 12 - Side B, Platoon 2 <br>
-> [ 446.15625 MHz ] - Channel 13 - Side B, Platoon 3 <br>
-> [ 446.16875 MHz ] - Channel 14 - Side B, Platoon 4 <br>
-> [ 446.18125 MHz ] - Channel 15 - Side B, Platoon 5 <br>
-> [ 446.19375 MHz ] - Channel 16 - Side B, Platoon 6 <br>
+> [ 68.750MHz ] - Zodiac Channel 3 - Side B Command Net <br>
+> [ 446.11875 MHz ] - PMR446 Channel 10 - Side B, QRF / Special Purpose <br>
+> [ 446.13125 MHz ] - PMR446 Channel 11 - Side B, Platoon 1 <br>
+> [ 446.14375 MHz ] - PMR446 Channel 12 - Side B, Platoon 2 <br>
+> [ 446.15625 MHz ] - PMR446 Channel 13 - Side B, Platoon 3 <br>
+> [ 446.16875 MHz ] - PMR446 Channel 14 - Side B, Platoon 4 <br>
+> [ 446.18125 MHz ] - PMR446 Channel 15 - Side B, Platoon 5 <br>
+> [ 446.19375 MHz ] - PMR446 Channel 16 - Side B, Platoon 6 <br>
 <br>
 
 
@@ -64,33 +64,33 @@ These are two functional channel distributions depending on if you are limited b
 # Game Administrative Channels #
 <br>
 
-> [ 446.00625 MHz ] - Channel 1 - **EMERGENCY** <br>
+> [ 446.00625 MHz ] - PMR446 Channel 1 - **EMERGENCY** <br>
 > <br>
-> [ 446.10625 MHz ] - Channel 9 - Dedicated Game Administrative Channel<br>
+> [ 446.10625 MHz ] - PMR446 Channel 9 - Dedicated Game Administrative Channel<br>
 <br>
 
 # Side A (Alpha Company) Channels #
 <br>
 
-> [ 446.01875 MHz ] - Channel 2 - Side A Command Net <br>
-> [ 446.03125 MHz ] - Channel 3 - Side A, QRF / Special Purpose <br>
-> [ 446.04375 MHz ] - Channel 4 - Side A, Platoon 1 <br>
-> [ 446.05625 MHz ] - Channel 5 - Side A, Platoon 2 <br>
-> [ 446.06875 MHz ] - Channel 6 - Side A, Platoon 3 <br>
-> [ 446.08125 MHz ] - Channel 7 - Side A, Platoon 4 <br>
-> [ 446.09375 MHz ] - Channel 8 - Side A, Platoon 5 <br>
+> [ 446.01875 MHz ] - PMR446 Channel 2 - Side A Command Net <br>
+> [ 446.03125 MHz ] - PMR446 Channel 3 - Side A, QRF / Special Purpose <br>
+> [ 446.04375 MHz ] - PMR446 Channel 4 - Side A, Platoon 1 <br>
+> [ 446.05625 MHz ] - PMR446 Channel 5 - Side A, Platoon 2 <br>
+> [ 446.06875 MHz ] - PMR446 Channel 6 - Side A, Platoon 3 <br>
+> [ 446.08125 MHz ] - PMR446 Channel 7 - Side A, Platoon 4 <br>
+> [ 446.09375 MHz ] - PMR446 Channel 8 - Side A, Platoon 5 <br>
 <br>
 
 # Side B (Bravo Company) Channels #
 <br>
 
-> [ 446.11875 MHz ] - Channel 10 - Side B Command Net <br>
-> [ 446.13125 MHz ] - Channel 11 - Side B, QRF / Special Purpose <br>
-> [ 446.14375 MHz ] - Channel 12 - Side B, Platoon 1 <br>
-> [ 446.15625 MHz ] - Channel 13 - Side B, Platoon 2 <br>
-> [ 446.16875 MHz ] - Channel 14 - Side B, Platoon 3 <br>
-> [ 446.18125 MHz ] - Channel 15 - Side B, Platoon 4 <br>
-> [ 446.19375 MHz ] - Channel 16 - Side B, Platoon 5 <br>
+> [ 446.11875 MHz ] - PMR446 Channel 10 - Side B Command Net <br>
+> [ 446.13125 MHz ] - PMR446 Channel 11 - Side B, QRF / Special Purpose <br>
+> [ 446.14375 MHz ] - PMR446 Channel 12 - Side B, Platoon 1 <br>
+> [ 446.15625 MHz ] - PMR446 Channel 13 - Side B, Platoon 2 <br>
+> [ 446.16875 MHz ] - PMR446 Channel 14 - Side B, Platoon 3 <br>
+> [ 446.18125 MHz ] - PMR446 Channel 15 - Side B, Platoon 4 <br>
+> [ 446.19375 MHz ] - PMR446 Channel 16 - Side B, Platoon 5 <br>
 <br>
 
 	</div>
