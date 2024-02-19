@@ -7,7 +7,7 @@ tags: [gameadmin]
 image: assets/images/test.jpg
 ---
 
-When organizing larger airsoft games, the limited number of radio channels available in the PMR446 channel range is felt quickly.
+When organizing larger airsoft games, the limited number of radio channels available in the PMR446 channel range is felt quickly, even if you have additional legal VFH channels.
 For that reason, it's important to have a structure that is as condensed and functional as possible.
 As a general rule you want leaders to have radio to their people and one level above in the command structure. Depending on the amount of channels available, as well as the number of players, this can either result in a platoon net or squad nets.
 
