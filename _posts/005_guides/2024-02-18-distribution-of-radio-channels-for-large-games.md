@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Distribution of radio channels for large airsoft games"
-author: "ulfhednar"
+author: "staff"
 categories: guides
 tags: [gameadmin]
 image: assets/images/test.jpg
