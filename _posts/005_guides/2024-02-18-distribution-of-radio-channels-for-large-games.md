@@ -17,7 +17,6 @@ If you have access to additional VHF channels you should prioritize the emergenc
 
 # Game Administrative Channels #
 
-
 ```
 [ 446.00625 MHz ] - Channel 1 - **EMERGENCY** 
 [ 446.10625 MHz ] - Channel 9 - Dedicated Game Administrative Channel
