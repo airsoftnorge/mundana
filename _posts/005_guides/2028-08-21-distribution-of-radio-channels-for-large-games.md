@@ -11,7 +11,55 @@ When organizing larger airsoft games, the limited number of radio channels avail
 For that reason, it's important to have a structure that is as condensed and functional as possible.
 As a general rule you want leaders to have radio to their people and one level above in the command structure. Depending on the amount of channels available, as well as the number of players, this can either result in a platoon net or squad nets.
 
-When operating within the inherent limitations of the PMR446 channel range, with its 16 available channels, an efficient layout can look like this:
+These are two functional channel distributions depending on if you are limited by just the PMR446 or if you have access to the Zodiac VHF net that NASF has access to.
+
+
+<details>
+<summary><b><u>PMR446 + Zodiac</u></b></summary>
+	<div>
+
+
+# Game Administrative Channels #
+<br>
+
+> [ Zodiac 1 ] - Channel 1 - **EMERGENCY** + Game admin <br>
+
+<br>
+
+# Side A (Alpha Company) Channels #
+<br>
+
+> [ Zodiac 2 ] - Channel 2 - Side A Command Net <br>
+> [ 446.01875 MHz ] - Channel 2 - Side A, QRF / Special Purpose <br>
+> [ 446.03125 MHz ] - Channel 3 - Side A, Platoon 1 <br>
+> [ 446.04375 MHz ] - Channel 4 - Side A, Platoon 2 <br>
+> [ 446.05625 MHz ] - Channel 5 - Side A, Platoon 3 <br>
+> [ 446.06875 MHz ] - Channel 6 - Side A, Platoon 4 <br>
+> [ 446.08125 MHz ] - Channel 7 - Side A, Platoon 5 <br>
+> [ 446.09375 MHz ] - Channel 8 - Side A, Platoon 6 <br>
+<br>
+
+# Side B (Bravo Company) Channels #
+<br>
+
+> [ Zodiac 3 ] - Channel 3 - Side B Command Net <br>
+> [ 446.11875 MHz ] - Channel 10 - Side B, QRF / Special Purpose <br>
+> [ 446.13125 MHz ] - Channel 11 - Side B, Platoon 1 <br>
+> [ 446.14375 MHz ] - Channel 12 - Side B, Platoon 2 <br>
+> [ 446.15625 MHz ] - Channel 13 - Side B, Platoon 3 <br>
+> [ 446.16875 MHz ] - Channel 14 - Side B, Platoon 4 <br>
+> [ 446.18125 MHz ] - Channel 15 - Side B, Platoon 5 <br>
+> [ 446.19375 MHz ] - Channel 16 - Side B, Platoon 6 <br>
+<br>
+
+
+	</div>
+</details>
+
+
+<details>
+<summary><b><u>PMR446</u></b></summary>
+	<div>
 
 # Game Administrative Channels #
 <br>
@@ -44,6 +92,10 @@ When operating within the inherent limitations of the PMR446 channel range, with
 > [ 446.18125 MHz ] - Channel 15 - Side B, Platoon 4 <br>
 > [ 446.19375 MHz ] - Channel 16 - Side B, Platoon 5 <br>
 <br>
+
+	</div>
+</details>
+
 
 This structure then in turn, can be used to formulate the callsigns used on the respective sides' Command Net channels, in the following example, Side B (Bravo Company): <br>
 <br>
