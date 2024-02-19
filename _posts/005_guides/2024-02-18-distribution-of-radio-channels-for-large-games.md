@@ -4,7 +4,7 @@ title: "Distribution of radio channels for large airsoft games"
 author: "staff"
 categories: guides
 tags: [gameadmin]
-image: assets/images/test.jpg
+image: assets/images/channeldistribution.png
 ---
 
 When organizing larger airsoft games, the limited number of radio channels available in the PMR446 channel range is felt quickly.
