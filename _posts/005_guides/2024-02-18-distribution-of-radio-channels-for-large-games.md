@@ -11,7 +11,7 @@ When organizing larger airsoft games, the limited number of radio channels avail
 For that reason, it's important to have a structure that is as condensed and functional as possible.
 As a general rule you want leaders to have radio to their people and one level above in the command structure. Depending on the amount of channels available, as well as the number of players, this can either result in a platoon net or squad nets.
 
-This is an example of a good setup for the limitation of the [PMR446](PMR446-channels).
+This is an example of a good setup for the limitation of the [PMR446](../PMR446-channels).
 If you have access to additional VHF channels you should prioritize the emergency and command net and move them up. 
 
 
