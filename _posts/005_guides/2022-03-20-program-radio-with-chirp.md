@@ -50,6 +50,6 @@ This guide assumes you have a functional programming cable for you radio.
 
 
 
-* Upon confirmation of success turn of your radio and disconnect.
+* Upon confirmation of success turn off your radio and disconnect.
 
 
