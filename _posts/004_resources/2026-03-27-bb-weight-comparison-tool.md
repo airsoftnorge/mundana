@@ -16,7 +16,7 @@ Assumptions:
 
 <script src="/assets/js/chart.min.js"></script>
 <script type="text/javascript">
-var K = 1.225 * 0.0000282743 * 0.47; // combined drag constant
+var K = 1.225 * 0.0000278051 * 0.47; // combined drag constant
 
 function bbAlpha(w_g)          { return K / (2 * w_g / 1000); }
 function bbV0(w_g, E)          { return Math.sqrt(E / (0.5 * w_g / 1000)); }
@@ -72,6 +72,7 @@ function addWeight() {
     if(def===null) def=0.30;
     var div=document.createElement("div");
     div.style.cssText="display:flex;align-items:center;gap:6px;margin-bottom:6px;";
+    div.setAttribute("data-ci", n);
     div.innerHTML='<span style="width:11px;height:11px;border-radius:50%;background:'+col+
         ';flex-shrink:0;display:inline-block;"></span>'+
         '<input type="number" step="0.01" min="0.10" max="1.00" value="'+def+'" class="wt_inp" style="width:80px;"> g'+
@@ -81,7 +82,10 @@ function addWeight() {
 
 function getWeights() {
     return Array.from(document.querySelectorAll(".wt_inp"))
-        .map(function(inp, domIdx){return {w: parseFloat(inp.value), ci: domIdx};})
+        .map(function(inp){
+            var ci=parseInt(inp.closest("[data-ci]").getAttribute("data-ci"),10);
+            return {w: parseFloat(inp.value), ci: ci};
+        })
         .filter(function(e){return !isNaN(e.w)&&e.w>0;})
         .sort(function(a,b){return a.w-b.w;});
 }
@@ -306,11 +310,11 @@ function drawVelChart(ws,E) {
   <br>
   <b>BB weights to compare</b><br>
   <div id="wt_rows">
-    <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+    <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;" data-ci="0">
       <span style="width:11px;height:11px;border-radius:50%;background:#e74c3c;flex-shrink:0;display:inline-block;"></span>
       <input type="number" step="0.01" min="0.10" max="1.00" value="0.20" class="wt_inp" style="width:80px;"> g
     </div>
-    <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+    <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;" data-ci="1">
       <span style="width:11px;height:11px;border-radius:50%;background:#3498db;flex-shrink:0;display:inline-block;"></span>
       <input type="number" step="0.01" min="0.10" max="1.00" value="0.30" class="wt_inp" style="width:80px;"> g
     </div>
@@ -332,6 +336,7 @@ function drawVelChart(ws,E) {
 </div>
 
 <br>
+
 
 Relevant links:
 * [FPS to joule calculator](https://airsoftnorge.com/fps-to-joule-calculator/).
