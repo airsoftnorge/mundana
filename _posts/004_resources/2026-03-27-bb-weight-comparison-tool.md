@@ -14,7 +14,7 @@ Assumptions:
 * BB diameter 5.95mm, drag coefficient 0.47
 * Lighter BBs leave the barrel faster but lose velocity more quickly over distance
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/assets/js/chart.min.js"></script>
 <script type="text/javascript">
 var K = 1.225 * 0.0000282743 * 0.47; // combined drag constant
 
@@ -275,17 +275,19 @@ function drawVelChart(ws,E,cross) {
 <div id="cross_info"></div>
 
 <div id="res_section" style="display:none;">
-  <b>Travel time race &mdash; 0 to 100 m</b>
-  <div style="font-size:0.82em;color:#888;margin-bottom:6px;">Time-compressed animation (fits to 5 s). Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed green lines mark velocity crossover points.</div>
+  <b>Travel time race - 0 to 100 m</b>
+  <p>Time-compressed animation (fits to 5 s). Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed green lines mark velocity crossover points.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
   <br><br>
   <b>Velocity at distance</b>
-  <div style="font-size:0.82em;color:#888;margin-bottom:6px;">After the dashed green crossover line, the heavier BB is travelling faster than the lighter one.</div>
+  <p>After the dashed green crossover line, the heavier BB is travelling faster than the lighter one.</p>
   <canvas id="vel_chart" style="width:100%;max-width:860px;height:380px;"></canvas>
 </div>
 
 <br>
 
 For muzzle velocity conversion see the [FPS to joule calculator](https://airsoftnorge.com/fps-to-joule-calculator/).
+
 For residual energy at a specific distance see the [residual energy calculator](https://airsoftnorge.com/residual-energy-at-distance-calculator/).
+
 For time to target comparisons see the [BB weight travel time chart](https://airsoftnorge.com/bb-weight-travel-time-chart/).
