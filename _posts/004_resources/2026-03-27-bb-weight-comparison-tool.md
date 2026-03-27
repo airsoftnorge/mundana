@@ -132,7 +132,7 @@ function runComparison() {
 
     var html="";
     if(cross.length) {
-        html='<div style="margin:.6em 0;padding:.5em .9em;background:#0e1a0e;border-left:3px solid #2ecc71;font-size:.9em;">';
+        html='<div style="margin:.6em 0;padding:.5em .9em;border-left:3px solid #817055;">';
         cross.forEach(function(c){
             html+='<div style="margin:2px 0;"><b>'+c.h.toFixed(2)+'g</b> arrives at target before <b>'+
                 c.l.toFixed(2)+'g</b> beyond <b>'+c.d.toFixed(1)+'&nbsp;m</b></div>';
