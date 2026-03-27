@@ -12,7 +12,7 @@ Compare how different BB weights travel over distance from the same muzzle energ
 Assumptions:
 * Zero metres above sea level, standard air density (1.225 kg/m³)
 * BB diameter 5.95mm, drag coefficient 0.47
-* Lighter BBs leave the barrel faster but lose velocity more quickly over distance
+* Gravity and hopups are not real
 
 <script src="/assets/js/chart.min.js"></script>
 <script type="text/javascript">
@@ -29,10 +29,24 @@ function bbDistAtTime(w_g,E,t) {
     var a=bbAlpha(w_g), v=bbV0(w_g,E);
     return Math.log(t*v*a+1)/a;
 }
-// Distance where heavier BB wh overtakes lighter BB wl in velocity (both in grams, wl < wh)
-function velCrossoverDist(wl, wh) {
+// Distance where heavier BB wh first arrives at target before lighter BB wl (both in grams, wl < wh)
+// Solved numerically: find d where bbTimeToDist(wl,d) == bbTimeToDist(wh,d)
+// E cancels out — crossover distance is energy-independent
+function arrivalCrossoverDist(wl, wh) {
     var ml=wl/1000, mh=wh/1000;
-    return Math.log(mh/ml) / (K*(1/ml-1/mh));
+    var al=K/(2*ml), ah=K/(2*mh);
+    function f(d) {
+        return (Math.exp(al*d)-1)*Math.pow(ml,1.5) - (Math.exp(ah*d)-1)*Math.pow(mh,1.5);
+    }
+    // f(0)=0, initially negative (lighter arrives sooner); scan for sign change
+    for(var d=0.5;d<=100;d+=0.5) {
+        if(f(d)>=0) {
+            var lo=d-0.5, hi=d;
+            for(var i=0;i<50;i++){var mid=(lo+hi)/2; if(f(mid)<0) lo=mid; else hi=mid;}
+            return (lo+hi)/2;
+        }
+    }
+    return null; // no crossover within 100 m
 }
 
 var COLORS=['#e74c3c','#3498db','#2ecc71','#f39c12','#9b59b6','#e67e22','#1abc9c','#e91e63'];
@@ -43,35 +57,57 @@ function addWeight() {
     var n=c.children.length;
     if(n>=8){alert("Maximum 8 weights.");return;}
     var col=COLORS[n%COLORS.length];
+    var common=[0.20,0.23,0.25,0.28,0.30,0.32,0.36,0.40];
+    var used=Array.from(document.querySelectorAll(".wt_inp")).map(function(inp){return parseFloat(inp.value);});
+    var def=0.30;
+    for(var k=0;k<common.length;k++){
+        if(!used.some(function(u){return Math.abs(u-common[k])<0.005;})){def=common[k];break;}
+    }
     var div=document.createElement("div");
     div.style.cssText="display:flex;align-items:center;gap:6px;margin-bottom:6px;";
     div.innerHTML='<span style="width:11px;height:11px;border-radius:50%;background:'+col+
         ';flex-shrink:0;display:inline-block;"></span>'+
-        '<input type="number" step="0.01" min="0.10" max="1.00" value="0.30" class="wt_inp" style="width:80px;"> g'+
+        '<input type="number" step="0.01" min="0.10" max="1.00" value="'+def+'" class="wt_inp" style="width:80px;"> g'+
         ' <button type="button" onclick="this.parentElement.remove();" style="padding:1px 7px;font-size:0.8em;cursor:pointer;">&#x2715;</button>';
     c.appendChild(div);
 }
 
 function getWeights() {
     return Array.from(document.querySelectorAll(".wt_inp"))
-        .map(function(i){return parseFloat(i.value);})
-        .filter(function(v){return !isNaN(v)&&v>0;})
-        .sort(function(a,b){return a-b;});
+        .map(function(inp, domIdx){return {w: parseFloat(inp.value), ci: domIdx};})
+        .filter(function(e){return !isNaN(e.w)&&e.w>0;})
+        .sort(function(a,b){return a.w-b.w;});
+}
+
+function setEnergyMode(mode) {
+    document.getElementById("energy_joule_row").style.display=mode==="joule"?"":"none";
+    document.getElementById("energy_fps_row").style.display=mode==="fps"?"":"none";
+}
+
+function getEnergy() {
+    if(document.getElementById("energy_fps_row").style.display!=="none") {
+        var fps=parseFloat(document.getElementById("fps_value").value);
+        var wg=parseFloat(document.getElementById("fps_weight").value);
+        if(isNaN(fps)||fps<=0||isNaN(wg)||wg<=0) return NaN;
+        var ms=fps/3.28084;
+        return 0.5*(wg/1000)*ms*ms;
+    }
+    return parseFloat(document.getElementById("bb_energy").value);
 }
 
 function runComparison() {
-    var E=parseFloat(document.getElementById("bb_energy").value);
+    var E=getEnergy();
     if(isNaN(E)||E<=0){alert("Enter a valid muzzle energy in joule.");return;}
     var ws=getWeights();
     if(ws.length<1){alert("Add at least one BB weight.");return;}
 
-    // Find velocity crossover points for each lighter/heavier pair
+    // Find arrival crossover points: distance beyond which heavier BB arrives at target first
     var cross=[];
     for(var i=0;i<ws.length-1;i++) {
         for(var j=i+1;j<ws.length;j++) {
-            if(Math.abs(ws[i]-ws[j])<0.001) continue;
-            var d=velCrossoverDist(ws[i],ws[j]);
-            if(d>0&&d<=100) cross.push({l:ws[i],h:ws[j],d:d});
+            if(Math.abs(ws[i].w-ws[j].w)<0.001) continue;
+            var d=arrivalCrossoverDist(ws[i].w,ws[j].w);
+            if(d!==null) cross.push({l:ws[i].w,h:ws[j].w,d:d});
         }
     }
 
@@ -79,8 +115,8 @@ function runComparison() {
     if(cross.length) {
         html='<div style="margin:.6em 0;padding:.5em .9em;background:#0e1a0e;border-left:3px solid #2ecc71;font-size:.9em;">';
         cross.forEach(function(c){
-            html+='<div style="margin:2px 0;">&#x26A1; <b>'+c.h.toFixed(2)+'g</b> becomes faster than <b>'+
-                c.l.toFixed(2)+'g</b> at <b>'+c.d.toFixed(1)+'&nbsp;m</b></div>';
+            html+='<div style="margin:2px 0;"><b>'+c.h.toFixed(2)+'g</b> arrives at target before <b>'+
+                c.l.toFixed(2)+'g</b> beyond <b>'+c.d.toFixed(1)+'&nbsp;m</b></div>';
         });
         html+='</div>';
     }
@@ -88,7 +124,7 @@ function runComparison() {
 
     document.getElementById("res_section").style.display="block";
     startAnimation(ws,E,cross);
-    drawVelChart(ws,E,cross);
+    drawVelChart(ws,E);
 }
 
 // ── ANIMATION ────────────────────────────────────────────────────────────────
@@ -104,7 +140,7 @@ function startAnimation(ws,E,cross) {
     var TW=W-PL-PR;
 
     var tMax=0;
-    ws.forEach(function(w){tMax=Math.max(tMax,bbTimeToDist(w,E,100));});
+    ws.forEach(function(e){tMax=Math.max(tMax,bbTimeToDist(e.w,E,100));});
 
     var ANIM_MS=5000; // total animation wall-clock duration in ms
     var arrived=ws.map(function(){return false;});
@@ -147,8 +183,8 @@ function startAnimation(ws,E,cross) {
         });
 
         // Lanes and BB dots
-        ws.forEach(function(w,i){
-            var col=COLORS[i%COLORS.length];
+        ws.forEach(function(e,i){
+            var col=COLORS[e.ci%COLORS.length];
             var ly=HEADER+i*LH;
 
             ctx.fillStyle=i%2?"#1a1a1a":"#161616";
@@ -156,14 +192,14 @@ function startAnimation(ws,E,cross) {
 
             // Weight label
             ctx.fillStyle=col;ctx.font="bold 13px monospace";ctx.textAlign="right";
-            ctx.fillText(w.toFixed(2)+"g",PL-8,ly+LH/2+5);
+            ctx.fillText(e.w.toFixed(2)+"g",PL-8,ly+LH/2+5);
 
             // Track line
             ctx.strokeStyle="#252525";ctx.lineWidth=1;
             ctx.beginPath();ctx.moveTo(PL,ly+LH/2);ctx.lineTo(PL+TW,ly+LH/2);ctx.stroke();
 
             // BB position
-            var dist=Math.min(bbDistAtTime(w,E,simT),100);
+            var dist=Math.min(bbDistAtTime(e.w,E,simT),100);
             if(dist>=100) arrived[i]=true;
             var bx=PL+(dist/100)*TW, by=ly+LH/2;
 
@@ -182,10 +218,10 @@ function startAnimation(ws,E,cross) {
             ctx.font="11px monospace";ctx.textAlign="left";
             if(arrived[i]){
                 ctx.fillStyle=col;
-                ctx.fillText("\u2713 "+bbTimeToDist(w,E,100).toFixed(2)+"s",PL+TW+8,by+4);
+                ctx.fillText("\u2713 "+bbTimeToDist(e.w,E,100).toFixed(2)+"s",PL+TW+8,by+4);
             } else {
                 ctx.fillStyle="#666";
-                ctx.fillText(bbVelAtDist(w,E,dist).toFixed(1)+" m/s",PL+TW+8,by+4);
+                ctx.fillText(bbVelAtDist(e.w,E,dist).toFixed(1)+" m/s",PL+TW+8,by+4);
             }
         });
 
@@ -205,24 +241,13 @@ function startAnimation(ws,E,cross) {
 
 // ── VELOCITY CHART ────────────────────────────────────────────────────────────
 
-function drawVelChart(ws,E,cross) {
-    var datasets=ws.map(function(w,i){
+function drawVelChart(ws,E) {
+    var datasets=ws.map(function(e,i){
         var pts=[];
-        for(var d=0;d<=100;d++) pts.push({x:d,y:+bbVelAtDist(w,E,d).toFixed(3)});
-        return {label:w.toFixed(2)+"g",data:pts,
-            borderColor:COLORS[i%COLORS.length],backgroundColor:"transparent",
+        for(var d=0;d<=100;d++) pts.push({x:d,y:+bbVelAtDist(e.w,E,d).toFixed(3)});
+        return {label:e.w.toFixed(2)+"g",data:pts,
+            borderColor:COLORS[e.ci%COLORS.length],backgroundColor:"transparent",
             fill:false,tension:.1,pointRadius:0};
-    });
-    // Crossover annotation lines (hidden from legend/tooltip)
-    cross.forEach(function(c,ci){
-        datasets.push({
-            label:"_x"+ci,
-            data:[{x:c.d,y:0},{x:c.d,y:bbV0(c.l,E)*1.05}],
-            borderColor:"rgba(46,204,113,0.5)",
-            borderDash:[5,4],
-            backgroundColor:"transparent",
-            fill:false,pointRadius:0,borderWidth:1.5
-        });
     });
     var ctx2=document.getElementById("vel_chart").getContext("2d");
     if(velChart) velChart.destroy();
@@ -240,11 +265,8 @@ function drawVelChart(ws,E,cross) {
                     ticks:{color:"#ccc"},grid:{color:"rgba(255,255,255,0.06)"}}
             },
             plugins:{
-                legend:{labels:{color:"#ccc",filter:function(item){
-                    return !item.text.startsWith("_x");
-                }}},
+                legend:{labels:{color:"#ccc"}},
                 tooltip:{callbacks:{label:function(c){
-                    if(c.dataset.label.startsWith("_x")) return null;
                     return c.dataset.label+": "+c.parsed.y.toFixed(2)+" m/s";
                 }}}
             }
@@ -255,8 +277,14 @@ function drawVelChart(ws,E,cross) {
 
 <div style="margin-bottom:1.5em;">
   <b>Muzzle energy</b><br>
-  <input type="number" step="0.05" min="0.1" max="5.0" value="0.9" id="bb_energy" style="width:90px;"> Joule
-  <br><br>
+  <div id="energy_joule_row">
+    <input type="number" step="0.05" min="0.1" max="5.0" value="0.9" id="bb_energy" style="width:90px;"> Joule &nbsp; <a href="#" onclick="setEnergyMode('fps');return false;">Enter as FPS instead</a>
+  </div>
+  <div id="energy_fps_row" style="display:none;">
+    <input type="number" step="1" min="1" max="999" value="328" id="fps_value" style="width:75px;"> FPS using a
+    <input type="number" step="0.01" min="0.10" max="1.00" value="0.20" id="fps_weight" style="width:70px;"> g reference BB &nbsp; <a href="#" onclick="setEnergyMode('joule');return false;">Enter as Joule instead</a>
+  </div>
+  <br>
   <b>BB weights to compare</b><br>
   <div id="wt_rows">
     <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
@@ -276,11 +304,11 @@ function drawVelChart(ws,E,cross) {
 
 <div id="res_section" style="display:none;">
   <b>Travel time race - 0 to 100 m</b>
-  <p>Time-compressed animation (fits to 5 s). Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed green lines mark velocity crossover points.</p>
+  <p>Time-compressed animation (fits to 5 s). Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed green lines mark the distance beyond which the heavier BB arrives at targets first.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
   <br><br>
   <b>Velocity at distance</b>
-  <p>After the dashed green crossover line, the heavier BB is travelling faster than the lighter one.</p>
+  <p>Where lines cross, the heavier BB has become faster than the lighter one at that distance.</p>
   <canvas id="vel_chart" style="width:100%;max-width:860px;height:380px;"></canvas>
 </div>
 
