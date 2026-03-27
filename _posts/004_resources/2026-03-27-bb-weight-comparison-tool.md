@@ -59,10 +59,17 @@ function addWeight() {
     var col=COLORS[n%COLORS.length];
     var common=[0.20,0.23,0.25,0.28,0.30,0.32,0.36,0.40];
     var used=Array.from(document.querySelectorAll(".wt_inp")).map(function(inp){return parseFloat(inp.value);});
-    var def=0.30;
+    var maxUsed=Math.max.apply(null,used);
+    var def=null;
     for(var k=0;k<common.length;k++){
-        if(!used.some(function(u){return Math.abs(u-common[k])<0.005;})){def=common[k];break;}
+        if(common[k]>maxUsed+0.005&&!used.some(function(u){return Math.abs(u-common[k])<0.005;})){def=common[k];break;}
     }
+    if(def===null){
+        for(var k=0;k<common.length;k++){
+            if(!used.some(function(u){return Math.abs(u-common[k])<0.005;})){def=common[k];break;}
+        }
+    }
+    if(def===null) def=0.30;
     var div=document.createElement("div");
     div.style.cssText="display:flex;align-items:center;gap:6px;margin-bottom:6px;";
     div.innerHTML='<span style="width:11px;height:11px;border-radius:50%;background:'+col+
@@ -82,6 +89,14 @@ function getWeights() {
 function setEnergyMode(mode) {
     document.getElementById("energy_joule_row").style.display=mode==="joule"?"":"none";
     document.getElementById("energy_fps_row").style.display=mode==="fps"?"":"none";
+    document.getElementById("mode_btn_joule").setAttribute("data-active", mode==="joule"?"1":"0");
+    document.getElementById("mode_btn_fps").setAttribute("data-active", mode==="fps"?"1":"0");
+    document.getElementById("mode_btn_joule").style.cssText=modeBtnStyle(mode==="joule");
+    document.getElementById("mode_btn_fps").style.cssText=modeBtnStyle(mode==="fps");
+}
+function modeBtnStyle(active) {
+    return "padding:3px 14px;font-size:.85em;cursor:pointer;"+
+        (active ? "font-weight:bold;" : "");
 }
 
 function getEnergy() {
@@ -277,12 +292,16 @@ function drawVelChart(ws,E) {
 
 <div style="margin-bottom:1.5em;">
   <b>Muzzle energy</b><br>
+  <div style="display:inline-flex;border-radius:4px;overflow:hidden;margin:6px 0 8px;">
+    <button id="mode_btn_joule" type="button" onclick="setEnergyMode('joule');" style="padding:3px 14px;font-size:.85em;cursor:pointer;font-weight:bold;">Joule</button>
+    <button id="mode_btn_fps" type="button" onclick="setEnergyMode('fps');" style="padding:3px 14px;font-size:.85em;cursor:pointer;">FPS</button>
+  </div><br>
   <div id="energy_joule_row">
-    <input type="number" step="0.05" min="0.1" max="5.0" value="0.9" id="bb_energy" style="width:90px;"> Joule &nbsp; <a href="#" onclick="setEnergyMode('fps');return false;">Enter as FPS instead</a>
+    <input type="number" step="0.05" min="0.1" max="5.0" value="0.9" id="bb_energy" style="width:90px;"> Joule
   </div>
   <div id="energy_fps_row" style="display:none;">
-    <input type="number" step="1" min="1" max="999" value="328" id="fps_value" style="width:75px;"> FPS using a
-    <input type="number" step="0.01" min="0.10" max="1.00" value="0.20" id="fps_weight" style="width:70px;"> g reference BB &nbsp; <a href="#" onclick="setEnergyMode('joule');return false;">Enter as Joule instead</a>
+    <input type="number" step="1" min="1" max="999" value="328" id="fps_value" style="width:75px;"> FPS &nbsp;using a
+    <input type="number" step="0.01" min="0.10" max="1.00" value="0.20" id="fps_weight" style="width:70px;"> g reference BB
   </div>
   <br>
   <b>BB weights to compare</b><br>
@@ -293,7 +312,7 @@ function drawVelChart(ws,E) {
     </div>
     <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
       <span style="width:11px;height:11px;border-radius:50%;background:#3498db;flex-shrink:0;display:inline-block;"></span>
-      <input type="number" step="0.01" min="0.10" max="1.00" value="0.28" class="wt_inp" style="width:80px;"> g
+      <input type="number" step="0.01" min="0.10" max="1.00" value="0.30" class="wt_inp" style="width:80px;"> g
     </div>
   </div>
   <button type="button" onclick="addWeight();" style="margin-right:8px;">+ Add weight</button>
@@ -314,8 +333,7 @@ function drawVelChart(ws,E) {
 
 <br>
 
-For muzzle velocity conversion see the [FPS to joule calculator](https://airsoftnorge.com/fps-to-joule-calculator/).
-
-For residual energy at a specific distance see the [residual energy calculator](https://airsoftnorge.com/residual-energy-at-distance-calculator/).
-
-For time to target comparisons see the [BB weight travel time chart](https://airsoftnorge.com/bb-weight-travel-time-chart/).
+Relevant links:
+* [FPS to joule calculator](https://airsoftnorge.com/fps-to-joule-calculator/).
+* [residual energy calculator](https://airsoftnorge.com/residual-energy-at-distance-calculator/).
+* [BB weight travel time chart](https://airsoftnorge.com/bb-weight-travel-time-chart/).
