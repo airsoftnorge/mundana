@@ -179,7 +179,7 @@ function startAnimation(ws,E,cross) {
     var canvas=document.getElementById("race_canvas");
     var ctx=canvas.getContext("2d");
 
-    var W=860, PL=68, PR=92, HEADER=28, FOOTER=24, LH=56;
+    var W=860, PL=68, PR=20, HEADER=28, FOOTER=24, LH=66;
     canvas.width=W;
     canvas.height=HEADER+ws.length*LH+FOOTER;
     var TW=W-PL-PR;
@@ -187,8 +187,8 @@ function startAnimation(ws,E,cross) {
     var tMax=0;
     ws.forEach(function(e){tMax=Math.max(tMax,bbTimeToDist(e.w,E,100));});
 
-    // Pre-compute time to each 10 m milestone (10–90 m) per BB
-    var milestones=[10,20,30,40,50,60,70,80,90];
+    // Pre-compute time to each 10 m milestone (10–100 m) per BB
+    var milestones=[10,20,30,40,50,60,70,80,90,100];
     var mTimes=ws.map(function(e){
         return milestones.map(function(m){return bbTimeToDist(e.w,E,m);});
     });
@@ -263,11 +263,11 @@ function startAnimation(ws,E,cross) {
 
             // Time-to-target labels at each 10 m milestone (appear as BB passes)
             ctx.save();
-            ctx.font="10px monospace";ctx.textAlign="center";
-            ctx.globalAlpha=0.8;ctx.fillStyle=col;
+            ctx.font="12px monospace";ctx.textAlign="center";
+            ctx.globalAlpha=0.9;ctx.fillStyle=col;
             for(var k=0;k<milestones.length;k++){
                 if(simT>=mTimes[i][k]){
-                    ctx.fillText(mTimes[i][k].toFixed(2)+"s",PL+(milestones[k]/100)*TW,by+17);
+                    ctx.fillText(mTimes[i][k].toFixed(2)+"s",PL+(milestones[k]/100)*TW,by+22);
                 }
             }
             ctx.restore();
@@ -275,12 +275,9 @@ function startAnimation(ws,E,cross) {
             // BB dot
             ctx.beginPath();ctx.arc(bx,by,5,0,2*Math.PI);ctx.fillStyle=col;ctx.fill();
 
-            // Right side: show arrival time once done, otherwise current velocity
-            ctx.font="11px monospace";ctx.textAlign="left";
-            if(arrived[i]){
-                ctx.fillStyle=col;
-                ctx.fillText("\u2713 "+bbTimeToDist(e.w,E,100).toFixed(2)+"s",PL+TW+8,by+4);
-            } else {
+            // Right side: current velocity while in flight
+            if(!arrived[i]){
+                ctx.font="11px monospace";ctx.textAlign="left";
                 ctx.fillStyle="#666";
                 ctx.fillText(bbVelAtDist(e.w,E,dist).toFixed(1)+" m/s",PL+TW+8,by+4);
             }
