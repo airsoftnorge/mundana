@@ -274,13 +274,6 @@ function startAnimation(ws,E,cross) {
 
             // BB dot
             ctx.beginPath();ctx.arc(bx,by,5,0,2*Math.PI);ctx.fillStyle=col;ctx.fill();
-
-            // Right side: current velocity while in flight
-            if(!arrived[i]){
-                ctx.font="11px monospace";ctx.textAlign="left";
-                ctx.fillStyle="#666";
-                ctx.fillText(bbVelAtDist(e.w,E,dist).toFixed(1)+" m/s",PL+TW+8,by+4);
-            }
         });
 
         // Elapsed time counter
