@@ -165,8 +165,11 @@ function runComparison() {
 function startAnimation(ws,E,cross) {
     if(animId){cancelAnimationFrame(animId);animId=null;}
     var replayBtn=document.getElementById("replay_btn");
+    var runBtn=document.getElementById("run_btn");
     replayBtn.style.display="none";
-    replayBtn.onclick=function(){ runComparison(); };
+    runBtn.style.display="none";
+    replayBtn.onclick=function(){ startAnimation(ws,E,cross); };
+    runBtn.onclick=function(){ runComparison(); };
     var canvas=document.getElementById("race_canvas");
     var ctx=canvas.getContext("2d");
 
@@ -286,6 +289,7 @@ function startAnimation(ws,E,cross) {
         } else {
             animId=null;
             replayBtn.style.display="";
+            runBtn.style.display="";
         }
     }
     animId=requestAnimationFrame(draw);
@@ -331,7 +335,8 @@ function startAnimation(ws,E,cross) {
   <p>Real-time animation. Each time-to-target label appears at its 10 m marker as the BB passes it. Right column shows total travel time once a BB reaches 100 m. Dashed lines mark where the heavier BB begins arriving at targets first.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
   <div style="margin-top:6px;">
-    <button type="button" id="replay_btn" style="display:none;">Replay</button>
+    <button type="button" id="replay_btn" style="display:none;margin-right:8px;">Replay</button>
+    <button type="button" id="run_btn" style="display:none;">Run</button>
   </div>
 </div>
 
