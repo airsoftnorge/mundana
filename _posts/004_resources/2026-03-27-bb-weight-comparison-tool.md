@@ -76,8 +76,23 @@ function addWeight() {
     div.innerHTML='<span style="width:11px;height:11px;border-radius:50%;background:'+col+
         ';flex-shrink:0;display:inline-block;"></span>'+
         '<input type="number" step="0.01" min="0.10" max="1.00" value="'+def+'" class="wt_inp" style="width:80px;"> g'+
-        ' <button type="button" onclick="this.parentElement.remove();" style="padding:1px 7px;font-size:0.8em;cursor:pointer;">&#x2715;</button>';
+        ' <button type="button" class="rm_btn" onclick="removeWeight(this);" style="padding:1px 7px;font-size:0.8em;cursor:pointer;">&#x2715;</button>';
     c.appendChild(div);
+    updateRemoveBtns();
+}
+
+function removeWeight(btn) {
+    var c=document.getElementById("wt_rows");
+    if(c.children.length<=2) return;
+    btn.parentElement.remove();
+    updateRemoveBtns();
+}
+
+function updateRemoveBtns() {
+    var show=document.getElementById("wt_rows").children.length>2;
+    Array.from(document.querySelectorAll(".rm_btn")).forEach(function(b){
+        b.style.display=show?"":"none";
+    });
 }
 
 function getWeights() {
@@ -277,10 +292,12 @@ function startAnimation(ws,E,cross) {
     <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;" data-ci="0">
       <span style="width:11px;height:11px;border-radius:50%;background:#e74c3c;flex-shrink:0;display:inline-block;"></span>
       <input type="number" step="0.01" min="0.10" max="1.00" value="0.20" class="wt_inp" style="width:80px;"> g
+      <button type="button" class="rm_btn" onclick="removeWeight(this);" style="padding:1px 7px;font-size:0.8em;cursor:pointer;display:none;">&#x2715;</button>
     </div>
     <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;" data-ci="1">
       <span style="width:11px;height:11px;border-radius:50%;background:#3498db;flex-shrink:0;display:inline-block;"></span>
       <input type="number" step="0.01" min="0.10" max="1.00" value="0.30" class="wt_inp" style="width:80px;"> g
+      <button type="button" class="rm_btn" onclick="removeWeight(this);" style="padding:1px 7px;font-size:0.8em;cursor:pointer;display:none;">&#x2715;</button>
     </div>
   </div>
   <button type="button" onclick="addWeight();" style="margin-right:8px;">+ Add weight</button>
