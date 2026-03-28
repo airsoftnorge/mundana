@@ -7,7 +7,7 @@ tags: [bb, weight, energy, joule, comparison, velocity, animation]
 image: assets/images/004_resources/bbcomparisontool.jpeg
 ---
 
-Compare how different BB weights travel over distance from the same muzzle energy. The race animation runs in real time — the dashed markers show exactly where a heavier BB first catches up to the lighter one.
+Compare how different BB weights travel over distance from the same muzzle energy. 
 
 Assumptions:
 * Zero metres above sea level, standard air density (1.225 kg/m³)
@@ -328,7 +328,7 @@ function startAnimation(ws,E,cross) {
 
 <div id="res_section" style="display:none;">
   <b>Travel time race - 0 to 100 m</b>
-  <p>Real-time animation. Each time-to-target label appears at its 10 m marker as the BB passes it. Right column shows total travel time once a BB reaches 100 m. Dashed lines mark where the heavier BB begins arriving at targets first.</p>
+  <p>Real-time animation. Each time-to-target label appears at its 10 m marker as the BB passes it. Right column shows total travel time once a BB reaches 100 m.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
   <div style="margin-top:6px;">
     <button type="button" id="replay_btn" style="display:none;margin-right:8px;">Replay</button>
