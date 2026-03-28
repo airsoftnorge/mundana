@@ -547,14 +547,14 @@ function startWindAnimation(ws,E,windSpeed,deflectLimit) {
       <option value="6.7" data-desc="Wind lifts dust and loose papers, moves twigs and small branches, extends larger flags.">Moderate breeze (5.5–7.9 m/s)</option>
       <option value="9.4" data-desc="Small leafy trees begin to sway. On water, small waves begin to crest.">Fresh breeze (8.0–10.7 m/s)</option>
     </select>
-    <span id="wind_type_help" style="margin-left:8px;color:#888;font-size:.85em;">You can see wind direction from smoke drift.</span>
+    <span id="wind_type_help" style="margin-left:8px;font-size:.85em;">You can see wind direction from smoke drift.</span>
   </div>
   <div style="margin-bottom:10px;">
-    Deflection cutoff:
-    <input type="range" id="deflect_limit_slider" min="10" max="300" step="10" value="100"
+    Deflection cutoff (default 30cm as this will be off target if you aim center mass):
+    <input type="range" id="deflect_limit_slider" min="10" max="300" step="10" value="30"
       style="width:180px;vertical-align:middle;"
       oninput="document.getElementById('deflect_limit_label').textContent=this.value+' cm';">
-    <span id="deflect_limit_label">100 cm</span>
+    <span id="deflect_limit_label">30 cm</span>
   </div>
   <canvas id="wind_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
   <div style="margin-top:6px;">
