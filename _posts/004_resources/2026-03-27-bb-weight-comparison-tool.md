@@ -341,5 +341,5 @@ function startAnimation(ws,E,cross) {
 
 Relevant links:
 * [FPS to joule calculator](https://airsoftnorge.com/fps-to-joule-calculator/).
-* [residual energy calculator](https://airsoftnorge.com/residual-energy-at-distance-calculator/).
-* [BB weight travel time chart](https://airsoftnorge.com/bb-weight-travel-time-chart/).
+* [residual energy calculator](https://airsoftnorge.com/residual-energy-calculator).
+* [BB weight travel time chart](https://airsoftnorge.com/bbweighttraveltime/).
