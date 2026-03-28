@@ -7,14 +7,13 @@ tags: [bb, weight, energy, joule, comparison, velocity, animation]
 image: assets/images/004_resources/bbcomparisontool.jpeg
 ---
 
-Compare how different BB weights travel over distance from the same muzzle energy. The race animation shows which BB arrives first — and the velocity chart shows exactly where a heavier BB overtakes a lighter one in speed.
+Compare how different BB weights travel over distance from the same muzzle energy. The race animation runs in real time — the dashed markers show exactly where a heavier BB first catches up to the lighter one.
 
 Assumptions:
 * Zero metres above sea level, standard air density (1.225 kg/m³)
 * BB diameter 5.95mm, drag coefficient 0.47
 * Gravity and hopups are not real
 
-<script src="/assets/js/chart.min.js"></script>
 <script type="text/javascript">
 var K = 1.225 * 0.0000278051 * 0.47; // combined drag constant
 
@@ -49,14 +48,9 @@ function arrivalCrossoverDist(wl, wh) {
     return null; // no crossover within 100 m
 }
 
-// Distance at which two BBs have equal velocity (energy-independent)
-function velCrossoverDist(wl, wh) {
-    var ml=wl/1000, mh=wh/1000;
-    return Math.log(mh/ml) / (K*(1/ml-1/mh));
-}
 
 var COLORS=['#e74c3c','#3498db','#2ecc71','#f39c12','#9b59b6','#e67e22','#1abc9c','#e91e63'];
-var animId=null, velChart=null;
+var animId=null;
 
 function addWeight() {
     var c=document.getElementById("wt_rows");
@@ -149,7 +143,6 @@ function runComparison() {
 
     document.getElementById("res_section").style.display="block";
     startAnimation(ws,E,cross);
-    drawVelChart(ws,E,cross);
 }
 
 // ── ANIMATION ────────────────────────────────────────────────────────────────
@@ -167,14 +160,13 @@ function startAnimation(ws,E,cross) {
     var tMax=0;
     ws.forEach(function(e){tMax=Math.max(tMax,bbTimeToDist(e.w,E,100));});
 
-    var ANIM_MS=5000; // total animation wall-clock duration in ms
     var arrived=ws.map(function(){return false;});
     var t0=null;
 
     function draw(ts) {
         if(!t0) t0=ts;
         var elapsed=ts-t0;
-        var simT=(elapsed/ANIM_MS)*tMax; // simulated time in seconds
+        var simT=elapsed/1000; // real time in seconds
 
         // Background
         ctx.fillStyle="#111";
@@ -254,7 +246,7 @@ function startAnimation(ws,E,cross) {
         ctx.fillStyle="#444";ctx.font="11px monospace";ctx.textAlign="left";
         ctx.fillText("t = "+Math.min(simT,tMax).toFixed(2)+"s",PL,HEADER+ws.length*LH+18);
 
-        if(elapsed < ANIM_MS*1.08){
+        if(simT < tMax){
             animId=requestAnimationFrame(draw);
         } else {
             animId=null;
@@ -264,50 +256,6 @@ function startAnimation(ws,E,cross) {
     animId=requestAnimationFrame(draw);
 }
 
-// ── VELOCITY CHART ────────────────────────────────────────────────────────────
-
-function drawVelChart(ws,E,cross) {
-    var datasets=ws.map(function(e,i){
-        var pts=[];
-        for(var d=0;d<=100;d++) pts.push({x:d,y:+bbVelAtDist(e.w,E,d).toFixed(3)});
-        return {label:e.w.toFixed(2)+"g",data:pts,
-            borderColor:COLORS[e.ci%COLORS.length],backgroundColor:"transparent",
-            fill:false,tension:.1,pointRadius:0};
-    });
-    // Dashed vertical lines at arrival crossover points (where heavier BB catches up in position)
-    var maxV=bbV0(ws[0].w,E);
-    cross.forEach(function(c) {
-        if(c.d>0&&c.d<=100) {
-            datasets.push({label:"_v",data:[{x:c.d,y:0},{x:c.d,y:maxV}],
-                borderColor:"rgba(174,151,114,0.5)",borderDash:[5,4],
-                backgroundColor:"transparent",fill:false,pointRadius:0,borderWidth:1.5});
-        }
-    });
-    var ctx2=document.getElementById("vel_chart").getContext("2d");
-    if(velChart) velChart.destroy();
-    velChart=new Chart(ctx2,{
-        type:"line",data:{datasets:datasets},
-        options:{
-            responsive:true,
-            interaction:{mode:"index",intersect:false},
-            scales:{
-                x:{type:"linear",min:0,max:100,
-                    title:{display:true,text:"Distance (m)",color:"#ccc"},
-                    ticks:{color:"#ccc"},grid:{color:"rgba(255,255,255,0.06)"}},
-                y:{min:0,
-                    title:{display:true,text:"Velocity (m/s)",color:"#ccc"},
-                    ticks:{color:"#ccc"},grid:{color:"rgba(255,255,255,0.06)"}}
-            },
-            plugins:{
-                legend:{labels:{color:"#ccc",filter:function(item){return item.text!=="_v";}}},
-                tooltip:{callbacks:{label:function(c){
-                    if(c.dataset.label==="_v") return null;
-                    return c.dataset.label+": "+c.parsed.y.toFixed(2)+" m/s";
-                }}}
-            }
-        }
-    });
-}
 </script>
 
 <div style="margin-bottom:1.5em;">
@@ -343,12 +291,8 @@ function drawVelChart(ws,E,cross) {
 
 <div id="res_section" style="display:none;">
   <b>Travel time race - 0 to 100 m</b>
-  <p>Time-compressed animation (fits to 5 s). Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed green lines mark the distance beyond which the heavier BB arrives at targets first.</p>
+  <p>Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed lines mark the distance beyond which the heavier BB arrives at targets first.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
-  <br><br>
-  <b>Velocity at distance</b>
-  <p>Where lines cross, the heavier BB has become faster than the lighter one at that distance.</p>
-  <canvas id="vel_chart" style="width:100%;max-width:860px;height:380px;"></canvas>
 </div>
 
 <br>
