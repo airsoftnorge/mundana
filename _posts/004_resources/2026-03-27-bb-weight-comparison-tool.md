@@ -164,16 +164,25 @@ function runComparison() {
 
 function startAnimation(ws,E,cross) {
     if(animId){cancelAnimationFrame(animId);animId=null;}
+    var replayBtn=document.getElementById("replay_btn");
+    replayBtn.style.display="none";
+    replayBtn.onclick=function(){ startAnimation(ws,E,cross); };
     var canvas=document.getElementById("race_canvas");
     var ctx=canvas.getContext("2d");
 
-    var W=860, PL=68, PR=92, HEADER=28, FOOTER=24, LH=52;
+    var W=860, PL=68, PR=92, HEADER=28, FOOTER=24, LH=56;
     canvas.width=W;
     canvas.height=HEADER+ws.length*LH+FOOTER;
     var TW=W-PL-PR;
 
     var tMax=0;
     ws.forEach(function(e){tMax=Math.max(tMax,bbTimeToDist(e.w,E,100));});
+
+    // Pre-compute time to each 10 m milestone (10–90 m) per BB
+    var milestones=[10,20,30,40,50,60,70,80,90];
+    var mTimes=ws.map(function(e){
+        return milestones.map(function(m){return bbTimeToDist(e.w,E,m);});
+    });
 
     var arrived=ws.map(function(){return false;});
     var t0=null;
@@ -203,11 +212,11 @@ function startAnimation(ws,E,cross) {
         ctx.strokeStyle="rgba(255,255,255,0.3)";ctx.lineWidth=2;
         ctx.beginPath();ctx.moveTo(PL+TW,HEADER);ctx.lineTo(PL+TW,HEADER+ws.length*LH);ctx.stroke();
 
-        // Velocity crossover markers (dashed green verticals)
+        // Arrival crossover markers
         cross.forEach(function(c){
             var cx=PL+(c.d/100)*TW;
             ctx.save();
-            ctx.strokeStyle="rgba(46,204,113,0.5)";
+            ctx.strokeStyle="rgba(174,151,114,0.5)";
             ctx.setLineDash([4,3]);ctx.lineWidth=1;
             ctx.beginPath();ctx.moveTo(cx,HEADER);ctx.lineTo(cx,HEADER+ws.length*LH);ctx.stroke();
             ctx.setLineDash([]);
@@ -243,6 +252,17 @@ function startAnimation(ws,E,cross) {
                 ctx.restore();
             }
 
+            // Time-to-target labels at each 10 m milestone (appear as BB passes)
+            ctx.save();
+            ctx.font="8px monospace";ctx.textAlign="center";
+            ctx.globalAlpha=0.65;ctx.fillStyle=col;
+            for(var k=0;k<milestones.length;k++){
+                if(simT>=mTimes[i][k]){
+                    ctx.fillText(mTimes[i][k].toFixed(2)+"s",PL+(milestones[k]/100)*TW,by+17);
+                }
+            }
+            ctx.restore();
+
             // BB dot
             ctx.beginPath();ctx.arc(bx,by,5,0,2*Math.PI);ctx.fillStyle=col;ctx.fill();
 
@@ -265,7 +285,7 @@ function startAnimation(ws,E,cross) {
             animId=requestAnimationFrame(draw);
         } else {
             animId=null;
-            setTimeout(function(){ startAnimation(ws,E,cross); }, 1000);
+            replayBtn.style.display="";
         }
     }
     animId=requestAnimationFrame(draw);
@@ -308,8 +328,11 @@ function startAnimation(ws,E,cross) {
 
 <div id="res_section" style="display:none;">
   <b>Travel time race - 0 to 100 m</b>
-  <p>Right column shows arrival time once a BB reaches 100 m, otherwise current velocity. Dashed lines mark the distance beyond which the heavier BB arrives at targets first.</p>
+  <p>Real-time animation. Each time-to-target label appears at its 10 m marker as the BB passes it. Right column shows total travel time once a BB reaches 100 m. Dashed lines mark where the heavier BB begins arriving at targets first.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
+  <div style="margin-top:6px;">
+    <button type="button" id="replay_btn" style="display:none;">Replay</button>
+  </div>
 </div>
 
 <br>
