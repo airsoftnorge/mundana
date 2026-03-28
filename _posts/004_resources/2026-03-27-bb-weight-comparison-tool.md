@@ -257,8 +257,8 @@ function startAnimation(ws,E,cross) {
 
             // Time-to-target labels at each 10 m milestone (appear as BB passes)
             ctx.save();
-            ctx.font="8px monospace";ctx.textAlign="center";
-            ctx.globalAlpha=0.65;ctx.fillStyle=col;
+            ctx.font="10px monospace";ctx.textAlign="center";
+            ctx.globalAlpha=0.8;ctx.fillStyle=col;
             for(var k=0;k<milestones.length;k++){
                 if(simT>=mTimes[i][k]){
                     ctx.fillText(mTimes[i][k].toFixed(2)+"s",PL+(milestones[k]/100)*TW,by+17);
