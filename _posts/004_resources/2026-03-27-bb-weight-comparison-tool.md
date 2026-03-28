@@ -56,7 +56,13 @@ function addWeight() {
     var c=document.getElementById("wt_rows");
     var n=c.children.length;
     if(n>=8){alert("Maximum 8 weights.");return;}
-    var col=COLORS[n%COLORS.length];
+    // Pick the lowest color index not already in use by an existing row
+    var usedCi=Array.from(c.querySelectorAll("[data-ci]")).map(function(el){
+        return parseInt(el.getAttribute("data-ci"),10);
+    });
+    var ci=0;
+    while(usedCi.indexOf(ci)!==-1) ci++;
+    var col=COLORS[ci%COLORS.length];
     var common=[0.20,0.23,0.25,0.28,0.30,0.32,0.36,0.40];
     var used=Array.from(document.querySelectorAll(".wt_inp")).map(function(inp){return parseFloat(inp.value);});
     var maxUsed=Math.max.apply(null,used);
@@ -72,7 +78,7 @@ function addWeight() {
     if(def===null) def=0.30;
     var div=document.createElement("div");
     div.style.cssText="display:flex;align-items:center;gap:6px;margin-bottom:6px;";
-    div.setAttribute("data-ci", n);
+    div.setAttribute("data-ci", ci);
     div.innerHTML='<span style="width:11px;height:11px;border-radius:50%;background:'+col+
         ';flex-shrink:0;display:inline-block;"></span>'+
         '<input type="number" step="0.01" min="0.10" max="1.00" value="'+def+'" class="wt_inp" style="width:80px;"> g'+
