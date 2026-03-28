@@ -166,7 +166,7 @@ function startAnimation(ws,E,cross) {
     if(animId){cancelAnimationFrame(animId);animId=null;}
     var replayBtn=document.getElementById("replay_btn");
     replayBtn.style.display="none";
-    replayBtn.onclick=function(){ startAnimation(ws,E,cross); };
+    replayBtn.onclick=function(){ runComparison(); };
     var canvas=document.getElementById("race_canvas");
     var ctx=canvas.getContext("2d");
 
