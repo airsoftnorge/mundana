@@ -328,7 +328,7 @@ function startAnimation(ws,E,cross) {
 
 <div id="res_section" style="display:none;">
   <b>Travel time race - 0 to 100 m</b>
-  <p>Real-time animation. Each time-to-target label appears at its 10 m marker as the BB passes it. Right column shows total travel time once a BB reaches 100 m.</p>
+  <p>Real-time animation. Each time-to-target label appears at its 10 m marker as the BB passes it.</p>
   <canvas id="race_canvas" style="width:100%;max-width:860px;display:block;border:1px solid #222;box-sizing:border-box;"></canvas>
   <div style="margin-top:6px;">
     <button type="button" id="replay_btn" style="display:none;margin-right:8px;">Replay</button>
