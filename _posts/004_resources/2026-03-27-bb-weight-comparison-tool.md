@@ -49,6 +49,12 @@ function arrivalCrossoverDist(wl, wh) {
     return null; // no crossover within 100 m
 }
 
+// Distance at which two BBs have equal velocity (energy-independent)
+function velCrossoverDist(wl, wh) {
+    var ml=wl/1000, mh=wh/1000;
+    return Math.log(mh/ml) / (K*(1/ml-1/mh));
+}
+
 var COLORS=['#e74c3c','#3498db','#2ecc71','#f39c12','#9b59b6','#e67e22','#1abc9c','#e91e63'];
 var animId=null, velChart=null;
 
@@ -143,7 +149,7 @@ function runComparison() {
 
     document.getElementById("res_section").style.display="block";
     startAnimation(ws,E,cross);
-    drawVelChart(ws,E);
+    drawVelChart(ws,E,cross);
 }
 
 // ── ANIMATION ────────────────────────────────────────────────────────────────
@@ -260,13 +266,22 @@ function startAnimation(ws,E,cross) {
 
 // ── VELOCITY CHART ────────────────────────────────────────────────────────────
 
-function drawVelChart(ws,E) {
+function drawVelChart(ws,E,cross) {
     var datasets=ws.map(function(e,i){
         var pts=[];
         for(var d=0;d<=100;d++) pts.push({x:d,y:+bbVelAtDist(e.w,E,d).toFixed(3)});
         return {label:e.w.toFixed(2)+"g",data:pts,
             borderColor:COLORS[e.ci%COLORS.length],backgroundColor:"transparent",
             fill:false,tension:.1,pointRadius:0};
+    });
+    // Dashed vertical lines at arrival crossover points (where heavier BB catches up in position)
+    var maxV=bbV0(ws[0].w,E);
+    cross.forEach(function(c) {
+        if(c.d>0&&c.d<=100) {
+            datasets.push({label:"_v",data:[{x:c.d,y:0},{x:c.d,y:maxV}],
+                borderColor:"rgba(174,151,114,0.5)",borderDash:[5,4],
+                backgroundColor:"transparent",fill:false,pointRadius:0,borderWidth:1.5});
+        }
     });
     var ctx2=document.getElementById("vel_chart").getContext("2d");
     if(velChart) velChart.destroy();
@@ -284,8 +299,9 @@ function drawVelChart(ws,E) {
                     ticks:{color:"#ccc"},grid:{color:"rgba(255,255,255,0.06)"}}
             },
             plugins:{
-                legend:{labels:{color:"#ccc"}},
+                legend:{labels:{color:"#ccc",filter:function(item){return item.text!=="_v";}}},
                 tooltip:{callbacks:{label:function(c){
+                    if(c.dataset.label==="_v") return null;
                     return c.dataset.label+": "+c.parsed.y.toFixed(2)+" m/s";
                 }}}
             }
